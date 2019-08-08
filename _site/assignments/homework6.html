@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 6 (Due October 12th)</title>
+  <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+
+  <link rel="stylesheet" href="/phy481msu_f2018/styles/site.css">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/assignments/homework6.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2018/feed.xml">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+</head>
+
+
+  <body>
+
+      <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/phy481msu_f2018/">Physics 481</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+    <!--  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/about/">About</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a></li>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a></li>
+      
+      -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/phy481msu_f2018/">Physics 481</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
+
+        <!-- Broken for some reason on Github; had to hard code-->
+        <!--
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a>
+          
+        -->
+<!--      </div>
+    </nav>
+
+  </div>
+
+</header>-->
+
+
+      <div class="container well">
+
+        <h1 class="post-title">Homework 6 (Due October 12th)</h1>
+          <div >
+    <p>Homework 6 emphasizes the conductor problem, which requires new methods to approach finding $V$ or $\mathbf{E}$ as we are often unable to find $\rho$ a priori. In the presense of an external electric field, charges will shift in a conductor, thus complicating matters of finding $\rho$.</p>
+
+<h2 id="1-and-2-assessment-is-on-going">1 and 2. Assessment is on-going</h2>
+
+<p><strong>TURN THIS WORK IN SEPARATE FROM YOUR REGULAR HOMEWORK TO DANNY</strong></p>
+
+<p>An examination is one measure of your understanding at a given moment in time. It is often a stressful and high stakes situation, which means that folks tend to perform differently depending on how this situation affects them. My goal is not for you to perform physics (i.e., just get the right answer), but to become reflective of your learning of physics (and of learning in general). To that end, I would like to invite you to re-solve the first exam. I’ve posted a <a href="/phy481msu_f2018/assignments/images/exam1.pdf">PDF here</a>.</p>
+
+<p>In addition to solving the problems again, I would like you to write a short summary of what you felt like you did incorrectly at the time of the exam for each problem (i.e., what you think you got wrong and why) and how your solution resolves this problem (i.e., what approach you needed to take to solve the problem correctly). What I’m asking is that you reflect on your exam solutions and what understanding you needed to draw on to solve the problems.</p>
+
+<p>You are welcome to work on the problems together, but your reflection should be your own and individualized. It is through this kind of thinking about our own learning that we become expert learners.</p>
+
+<p><strong>Completing this exercise will not count towards your homework, but will instead reward you with earning 1/2 of the (non-bonus) credit back on your exam.</strong></p>
+
+<h2 id="3-capacitors-metals-and-continuity">3. Capacitors, metals, and continuity</h2>
+
+<p>We have discovered that there is a curious result when looking at the electric field across a boundary. It is discontinuous! by an amount that is consistently the same expression ($\sigma/\varepsilon_0$). However, we have also found that the electric potential across the boundary is continuous.</p>
+
+<p>Consider a very large set of metal capacitor plates separated by a small distance $d$. Each plate is charged with an equal amount of charge, but the left plate is negative. So, the left plate carries $-\sigma$ and the right plate carries $+\sigma$.</p>
+
+<ol>
+  <li>Find the electric field everywhere in space (consider that the plates extend to infinity to ignore any edge effects).</li>
+  <li>Plot the component of the electric field along a line that runs to the plates.</li>
+  <li>Find the electric potential everywhere in space. You are free to set where $V=0$, but be careful when doing so as the distribution of charge extends to infinity!</li>
+  <li>Plot the electric potential along the same line as in Part 2.</li>
+  <li>What do you notice about the graphs you sketched in Parts 2 and 4?</li>
+  <li>BONUS: Consider that the plates have some depth to them (as with any real physical plate). Let them have a width $w$. Using what you remember or know about metals, what happens to your graphs in Parts 2 and 4? (For example, we will learn soon that metals in electrostatics are equipotential surfaces.)</li>
+</ol>
+
+<h2 id="4-gauss-law-and-cavities">4. Gauss’ Law and Cavities</h2>
+
+<p>A <strong>metal</strong> sphere of radius $R$, carrying a charge $+q$, is surrounded by a thick concentric <strong>metal</strong> shell (inner radius $a$, outer radius $b$). The shell carries no net charge. Where requested, please explain your reasoning.</p>
+
+<p><img src="./images/hw5/concentric_spheres.png" alt="Concentric Spheres" title="Concentric Spheres" /></p>
+
+<ol>
+  <li>Sketch the charge distribution everywhere. If the charge is zero anywhere, indicate that explicitly.</li>
+  <li>From part 1, you probably noticed the charge distributes in some way on the metals. Determine the surface charge density $\sigma$ at $R$, at $a$, and at $b$.</li>
+  <li>Sketch the electric field everywhere; explain how you know the field you have drawn is correct. If the field is zero anywhere, indicate that explicitly.</li>
+  <li>Find the potential everywhere, use $r \rightarrow \infty$ as your reference point for $V=0$.</li>
+  <li>Now the outer surface is touched by a grounding wire, which lowers its potential to zero. How do your answers change to parts 2 and 4? Explain your reasoning.</li>
+</ol>
+
+<h2 id="5-coax-capacitors">5. Coax capacitors</h2>
+
+<p>Consider a coaxial cable with an inner conducting cylinder has radius $a$ and the outer conducting cylindrical shell has inner radius $b$. It is physically easy to set up any fixed potential difference $\Delta V$ between the inner and outer conductors. In practice, the cable is always electrically neutral.</p>
+
+<ol>
+  <li>Assuming charge per length $+\lambda$ and $-\lambda$ on the inner and outer cylinders, derive a formula for the voltage difference $\Delta V$ between the cylinders.</li>
+  <li>Assuming infinitely long cylinders, find the <strong>energy stored per length (W/L)</strong> inside this capacitor. <em>Notice we are asking for the energy per unit length, the answer is not infinity!</em>  Let’s do it two ways so we can check:
+    <ul>
+      <li>Find the capacitance per length ($C/L$) of this system, and then use stored energy $W = \frac{1}{2} C (\Delta V)^2$.</li>
+      <li>Integrate the energy density stored in the E field.</li>
+    </ul>
+  </li>
+  <li>Based on your answers to part 2, where in space would you say this energy is physically stored?</li>
+  <li>Estimate the capacitance per meter of the coaxial cable that the cable company uses to send TV signals into homes. Justify any assumptions.</li>
+  <li>This model is also excellent for “axons”, which are long cylindrical cells (basically coax cables) carrying nerve impulses in your body and brain.  Estimate the capacitance (in SI metric units, Farads) of your sciatic nerve. <em>Assumptions - the sciatic nerve is the longest in your body, it has a diameter of roughly 1 micron, and a length of perhaps 1 m. Note that axons generally have a value of b which is very close to a (i.e. the gap is extremely tiny, b-a is about 1 nanometer. ) so you can simplify your expression using $ln(1+\epsilon)\approx\epsilon$.</em></li>
+</ol>
+
+<h2 id="6-superposition-in-conductors-shielding">6. Superposition in conductors (“shielding”)</h2>
+
+<p>We carve out two spherical cavities from a metal sphere of radius $R$ (as shown below). The first cavity (radius, $a$) has a charge $+q_a$ placed at the center of the cavity. Similarly, the second cavity (radius, $b$) has a charge $+q_b$ placed at the center of that cavity.</p>
+
+<p><img src="./images/hw5/shielded_charges.png" alt="Shielded Charges" title="Shielded Charges" /></p>
+
+<ol>
+  <li>Sketch the surface charge everywhere. Explain how you know the surface charge looks this way.</li>
+  <li>Determine the surface charges ($\sigma_a$, $\sigma_b$, and $\sigma_R$).</li>
+  <li>Sketch the electric field everywhere. If the field is zero anywhere, indicate this explicitly. Explain how you know the electric field looks this way.</li>
+  <li>Determine the magnitude of electric field outside the conductor and inside each cavity.</li>
+  <li>If we brought an external charge $q_c$ near the conducting sphere how do your answers to parts 1-4 change? You may answer in words, pictures or both.</li>
+</ol>
+
+  </div>
+
+
+      </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 3 (Due September 21st)</title>
+  <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+
+  <link rel="stylesheet" href="/phy481msu_f2018/styles/site.css">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/assignments/homework3.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2018/feed.xml">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+</head>
+
+
+  <body>
+
+      <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/phy481msu_f2018/">Physics 481</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+    <!--  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/about/">About</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a></li>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a></li>
+      
+      -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/phy481msu_f2018/">Physics 481</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
+
+        <!-- Broken for some reason on Github; had to hard code-->
+        <!--
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a>
+          
+        -->
+<!--      </div>
+    </nav>
+
+  </div>
+
+</header>-->
+
+
+      <div class="container well">
+
+        <h1 class="post-title">Homework 3 (Due September 21st)</h1>
+          <div >
+    <p><a href="http://phy481msuf2018.slack.com">Link to Slack team</a></p>
+
+<p>Homework 3 emphasizes alternative methods to direct integration (Coulomb’s Law) for solving the electric field problem including the use of Gauss’ Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important).</p>
+
+<p><a href="https://www.dropbox.com/request/H4yWIqFU0lmnFpsZJwSq"><strong>Dropbox file request link for Homework 3</strong></a></p>
+
+<h4 id="1-ring-of-charge---motion-of-a-test-charge">1. Ring of charge - Motion of a test charge</h4>
+
+<p>While we spend a large amount of time working with source charges and the electric fields that they produce, we are ultimately concerned about their effect on the motion of other charges (so-called “test charges”). In this problem, you will work with the electric field due to a ring of charge to develop an approximate solution for the motion of a test charge by “linearizing” the differential equation that describes the motion. In working this problem, you will have to dust off some of your classical mechanics knowledge regarding differential equations.</p>
+
+<p>Consider a thin ring (positive charge, $Q$; radius, $a$) that has its central axis directed along the $x$-direction as shown.</p>
+
+<p><img src="./images/hw2/ring_w_charge.png" alt="Ring of charge" title="Ring of Charge" /></p>
+
+<p>A charged ring with these parameters will produce an electric field along its central axis given by,</p>
+
+<script type="math/tex; mode=display">E_x = \dfrac{1}{4\pi\varepsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}</script>
+
+<ol>
+  <li>Write down the differential equation that describes the motion of a particle with negative charge $-q$ and mass $m$ that is carefully positioned on the $x$-axis. <em>Note: this particle has a charge that is opposite the sign of the ring, so $q$ is the magnitude of the charge of this particle.</em></li>
+  <li>What kind of motion do you expect to see for this charge? Why? Does the differential equation describe that kind of motion? <em>Hint: Consider if this differential equation is analytically tractable (i.e., can it be solved in closed form).</em></li>
+  <li>Consider the situation where the particle is very close to a large ring (i.e., where $x/a\;«\;1$). Determine the approximate form of the differential equation for this case – keep only terms that depend linearly on $x$. This is called “linearizing” the differential equation and makes the solution analytically tractable.</li>
+  <li>Solve the differential equation for the case where the particle starts from rest at a distance of $x_0$ from the ring. Sketch the resulting motion of the test charge as a function of time. Does your graph agree with your intuition about the motion?</li>
+  <li>What would happen to the test charge if it was not placed precisely on the central axis? Why?</li>
+  <li>We have created a Jupyter notebook that begins to model the motion of the test charge using both the exact and the approximate differential equation. You can <a href="/phy481msu_f2018/jupyter/HW3-MotionOfTestCharge.ipynb">download it here</a> (or <a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW3-MotionOfTestCharge.ipynb">view it here</a>). By working through this notebook, we expect you to complete the model and be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know.</li>
+  <li><strong>BONUS:</strong> Break up the ring into small chunks, so that you can determine the electric field at any point. Model the motion of the charged particle <strong>in general</strong> in the presence of this charged ring. Can you get any interesting or cool trajectories? How would you plot this in 3D? <em>This BONUS is worth 15 points (about one full problem).</em></li>
+</ol>
+
+<h4 id="2-finding-the-electric-field-of-spherical-shell-using-direct-integration">2. Finding the electric field of spherical shell using direct integration</h4>
+
+<p>In this class, you will learn a mathematical technique (Gauss’ Law) that makes solving for the electric field relatively simple in comparison to direct integration for certain kinds of problems. In this problem, you will solve for the electric field that can be determined using Gauss’ Law, but you will use direct integration instead. This problem involves relatively sophisticated integral, which you are free to look up, have some software solve, or (for the gluttons for pain) solve yourself. The message here is: when you run across a difficult piece of math, it’s ok to use your resources; just cite your sources!</p>
+
+<ol>
+  <li>Find the electric field a distance $z$ above the center of a spherical shell  of radius $R$, which carries a uniform surface charge density $\sigma$. Do this by explicit integration (i.e., starting from Griffith’s equation 2.7), please. Just treat the case of $z &gt; R$ (<em>outside</em> the sphere). Express your answer in terms of the total charge $q$ on the sphere. <em>Also, be careful, when you get a square root, to take the positive root:</em> $\sqrt{R^2 + z^2 - 2Rz}=(R-z)$ if $R&gt;z$, but it’s $(z-R)$ if $R&lt;z$.</li>
+  <li>Check your answer using a units check and your knowledge from PHY 184. Briefly discuss what the answer should be outside the sphere. What should the answer be inside the sphere and why? <em>You don’t have to solve that problem explicitly.</em></li>
+</ol>
+
+<div class="alert alert-info" role="alert">HEY! The following integral might show up.<br />
+
+$\int_0^{\pi} \dfrac{\sin \theta' (z-R\cos\theta')}{(z^2 + R^2 -2zR\cos\theta')^{3/2}}d\theta'$<br />
+You can do it by hand, but if you try to solve it directly with WolframAlpha it will choke. Instead do a u-sub with $u=\cos \theta'$. That should give a simpler form similar to this one (some constants are mising):<br />
+$\int_{-1}^{+1} \dfrac{z-Ru}{(R^2+z^2-2Rzu)^{3/2}}du$.<br />
+WolframAlpha can handle the symbolic form of that integral or you can look it up in a table.</div>
+
+<p><em>Historical note: Newton solved part 1 using geometry (no calculus!!) This geometric proof is tricky and still excites debate: see R. Weinstock Am. J. Phys., 52, (1984), p. 883; H. Erlichson, Am. J. Phys. 58, (1990) p. 882. Newton thought calculus should be kept secret, and held up publication of Principia until he could work out these non-calculus proofs. He published calculus much later, about the same time as Leibniz published his calculus.</em></p>
+
+<h4 id="3-comparing-coulombs-law-to-gauss-law">3. Comparing Coulomb’s Law to Gauss’ Law</h4>
+
+<p>Now that we have, in principle, fully described how to solve any electrostatics problem (i.e., by adding up the contribution of each chunk of charge), we turn to building our theoretical toolbox by learning alternative methods that make the solving of certain kinds of problems more tractable. The first of these alternatives is Gauss’ Law. It is important to know when and how to apply Gauss’ Law - in the problem below, you are asked to compare Gauss’ Law with Coulomb’s Law.</p>
+
+<p>Consider the following questions in finding the electric field everywhere for a conducting sphere, a uniformly charged sphere, and a sphere with charge distribution varying as $r^n$, all with radius $r_0$ and total charge $Q$:</p>
+
+<ol>
+  <li>What are the advantages and disadvantages of using Gauss’ Law to find the electric field instead of using Coulomb’s Law (Griffiths Eq 2.8)?  What role does symmetry play?</li>
+  <li>Answer the same questions for three cubes with the same properties (i.e., charge distributions that vary radially as $r^n$).</li>
+  <li>What do your answers to parts 1 and 2 tell you about using Gauss’ Law versus using Coulomb’s Law (direct integration) to solve for the electric field?</li>
+</ol>
+
+<h4 id="4-spherical-charge-distributions-are-special">4. Spherical charge distributions are special</h4>
+
+<p>As you might have picked up by now, spherically symmetric charge distributions are very special. We have a number of theoretical tools we can bring to bear on them and the results we produce are often quite simple in a mathematical sense. In this problem, you will explore these distributions a bit more and connect the mathematics (i.e., the integrals you must do) to the geometry of the problem (i.e., where the charge lives) to gain intuition about these spherically symmetric distributions of charge.</p>
+
+<p>For parts 1 and 2, consider a sphere of radius $R$, centered one the origin, with a radially symmetric charge distribution $\rho(r)$.</p>
+
+<ol>
+  <li>What $\rho(r)$ is required for the electric field <strong>in the sphere</strong> to have the power law form $E(r) = cr^n$, where $c$ and $n$ are constants? The case of n=-2 is special. How so? Some values of $n$ are unphysical because these would lead to an infinite amount of charge in the sphere.. Which values of $n$ are allowed?</li>
+  <li>What kind of charge distribution is required for the radial E-field inside the sphere to be of constant magnitude; that is, what $\rho(r)$ produces $E(r) = $ constant (inside only)? Is this distribution physical realizable? Why or why not?</li>
+  <li>For each of these allowable charge distributions, what does the electric field look like outside the sphere ($r&gt;R$)?</li>
+  <li><em>The following problem is from the 2001 Physics GRE Exam. Students were expected to solve the problem in just a few minutes!</em> Two spherical, nonconducting, and very thin shells of uniformly distributed positive charge $Q$ and radius $d$ are located a distance 10$d$ apart. A positive point charge $q$ is placed inside on of the shells at a distance $d/2$ from the center, on the line connecting the centers of the two shells, as shown in the figure. What is the net force on the charge $q$?</li>
+</ol>
+
+<p><img src="./images/hw3/gre_problem.png" alt="GRE Problem" title="GRE Problem" /></p>
+
+<h4 id="5-cube-with-a-hole">5. Cube with a hole</h4>
+
+<p>What happens when you have problems were the symmetries are mixed? How do you tackle a problem with two different geometries? In this problem, you will explore how to deal with situations where they are two “competing” geometries for the problem. Sometimes you will need to bring two (or more!) aspects of your theoretical toolbox to bear on a problem.</p>
+
+<p>Consider a cube (edge length $a$) with a uniform charge distributed throughout its volume ($\rho$). We carve a spherical cavity out of it of radius $d$, such that the cavity is centered at the center of the cube.</p>
+
+<p><img src="./images/hw3/cube_w_hole.png" alt="Cube with Hole" title="Cube with hole" /></p>
+
+<ol>
+  <li>Does Gauss’ Law hold for this problem? Can Gauss’ Law be used on this problem? If so, what surface do you use? If not, why?</li>
+  <li>Let the center of the cube (and thus the center of the cavity) be located at the origin $\langle 0,0,0 \rangle$. <strong>Explain</strong> how you would determine the electric field at point $P$ a distance $z$ from the center of the cube.</li>
+  <li>What should your expression for the electric field be as $d$ goes to zero? What does this correspond to physically?</li>
+</ol>
+
+<h4 id="6-describing-charge-distributions-with-delta-functions">6. Describing charge distributions with delta functions</h4>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Dirac_delta_function">Dirac delta function</a> is an important theoretical tool for describing distributions of a variety of physical quantities (e.g., mass, charge) where a point object (or system of point objects) is the model we intend to use. In addition, it can be used to describe distributions where these quantities exist in highly constrained spaces (e.g., on a plane or spherical shell). In this class, we will use the Dirac delta function to describe how a charges are distributed. In this problem, you will get familiar with the Dirac delta function for a set point charges on a line.</p>
+
+<p>The linear charge density for a series of charges on the $x$-axis is given by:</p>
+
+<script type="math/tex; mode=display">\lambda(x) = \sum_{n=0}^{10} q_0 n^2\delta\left(x-\dfrac{n}{10}\right)</script>
+
+<ol>
+  <li>Write a sentence or two describing the units of each term in the equation. (Don’t forget the delta function!)</li>
+  <li>What is the total charge on $x$-axis?</li>
+</ol>
+
+<h4 id="7-a-rod-with-a-hole-drilled-in-it">7. A rod with a hole drilled in it</h4>
+
+<p>Gauss’ Law can be useful in situations where you want to determine the electric field in conceptually different physical spaces. In this problem, you will explore this using the example of a uniformly charged rod with a hole drilled through it.</p>
+
+<p>Consider a rod of length $L$ and radius $b$ that has a hole drilled down the center of it (along it’s length-wise axis) with a radius of $a$. The rod is very long compared to it’s radius, so that Gauss’ Law can be used to find the approximate electric field near the middle of the rod (far from the ends). The rod has a uniform charge distribution $\rho$. You will determine the electric field “everywhere” - meaning everywhere near the middle of the rod.</p>
+
+<ol>
+  <li>Find the electric field inside the hole ($r&lt;a$).</li>
+  <li>Find the electric field outside the rod ($r&gt;b$).</li>
+  <li>Find the electric field between the hole and outer surface of the rod ($a&lt;r&lt;b$).</li>
+  <li>Why did you need to solve Gauss’ Law 3 times in this case to find the electric field “everywhere”?</li>
+  <li>Compare the value of the electric field right at the material boundaries ($r=a$ and $r=b$), do the values match? As we will find this matching has important implications for bound charge on material surfaces.</li>
+</ol>
+
+  </div>
+
+
+      </div>
+
+  </body>
+
+</html>

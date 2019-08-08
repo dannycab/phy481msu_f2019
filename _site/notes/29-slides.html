@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/29-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+A point charge $+q$ is placed at the center of a neutral, linear, homogeneous, dielectric teflon shell. Can $\mathbf{D}$ be computed from its divergence?
+
+&lt;img src="./images/teflon_shell_D.png" align="left" style="width: 300px";/&gt;
+
+$$\oint \mathbf{D} \cdot d\mathbf{A} = Q_{free}$$
+
+1. Yes
+2. No
+3. Depends on other things not given
+
+</section>
+
+<section data-markdown="">
+
+A point charge $+q$ is placed at the center of a neutral, linear, homogeneous, dielectric **hemispherical** shell. Can $\mathbf{D}$ be computed from its divergence?
+
+&lt;img src="./images/teflon_hemisphere_dielectric.png" align="left" style="width: 300px";/&gt;
+
+
+$$\oint \mathbf{D} \cdot d\mathbf{A} = Q_{free}$$
+
+1. Yes
+2. No
+3. Depends on other things not given
+
+</section>
+
+<section data-markdown="">
+
+## Boundary Conditions
+
+&lt;img src="./images/air-material-boundary-tutorial.png" align="center" style="width: 500px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+
+## Why are these boundary conditions useful?
+
+&lt;img src="./images/cap_w_2_dielectrics.png" align="center" style="width: 500px";/&gt;
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

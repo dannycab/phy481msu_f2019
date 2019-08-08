@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 1 (Due September 7th)</title>
+  <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+
+  <link rel="stylesheet" href="/phy481msu_f2018/styles/site.css">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/assignments/homework1.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2018/feed.xml">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+</head>
+
+
+  <body>
+
+      <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/phy481msu_f2018/">Physics 481</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+    <!--  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/about/">About</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a></li>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a></li>
+      
+      -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/phy481msu_f2018/">Physics 481</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
+
+        <!-- Broken for some reason on Github; had to hard code-->
+        <!--
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a>
+          
+        -->
+<!--      </div>
+    </nav>
+
+  </div>
+
+</header>-->
+
+
+      <div class="container well">
+
+        <h1 class="post-title">Homework 1 (Due September 7th)</h1>
+          <div >
+    <p><a href="http://phy481msuf2018.slack.com">Link to Slack team</a></p>
+
+<h3 id="preface">Preface</h3>
+<p>Homework in this class is a very large part of the learning experience (and a large fraction of your grade!). The homework might look long, but that is because it not really serving as a check on whether you are getting things from lecture. It meant to help you learn the material, the importance of different aspects of the material, and the implications of the material on your future work. So there will typically be longer descriptions in the problem statements. The work you are being asked to do is no longer than a standard lecture course, but the kinds of questions might be different. We strongly encourage you to work together (and with the TA and Danny) on these homework problems, but you must turn in your own work.</p>
+
+<h3 id="submitting-your-homework">Submitting your homework</h3>
+
+<p>All of your pencil-and-paper solutions can be turned in at the beginning of class on Friday. Homework solutions that require Python are to be turned in online using Dropbox file requests. Each homework assignment will have a different file request link. Make sure that your name appears in the filename of the notebook (e.g., notebook_for_problem_4_dannycaballero.ipynb)</p>
+
+<h3 id="what-is-homework-1-about">What is Homework 1 about?</h3>
+
+<p>Homework 1 emphasizes the mathematical formalism and related thinking that you will draw on in class. This homework focuses on Sections 1.1-1.4 of Griffiths, which covers differential, integral, and vector calculus. It also serves as an introduction to using <a href="http://jupyter.org">Jupyter notebooks</a>, which you will use on most homework assignments. With regard to computation on this homework, you will be using the <a href="http://sympy.org">sympy</a> library, which allows you to perform symbolic manipulations (like Mathematica), and the <a href="http://matplotlib.org/">matplotlib</a> library, which allows you to plot different kinds of figures.</p>
+
+<h3 id="link-for-code-submissions">Link for code submissions</h3>
+
+<p><a href="https://www.dropbox.com/request/pev5zrwobuIMaUNkk0TB"><strong>Dropbox file request link for Homework 1</strong></a></p>
+
+<h3 id="homework-questions">Homework questions</h3>
+
+<h4 id="1-reminders-of-integrals-past">1. Reminders of Integrals Past</h4>
+<p>In this course, you will perform lots of different kinds of integrals, some of which you might have done in previous courses. In this problem, we will just dust off some of those integration techniques. You will need to explain key steps of the integration for each one, not simply do the mathematics.</p>
+
+<ol>
+  <li><em>Line (or path) integrals</em> - These integrals are important for thinking about energy (and in our case electric potential).
+    <ul>
+      <li>Determine the work done by the vector force $\mathbf{F} = y^2\;\hat{x} - 2x^2\;\hat{y}$ along the path $y=\sqrt{x}$ from (0,0) to (4,2). This path is restricted to the x-y plane and recall that $W=\int \mathbf{F}\cdot d\mathbf{l}$.</li>
+      <li>Is the result of this line integral path-independent (i.e., is $\mathbf{F}$ a <a href="https://en.wikipedia.org/wiki/Conservative_vector_field">conservative vector field</a>)? Explain why or why not.</li>
+    </ul>
+  </li>
+  <li><em>Surface integrals</em> - Calculating the flux over a particular surface is a very common way of determine the electric field.
+    <ul>
+      <li>Evaluate the integral $\int_S \mathbf{v}\cdot d\mathbf{A}$ where $\mathbf{v}(x,y,z) = 5x\;\hat{y} + 2y\;\hat{z}$ and $S$ is the rectangular surface lying in x-z plane from (0,0,0) to (1,0,5). Choose the direction of $+\hat{y}$ to be indicative of positive flux.</li>
+      <li>Explain how the resulting sign of the flux makes sense. You may use sketches or diagrams.</li>
+    </ul>
+  </li>
+  <li><em>Volume integrals</em> - It will be common for you to determine the amount of total charge in a situation where the charge is distributed in space according to some function. You might be familiar with this concept from the perspective of distributed mass.
+    <ul>
+      <li>Consider two different spheres: one with uniform mass density, $\rho_0$, and the other with a radially varying density, $\rho(r)=\frac{3\rho_0}{4R^2}r^2$.</li>
+      <li>If both spheres have the same radius $R$, which has more mass?</li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="2-what-can-be-done-to-a-scalar-function">2. What can be done to a scalar function?</h4>
+<p>Given the scalar function $T(x,y,z)$ (e.g., the temperature at any point in the room), which of the three operations (div, grad, and/or curl) can be sensibly operated on $T$? For each which can:</p>
+
+<ol>
+  <li>give a formula for the result,</li>
+  <li>explain in words how you would interpret the result, and</li>
+  <li>identify if the result a vector or scalar.</li>
+</ol>
+
+<h4 id="3-what-can-be-done-to-a-vector-function">3. What can be done to a vector function?</h4>
+<p>Given the vector function $\vec{V}(x,y,z)$ (e.g., the velocity of a flowing fluid), which of the three operations (div, grad, and/or curl) can be sensibly operated on $\vec{V}$? For each which can:</p>
+
+<ol>
+  <li>give a formula for the result,</li>
+  <li>explain in words how you would interpret the result, and</li>
+  <li>identify if the result a vector or scalar.</li>
+</ol>
+
+<h4 id="4-determine-the-gradient-of-a-scalar-function-and-check-it-with-computational-tools">4. Determine the gradient of a scalar function and check it with computational tools</h4>
+<p>In Griffiths, $\vec{\mathfrak{r}}$ represents the separation vector between source charges $\langle x’, y’, z’ \rangle$ and the field point – location of test charge – $\langle x, y, z \rangle$. The separation vector is a <strong>critically important</strong> vector in electrodynamics as it underlies all of the mathematical models that describe how source charges produce electric and magnetic fields. To that end, you will often do some mathematical manipulations of the separation vector. You are asked to perform two common manipulations below.</p>
+
+<ol>
+  <li>Calculate the gradient of the magnitude of the separation vector (i.e., $\nabla|\vec{\mathfrak{r}}|$) and the gradient of the inverse of the magnitude of the separation vector (i.e., $\nabla \dfrac{1}{|\vec{\mathfrak{r}}|}$) and show the gradients of these functions can be written as functions of the separation vector ($\vec{\mathfrak{r}}$) and/or its magntiude ($|\vec{\mathfrak{r}}|$). (<em>Hint: it might be easier to do this by explicitly writing out the function in Cartesian coordinates.</em>)</li>
+  <li>After determining the gradients of each of these functions by hand, <a href="/phy481msu_f2018/jupyter/HW1-GradientProblem.ipynb">download this Jupyter notebook</a> (you can <a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW1-GradientProblem.ipynb">view it here</a>), which demonstrates how to calculate gradients using the <a href="http://sympy.org">sympy</a> library for Python. Working through the notebook, use it to check the work you did by hand. Do you get the same answers?</li>
+</ol>
+
+<p><strong>Important: In this class, we are strongly encouraging you to use the tools of modern science (i.e., computing) in a responsible way. This problem demonstrates that you may want to use Python and sympy to check the work that you have done analytically.</strong></p>
+
+<h4 id="5-analyzing-divergence-and-curl-visually">5. Analyzing divergence and curl visually</h4>
+<p>Calculating the divergence and curl of a vector field analytically is possible when the field is a well-known function (e.g., $\vec{V}(x,y,z)$). However, it will not always be the case that you know the function that generates the vector field. For example, in experimental fluid mechanics, measurements of the velocity field are done by tracking individual particles (called “tracers”) that move in the field.</p>
+
+<p><a href="https://www.youtube.com/watch?v=hzvFHrWQbP0"><img src="/phy481msu_f2018/assignments/images/hw1/tracers.png" alt="Tracer Video Example" /></a></p>
+
+<p>The displacement of those tracers is used to numerically reconstruct the velocity field of the fluid (by way of numerical derivatives), which usually does not conform to a known function. However, it is important to know if the flow has divergence or curl overall or at specific points as the models for fluid flow that are used to analyze the velocity field strongly depend on these results. Hence, visual inspection of a field (in our case, electromagnetic fields) is an important tool to understand which models might be used to analyze the field. This will be exceedingly important in our distinction between electric and magnetic fields as well as when the fields begin to vary with time.</p>
+
+<p>For each of the four vector fields sketched below:</p>
+
+<ol>
+  <li>Which of them have a nonzero <em>divergence</em> somewhere? (If the divergence is nonzero <em>only</em> at isolated points, which point(s) would that be?)</li>
+  <li>Which of the following fields have nonzero <em>curl</em> somewhere? (If the curl is nonzero <em>only</em> at isolated points, which point(s) would that be?)</li>
+  <li>Provide a brief explanation for each of your answers above.</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"> </th>
+      <th style="text-align: center"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Field A</td>
+      <td style="text-align: center">Field B</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="./images/hw1/A.png" alt="A" title="Field A" /></td>
+      <td style="text-align: center"><img src="./images/hw1/B.png" alt="C" title="Field B" /></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Field C</td>
+      <td style="text-align: center">Field D</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><img src="./images/hw1/C.png" alt="C" title="Field C" /></td>
+      <td style="text-align: center"><img src="./images/hw1/D.png" alt="D" title="Field D" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="6-plotting-vector-functions-with-matplotlib">6. Plotting vector functions with <code class="highlighter-rouge">matplotlib</code></h4>
+<p>Physics is both a mathematical and visual science. It is important to develop the ability to sketch and plot figures of various types. For the early part of this class, plotting the field generated by electric charges is important to understanding the field itself. In this problem, you will learn to use the <a href="http://matplotlib.org"><code class="highlighter-rouge">matplotlib</code> library</a> to <a href="http://matplotlib.org/examples/pylab_examples/quiver_demo.html">plot vector fields</a>. As with the previous computational problem, you can <a href="/phy481msu_f2018/jupyter/HW1-VectorFieldsProblem.ipynb">download this working Jupyter notebook</a> (<a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW1-VectorFieldsProblem.ipynb">view it here</a>), which describes how this kind of plotting is done for a specific case ($\vec{v}(x,y)=y\hat{x}$).</p>
+
+<p>It will be up to you to plot additional figures for these cases:</p>
+
+<ol>
+  <li>$\vec{v}(x,y)=r\hat{r}$ (where $\vec{r}$ refers to the usual $\vec{r}$ in spherical coordinates.)</li>
+  <li>$\vec{v}(x,y) = \dfrac{x}{(\sqrt{x^2+y^2})^3}\hat{x}+\dfrac{y}{(\sqrt{x^2+y^2})^3}\hat{y}$</li>
+  <li>$\vec{v}(x,y) = \hat{\phi}$ (where $\phi$ is the usual plane-polar coordinate.)</li>
+  <li>For each case above, can you describe a physical situation where the field would be applicable?</li>
+</ol>
+
+<p><strong>When we construct different kinds of fields in this class, you will use code like this to visualize the field and discuss it.</strong></p>
+
+<h4 id="7-vector-proofs-can-be-incredibly-useful">7. Vector proofs can be incredibly useful</h4>
+<p>In electromagnetism, developing a deep understanding of vector mathematics can facilitate a deeper understanding of the physical systems that we will investigate. While we will rarely ask you to prove relationships outright, knowing how certain proofs are done can often help you simplify a complicated problem. For example, in this problem, you will learn how we often use general vector operations with unspecified surfaces to make general statements about the field. In Griffiths, you read about a few integral theorems: the gradient theorem, Gauss’s theorem (for divergences), and Stokes’ theorem (for curls). You will make use of those theorems to prove a few things you have some intuition about from vector calculus.</p>
+
+<ol>
+  <li>From vector calculus, you know that the curl of any gradient of any scalar field is zero: $\nabla \times \nabla T(x,y,z) = 0 $. Use the corollary of the gradient theorem, namely that closed loop integral of any gradient of a scalar field is zero, $\oint \nabla T\cdot d\mathbf{l} = 0$, along with Stokes’ theorem, $\int_S(\nabla \times \mathbf{v})\cdot d\mathbf{a} = \oint_C \mathbf{v}\cdot d\mathbf{l}$, to demonstrate that the curl of a gradient is zero. What is the essential argument that needs to be made that proves that the result is generalizable to any situation? (<em>Hint: The surface (S) and thus the line (C) that bounds the surface are not specified.</em>)</li>
+  <li>What does your result from the previous question tell you about possibility of swirly-ness of the gradient of a temperature field, $\nabla T$, over any specified surface?</li>
+  <li>From vector calculus, you know that the divergence of the curl of any vector field is zero, $\nabla \cdot (\nabla \times \mathbf{v}) = 0$. Use the corollary of Stokes’ theorem, namely that the closed surface integral of the curl of a vector field is zero, $\oint_S (\nabla \times \mathbf{v})\cdot d\mathbf{a} = 0 $, along with the divergence theorem, $\int(\nabla \cdot \mathbf{v}) d\tau = \oint_S \mathbf{v}\cdot d\mathbf{a}$, to demonstrate that the divergence of a curl is zero. What is the essential argument that needs to be made the proves the result is generalizable to any situation? (<em>Hint: The volume (V) and thus the surface (S) that bounds it are not specified.</em>)</li>
+  <li>By doing these two proofs, what do you feel like you learned about vector calculus that you didn’t already know?</li>
+</ol>
+
+<h4 id="8-applying-vector-calculus-knowledge">8. Applying vector calculus knowledge</h4>
+
+<p>Griffths and other E&amp;M writers like to use elegant conceptualizations that quickly get you to a result with seemingly very little work. This relies on a deeper understanding of vector calculus, which you will develop in this course. In this problem, you will explain a conceptualization that helps you come to a result, then you will connect that conceptualization to a mathematical proof. For this, consider the surface integral that we define as the ‘‘vector area’’,</p>
+
+<p>$\mathbf{a} = \iint_S d\mathbf{a}$.</p>
+
+<ol>
+  <li>For a hemispherical bowl (a half sphere) of radius $R$, you will find $\mathbf{a}$. Sketch the situation and show the vector $d\mathbf{a}$ in your sketch. In which direction will $\mathbf{a}$ point once the integral is complete? How do you know?</li>
+  <li>What is a reasonable guess for the value of $\vert\mathbf{a}\vert$? Why is that a reasonable guess?</li>
+  <li>Compute directly the value of $\mathbf{a}$ and comment on your guesses from parts 1 and 2. It’s ok if your answers to parts 1 and 2 don’t match the computed answer. Explain how things fit together (e.g., What did you get right? What needs more work on your conceptualization?).</li>
+  <li>The value of $\mathbf{a}$ takes on the same value for <em>any</em> closed surface. What is a reasonable guess for $\mathbf{a}$ in this case? What is your rationale that makes that guess reasonable?</li>
+  <li>Show using the gradient theorem what the value of $\mathbf{a}$ is for any closed surface. Compare your result to your answer to part 4. Again, it’s ok if your answer to part 4 don’t match the computed answer. Explain how things fit together (e.g., What did you get right? What needs more work on your conceptualization?).</li>
+</ol>
+
+  </div>
+
+
+      </div>
+
+  </body>
+
+</html>

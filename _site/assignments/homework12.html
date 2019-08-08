@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 12 (Due November 30th)</title>
+  <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+
+  <link rel="stylesheet" href="/phy481msu_f2018/styles/site.css">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/assignments/homework12.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2018/feed.xml">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+</head>
+
+
+  <body>
+
+      <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/phy481msu_f2018/">Physics 481</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+    <!--  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/about/">About</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a></li>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a></li>
+      
+      -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/phy481msu_f2018/">Physics 481</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
+
+        <!-- Broken for some reason on Github; had to hard code-->
+        <!--
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a>
+          
+        -->
+<!--      </div>
+    </nav>
+
+  </div>
+
+</header>-->
+
+
+      <div class="container well">
+
+        <h1 class="post-title">Homework 12 (Due November 30th)</h1>
+          <div >
+    <p>Homework 12 focuses on computing the magnetic field using Biot-Savart and Ampere’s Law, which are the two direct methods for computing the magnetic field. It begins to introduce the vector potential, which is an alternative method for determining the magnetic field. It is quite a bit longer than the usual homework because it covers two weeks of class (i.e., it is not due until after Thanksgiving). However, there’s no computational problem on this homework set.</p>
+
+<h2 id="1-magnetic-field-of-distributed-currents">1. Magnetic field of distributed currents</h2>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw9/ring.png" alt="Ring" /></p>
+
+<ol>
+  <li>Compute the magnetic field $\mathbf{B}(0,0,z)$ along the $z$-axis for a current loop (current $I$, radius $R$, sitting in $x-y$ plane, centered around the $z$-axis). It is shown in the figure above.</li>
+  <li>Last week we had a DVD (radius $R$) with a fixed, constant, uniform surface electric charge density $\sigma$ everywhere on its top surface (figure below). It was spinning at angular velocity $\omega$ about its center (the origin).  You found the current density $\mathbf{K}$ at a distance $r$ from the center. Use that result to find the magnetic field $\mathbf{B}(0,0,z)$ at any distance $z$ directly above the origin.  (Part 1 above might help.)</li>
+  <li>Does your answer to part 2 seem reasonable? Please check it, with units, and some limiting behaviors (e.g. what do you expect if $R \rightarrow 0$? $\omega \rightarrow 0$?  $z\rightarrow \infty$? For this last one, don’t just say “it goes to zero. This is a dipole, so $B$ should go to 0 like $1/z^3$. (Right?) Show that it does!</li>
+</ol>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw9/disk.png" alt="Disk" /></p>
+
+<h2 id="2-magnetic-field-of-a-bent-wire">2. Magnetic field of a bent wire</h2>
+
+<p>An infinitely long wire has been bent into a right angle turn, as shown.  The “curvy part” where it bends is a perfect quarter circle, radius $R$.  Point P is exactly at the center of that quarter circle. A steady current $I$ flows through this wire.</p>
+
+<ol>
+  <li>Find $\mathbf{B}$ at point P (magnitude and direction) (<em>No need to derive any formulas “from scratch” if you can get them from Griffiths’ examples!</em>)</li>
+</ol>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw9/bent_wire.png" alt="Bent Wire" /></p>
+
+<h2 id="3-estimating-the-magnetic-field-of-a-square-loop">3. Estimating the magnetic field of a square loop</h2>
+
+<ol>
+  <li>Find $\mathbf{B}$ at the exact center of a square current loop (current $I$ running around a wire bent in the shape of a square of side $a$) (<em>No need to derive any formulas “from scratch” if you can get them from Griffiths’ examples!</em>)</li>
+  <li>If we had such a loop in the lab and wanted $\mathbf{B}$ at the center, we might do the above calculation, but if we were planning an experiment and just wanted a rough estimate of the magnetic field, we might “assume a spherical cow”: assume the square was really a circle. We’ve done that problem ($\mathbf{B}$ at the center of a circular loop). It’s much simpler than the square! You don’t have to rederive it, but think back to how we got that result, and why it turned out to be a relatively easy application of Biot-Savart. But what radius circle would you use, to estimate $\mathbf{B}$?  You might consider finding $\mathbf{B}$ for the “inscribed” and “circumscribed” circles and then average. How good an approximation does that turn out to be? (Can you think of a better way?)</li>
+</ol>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw9/square_wire.png" alt="Square Loop" /></p>
+
+<h2 id="4-amperes-law---themes-and-variations">4. Ampere’s Law - themes and variations</h2>
+<p>Consider a thin sheet with uniform surface current density.</p>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw9/sheet_current.png" alt="Sheet of current" /></p>
+
+<ol>
+  <li>Use the Biot-Savart law to find $\mathbf{B}(x,y,z)$ both above and below the sheet, by integration.
+Note: The integral is slightly nasty. Before you turn to WolframAlpha - simplify as much as possible! Set up the integral, be explicit about what curly $R$ is, what $da’$ is, etc, what your integration limits are, etc. Then, make clear mathematical and/or physical arguments based on symmetry to convince yourself of the direction of the B field (both above and below the sheet), and to argue how $\mathbf{B}(x,y,z)$ depends (or doesn’t) on $x$ and $y$. (If you know it doesn’t depend on x or y, you could e.g. choose x=y=0 to simplify… But first you must convince us that’s legit!)</li>
+  <li>Now solve the above problem using Ampere’s law. (Much easier than part 1, isn’t it?) Please be explicit about what Amperian loop(s) you are drawing and why. What assumptions (or results from part 1) are you making/using? (<em>Griffiths solves this problem, so don’t just copy him, work it out for yourself!</em>)</li>
+  <li>Now let’s add a second parallel sheet at $z=+a$ with a current running the other way. (Formally, this means $\mathbf{J}=-K_0\delta(z-a)\hat{x}$. Do you understand this notation?) Use the superposition principle (do NOT start from scratch or use Ampere’s law again, this part should be relatively quick) to find B between the two sheets, and also <em>outside</em> (above or below) both sheets. <em>Does this remind you of a familiar electrostatics problem at all? How?</em></li>
+  <li>Griffiths derives a formula for the B field from a solenoid (Example 5.9) Rewrite his answer (which is in terms of I) so it is expressed in terms of K (See his Fig 5.34 and 5.35 for help with this). Briefly compare with part 3, do you see any rough connections?</li>
+</ol>
+
+<h2 id="5-amperes-law">5. Ampere’s Law</h2>
+
+<p>Consider a thick SLAB of current.</p>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw10/thick_slab.png" alt="Thick Slab" /></p>
+
+<p>The slab is infinite in (both) $x$ and $y$, but finite in $z$. So we must think about the volume current density $\mathbf{J}$, rather than $\mathbf{K}$. The slab has thickness $2h$ (It runs from $z=-h$ to $z=+h$) Let’s assume that the current is still flowing in the $+x$ direction, and is uniform in the $x$ and $y$ dimensions, but now $\mathbf{J}$ depends on height linearly, i.e. $\mathbf{J} = J_0\,\mathrm{abs}(z)\,\hat{x}$, inside the slab (but is 0 above or below the slab), where $\mathrm{abs}(z)$ is the absolute value of $z$.</p>
+
+<ol>
+  <li>Find the B field (magnitude and direction) everywhere in space (above, below, and also, most interestingly, inside the slab!)</li>
+</ol>
+
+<h2 id="6-quick-amperes-law">6. Quick Ampere’s Law</h2>
+
+<p>Suppose $\mathbf{B}$ in a region of space centered on the origin has cylindrical symmetry and is given by $\mathbf{B} = B_0\hat{\phi}$ where $B_0$ is a constant, and $\hat{\phi}$ is the azimuthal direction in cylindrical coordinates.</p>
+
+<ol>
+  <li>What is the current density in this region of space?</li>
+  <li>Suppose the current density that you found extends out to a radius $R$ and is zero for $r &gt; R$.  What is the magnetic field for $r &gt; R$?</li>
+</ol>
+
+<h2 id="7-ampere-and-superposition">7. Ampere and superposition</h2>
+<p>A clever use of superposition should can make seemingly complicated situations easier to solve.</p>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw10/wire_w_hole.png" alt="Wire with Hole" /></p>
+
+<ol>
+  <li>A long (infinite) wire (cylindrical conductor of radius $R$, whose axis coincides with the $z$ axis) carries a uniformly distributed current $I_0$ in the $+z$ direction. A cylindrical hole is drilled out of the conductor, parallel to the $z$ axis, (see figure above for geometry). The center of the hole is at $x = b$, and the radius is $a$.  Determine the magnetic field <em>in the hole region.</em></li>
+  <li>If this is an ordinary wire carrying ordinary household currents, and the drilled hole has dimensions roughly shown to scale in the figure above, make an order of magnitude estimate for the strength of the $B$ field in that region. How does it compare to the earth’s field?   <em>You should find that the B field in the hole is uniform - that was just a little surprising to me!</em></li>
+</ol>
+
+<h2 id="8-formal-manipulations-and-vector-calculus">8. Formal manipulations and vector calculus</h2>
+
+<p>Griffiths (section 5.3.2) shows that, given Biot-Savart, we can arrive at Ampere’s law.</p>
+
+<ol>
+  <li>
+    <p>Go through that derivation and try to recreate it/make sense of it. <strong>Don’t just copy it down - do all the steps yourself.</strong> There are a few “gaps” in his derivation that you should be explicit about - e.g., Eq 5.50 (.52 in the 4th ed) is missing terms, what happened to them? Are you convinced of the minus sign shenanigans leading to 5.52 (.54 in 4th ed)? Convince us you understand them! Do you understand the ending: why did the contribution in Eq. 5.53 (.55 in 4th ed) “go away”?</p>
+  </li>
+  <li>
+    <p>Use similar mathematical gymnastics to start from the Biot-Savart law and end with $\mathbf{B} = \nabla \times \mathbf{A}$, where
+$\mathbf{A}(\mathbf{r}) = \dfrac{\mu_0}{4 \pi} \int \dfrac{\mathbf{J}(\mathbf{r}’)}{\mathfrak{R}}d\tau’$. (this is Griffiths Eq 5.63, or .65 in 4th edition). You’ll do this in a different way than Griffiths does (though I suggest you convince yourself you can see it his way too, which is section 5.4.1!). (Note: Part 2 is easier than part 1, really!!)</p>
+    <ul>
+      <li>Start with the Biot-Savart law (Eq 5.45 , or 5.47 in the 4th ed).</li>
+      <li>Make use  of the handy identity we’ve seen several times this term: $\nabla \dfrac{1}{\mathfrak{R}} = -\dfrac{1}{\mathfrak{R}^2}\hat{\mathfrak{R}}$  (Do you know where this relation comes from, can you show it?)</li>
+      <li>Then use Griffiths’ product rule #7 (front flyleaf) to manipulate your expression until you get to $\mathbf{B} = \nabla \times$ something. That “something” should be precisely the formula we’re after!
+<em>At some point you will need to pull the curl past an integral sign - be sure to justify why this is a perfectly legitimate thing to do.</em></li>
+    </ul>
+  </li>
+</ol>
+
+  </div>
+
+
+      </div>
+
+  </body>
+
+</html>

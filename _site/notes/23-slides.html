@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/23-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+Consider a solid sphere of charge that has a charge density that varies with $\cos \theta$. What can we say about the terms in the general solution to Laplace's equation outside there sphere?
+
+$$V(r,\theta) = \sum_l\left(A_l\,r^l + \dfrac{B_l}{r^{(l+1)}}\right)P_l(\cos \theta)$$
+
+1. All the $A_l$'s are zero
+2. All the $B_l$'s are zero
+3. Only $A_0$ should remain
+4. Only $B_0$ should remain
+5. Something else
+
+Note: Correct answer E because B0 and B1 remain
+
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/dipole_moment.png" align="left" style="width: 300px";/&gt;
+
+
+Two charges are positioned as shown to the left. The relative position vector between them is $\mathbf{d}$. What is the value of of the dipole moment? $\sum_i q_i \mathbf{r}_i$
+
+1. $+q\mathbf{d}$
+2. $-q\mathbf{d}$
+3. Zero
+4. None of these
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown="">
+
+## Multipole Expansion
+
+&lt;img src="./images/universe_multipole.jpg" align="center" style="width: 300px";/&gt;
+
+Multipole Expansion of the Power Spectrum of CMBR
+
+Note: The radiation from cosmic microwave background can be described in terms of contributions using a basis of functions with increasing smaller contributions.
+
+</section>
+
+<section data-markdown="">
+
+
+&lt;img src="./images/dipole_setup.png" align="left" style="width: 300px";/&gt;
+
+Two charges are positioned as shown to the left. The relative position vector between them is $\mathbf{d}$. What is the dipole moment of this configuration?
+
+$$\sum_i q_i \mathbf{r}_i$$
+
+1. $+q\mathbf{d}$
+2. $-q\mathbf{d}$
+3. Zero
+4. None of these; it's more complicated than before!
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown="">
+
+For a dipole at the origin pointing in the z-direction, we have derived:
+
+$$\mathbf{E}_{dip}(\mathbf{r}) = \dfrac{p}{4 \pi \varepsilon_0 r^3}\left(2 \cos \theta\;\hat{\mathbf{r}} + \sin \theta\;\hat{\mathbf{\theta}}\right)$$
+
+&lt;img src="./images/small_dipole.png" align="right" style="width: 200px";/&gt;
+
+
+For the dipole $\mathbf{p} = q\mathbf{d}$ shown, what does the formula predict for the direction of $\mathbf{E}(\mathbf{r}=0)$?
+
+1. Down
+2. Up
+3. Some other direction
+4. The formula doesn't apply
+
+Note:
+* CORRECT ANSWER: D
+* The formula works far from the dipole only.
+
+
+</section>
+
+<section data-markdown="">
+
+### Ideal vs. Real dipole
+
+&lt;img src="./images/dipole_animation.gif" align="center" style="width: 450px";/&gt;
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

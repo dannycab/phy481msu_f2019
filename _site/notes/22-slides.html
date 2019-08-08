@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/22-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+How many boundary conditions (on the potential $V$) do you use to find $V$ inside the spherical plastic shell?
+
+&lt;img src="./images/plastic_shell_vtheta.png" align="right" style="width: 350px";/&gt;
+
+
+1. 1
+2. 2
+3. 3
+4. 4
+5. It depends on $V_0(\theta)$
+
+Note:
+* CORRECT ANSWER: B
+* Good for discussion; obviously you need the surface BC, but what about at r=0? Is that technically a BC?
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/wamps_gre_2.png" align="center" style="width: 800px";/&gt;
+
+</section>
+
+<section data-markdown="">
+
+$$V(r,\theta) = \sum_{l=0}^{\infty} \left(A_l r^l + \dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
+
+Suppose V on a spherical shell is:
+
+$$V(R,\theta) = V_0 \left(1+\cos^2\theta\right)$$
+
+Which terms do you expect to appear when finding **V(inside)**?
+1. Many $A_l$ terms (but no $B_l$'s)
+2. Many $B_l$ terms (but no $A_l$'s)
+3. Just $A_0$ and $A_2$
+4. Just $B_0$ and $B_2$
+5. Something else!
+
+Note:
+* CORRECT ANSWER: C
+* Avoid blowup and match cosine
+
+</section>
+
+<section data-markdown="">
+
+$$V(r,\theta) = \sum_{l=0}^{\infty} \left(A_l r^l + \dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
+
+Suppose V on a spherical shell is:
+
+$$V(R,\theta) = V_0 \left(1+\cos^2\theta\right)$$
+
+Which terms do you expect to appear when finding **V(outside)**?
+1. Many $A_l$ terms (but no $B_l$'s)
+2. Many $B_l$ terms (but no $A_l$'s)
+3. Just $A_0$ and $A_2$
+4. Just $B_0$ and $B_2$
+5. Something else!
+
+Note:
+* CORRECT ANSWER: D
+* Avoid blowup and match cosine
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

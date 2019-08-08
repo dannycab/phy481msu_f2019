@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/27-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+Are $\rho_b$ and $\sigma_b$ due to real charges?
+
+1. Of course not! They are as fictitious as it gets!
+2. Of course they are!  They are as real as it gets!
+3. I have no idea
+
+
+Note:
+* CORRECT ANSWER: B
+</section>
+
+<section data-markdown="">
+
+## Announcements
+
+* Exam 2 (Wednesday, November 7th 7-9pm)
+* Covers through Homework 9 (solutions posted after class)
+* "Comprehensive" exam (need to remember old stuff)
+* 1 sheet of your own notes; old exam and formula sheet will be posted
+
+</section>
+
+<section data-markdown="">
+
+## What's on Exam 2?
+
+* Using Legendre polynomials and separation of variables in spherical coordinates, solve for the potential and distribution of charge in a boundary value problem
+* Using the multipole expansion, find the approximate form of the potential for a distribution of charge
+* Determine the bound charge in a material with a given polarization
+* Find the electric potential for a 1D Laplace problem and explain how you would determine it using the method of relaxation
+* (BONUS) Solve a 3D Laplace problem
+
+</section>
+
+<section data-markdown="">
+
+If you put a polarizable material (a dielectric) in an external field $\mathbf{E}_e$, it polarizes, adding a new field, $\mathbf{E}_p$
+(from the bound charges). These superpose, making a total field, $\mathbf{E}_T$.  What is the vector equation relating these three fields?
+
+1. $\mathbf{E}_T + \mathbf{E}_e + \mathbf{E}_p = 0$
+2. $\mathbf{E}_T = \mathbf{E}_e - \mathbf{E}_p$
+3. $\mathbf{E}_T = \mathbf{E}_e + \mathbf{E}_p$
+4. $\mathbf{E}_T = -\mathbf{E}_e + \mathbf{E}_p$
+5. Something else
+
+
+Note:
+* CORRECT ANSWER: C
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/doped_cylinder.png" align="right" style="width: 100px";/&gt;
+
+
+A solid non-conducting dielectric rod has been injected ("doped") with a fixed, known charge distribution $\rho(s)$. (The material responds, polarizing internally.)
+
+When computing $D$ in the rod, do you treat this $\rho(s)$ as the "free charges" or "bound charges"?
+
+1. "free charge"
+2. "bound charge"
+3. Neither of these - $\rho(s)$ is some combination of free and bound
+4. Something else.
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

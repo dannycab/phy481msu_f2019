@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/NLD-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+Consider a pendulum with a bob of mass $m$ attached to a rigid but massless rod with length $L$. Which equation describes the motion of the bob with respect to the vertical?
+
+1. $m\ddot{\theta} = +g\sin\theta$
+2. $m\ddot{\theta} = -g\sin\theta$
+3. $mL\ddot{\theta} = -mg\sin\theta$
+4. $mL\ddot{\theta} = +mg\sin\theta$
+5. Something else
+
+Note: Correct answer: C
+
+</section>
+
+<section data-markdown="">
+
+Let's take the easy route for the moment.
+
+&lt;img src="./images/simplify.jpg" align="center" style="width: 400px";/&gt;
+
+$\ddot{\theta} \approx -\dfrac{g}{L} \theta$
+
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/morpheus.jpg" align="left" style="width: 400px";/&gt;
+
+What is the general solution to: $\ddot{\theta} \approx -\omega^2 \theta$?
+
+1. $\theta(t) = A \cos \omega t$
+2. $\theta(t) = B \sin \omega t$
+3. $\theta(t) = A \cos \omega t +  B \sin \omega t$
+4. $\theta(t) = A \cos (\omega t + \delta)$
+5. More than one of these
+
+</section>
+
+<section data-markdown="">
+
+OMGBBQPIZZA
+
+&lt;img src="./images/SHO_everywhere.jpeg" align="center" style="width: 600px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+
+Nature tends to minimize energy
+
+&lt;img src="./images/SHO.jpg" align="center" style="width: 400px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+
+Have you worked with phase space before?
+
+1. Yes, and I recall how that works
+2. Yes, I think so...ok, actually, maybe...
+3. I have no idea what you are talking about, hoss
+
+</section>
+
+<section data-markdown="">
+
+Now that we have sketched $\langle \dot{x}, \dot{v} \rangle = \langle v,0\rangle$...
+
+Sketch $\langle \dot{x}, \dot{v} \rangle = \langle 0,-x\rangle$ in phase space.
+
+</section>
+
+<section data-markdown="">
+
+What about $\ddot{x} = -\sin{x}$?
+
+&lt;img src="./images/theory.png" align="center" style="width: 350px";/&gt;
+
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

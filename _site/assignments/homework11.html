@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 11 (Due November 16th)</title>
+  <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+
+  <link rel="stylesheet" href="/phy481msu_f2018/styles/site.css">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/assignments/homework11.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2018/feed.xml">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+</head>
+
+
+  <body>
+
+      <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/phy481msu_f2018/">Physics 481</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+    <!--  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/about/">About</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a></li>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a></li>
+      
+      -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/phy481msu_f2018/">Physics 481</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
+
+        <!-- Broken for some reason on Github; had to hard code-->
+        <!--
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a>
+          
+        -->
+<!--      </div>
+    </nav>
+
+  </div>
+
+</header>-->
+
+
+      <div class="container well">
+
+        <h1 class="post-title">Homework 11 (Due November 16th)</h1>
+          <div >
+    <p>Homework 11 completes our discussion of electric fields in matter and begins to introduce foundational ideas for the magnetic field. You will start with magnetic forces and motion, and then get some practice with current densities.</p>
+
+<p><a href="https://www.dropbox.com/request/CfY4RRApPizTc3XezJsb">Dropbox file request for Homework 11</a></p>
+
+<h2 id="1-and-2-assessment-is-on-going-ii-electric-boogaloo">1 and 2. Assessment is on-going II: <a href="https://www.youtube.com/watch?v=-O36cQ4scvM">Electric Boogaloo</a></h2>
+
+<p><strong>TURN THIS WORK IN SEPARATE FROM YOUR REGULAR HOMEWORK TO DANNY</strong></p>
+
+<p>An examination is one measure of your understanding at a given moment in time. It is often a stressful and high stakes situation, which means that folks tend to perform differently depending on how this situation affects them. My goal is not for you to perform physics (i.e., just get the right answer), but to become reflective of your learning of physics (and of learning in general). To that end, I would like to invite you to re-solve the first exam. The exam is <a href="/phy481msu_f2018/assignments/images/exam2.pdf">located here.</a></p>
+
+<p>In addition to solving the problems again, I would like you to write a short summary of what you felt like you did incorrectly at the time of the exam for each problem (i.e., what you think you got wrong and why) and how your solution resolves this problem (i.e., what approach you needed to take to solve the problem correctly). What I’m asking is that you reflect on your exam solutions and what understanding you needed to draw on to solve the problems.</p>
+
+<p>You are welcome to work on the problems together, but your reflection should be your own and individualized. It is through this kind of thinking about our own learning that we become expert learners.</p>
+
+<p><strong>Completing this exercise will not count towards your homework, but will instead reward you with earning 1/2 of the (non-bonus) credit back on your exam.</strong></p>
+
+<h2 id="3-capacitor-with-dielectric">3. Capacitor with dielectric</h2>
+
+<p>You have a large (infinite in the $x-y$ directions) parallel-plate conductor (two big metal sheets, the upper one has free charge density $+\sigma$, the lower one $-\sigma$). The plates are a distance $a$ apart. The space between the sheets is half filled with a linear dielectric oil with given dielectric constant $\varepsilon_r = 4$. Region  I, (filling the top half of the volume) is vacuum. The lower half, region II, is the dielectric oil. See the figure below.</p>
+
+<p><img src="/phy481msu_f2018/assignments/images/hw8/cap_w_dielectric.png" alt="Capacitor with Dielectric Oil" /></p>
+
+<ol>
+  <li>Find $\mathbf{D}$, $\mathbf{E}$, and $\mathbf{P}$ (direction and magnitude, giving all of them separately in regions I and II).</li>
+  <li>Find the location and amount of bound charge (surface and volume) everywhere.</li>
+  <li>Given this, go back and compute $\mathbf{E}$ in region I and II  to check your answers for part 1.</li>
+  <li>Find the voltage between the plates. If the plates are very large but not infinite, compare the capacitance before and after you added the dielectric oil. How does it compare with what you would get if you filled the entire region with that dielectric oil?</li>
+</ol>
+
+<h2 id="4-magnetic-forces">4. Magnetic Forces</h2>
+<ol>
+  <li>Griffiths works out (Ex 5.2) the general solution to motion of a particle in “crossed E and B fields” ($\mathbf{E}$ points in the $z$-direction, $\mathbf{B}$ in the $x$-direction) Work out his solution carefully, make sure you follow it. Then, use it to answer the following:</li>
+  <li>Suppose the particle starts at the origin at $t=0$, with a given velocity $\mathbf{v}(t=0) = v_0\hat{y}$. Use Griffiths’ formal results (Eq. 5.6) to find the “special initial speed”, $v_0$, whose subsequent motion is simple straight-line constant-speed motion. Verify that this answer makes sense by using elementary Phys 184-style right-hand rule arguments and the Lorentz force law, $\mathbf{F} = q (\mathbf{E} + \mathbf{v} \times \mathbf{B})$</li>
+  <li>The discovery of the electron (J.J. Thomson, 1897) used an apparatus with crossed $\mathbf{E}$ and $\mathbf{B}$ just like the above. Thomson adjusted $\mathbf{E}$ until he observed “straight-line, constant-speed” motion of the particle beam. Then, he turned off the $E$-field, and measured the radius of curvature ($R$) of the electron beam (deflected purely by the remaining $B$-field). Given $E$, $B$, and $R$ (all measured), deduce Thomson’s formula to find the charge to mass ratio ($e/m$) of the electrons.</li>
+  <li>Go back to Griffiths’ Ex 5.2 again, but this time suppose your particle starts at the origin with $\mathbf{v}(t=0) = v_1\hat{y}$, with starting speed $v_1$ exactly <strong>half</strong> the “special value” velocity you found in part 2.  Find and sketch the resulting trajectory of the particle. Is the kinetic energy of the particle constant with time? Briefly, comment (Is this consistent with energy conservation?!)</li>
+</ol>
+
+<h2 id="5-modeling-the-motion-of-a-charged-particle-in-a-magnetic-field">5. Modeling the motion of a charged particle in a magnetic field</h2>
+
+<p><strong>Answer all these questions in the notebook.</strong></p>
+
+<p>We have shown that the motion of a charged particle in a constant magnetic is a circular when the initial velocity is perpendicular to the field. In this problem, you will complete the code in a Jupyter notebook, which you should <a href="/phy481msu_f2018/jupyter/HW11-MotionOfChargeInMagneticField.ipynb">download</a> (you can <a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW11-MotionOfChargeInMagneticField.ipynb">view it here</a>), to model the motion of a proton in a magnetic field.</p>
+
+<ol>
+  <li>Your first task is to read through the code and complete the integration loop to compute the trajectory of the proton and plot it in 3D. (You might need to look up how to construct a 3D plot.) For this first case, you should expect a simple circular orbit because the proton starts it’s motion moving perpendicular to the magnetic field.</li>
+  <li>Once you have your code working for part 1, change it to give the proton a component of velocity along the direction of the magnetic field. What does the resulting motion look like? Explain qualitatively why it should look like that.</li>
+  <li>Now add an antiproton to your code and model it’s motion along side the proton (assume the charges don’t interact with each other). How does the motion of the antiproton compare to the proton? Explain qualitatively why it should look like that.</li>
+  <li>We will extend this problem to model the motion of a charge in a magnetic bottle, which consists of two magnetic dipoles. Look up the definition of the magnetic field of a dipole with a given magnetic moment ($\mu$). Plot the magnetic field of this dipole in 2D using both a <a href="https://matplotlib.org/examples/pylab_examples/quiver_demo.html">quiver</a> and <a href="https://matplotlib.org/devdocs/gallery/images_contours_and_fields/plot_streamplot.html">stream</a> plot. We will find these plots very useful for tracking charges as the move in magnetic fields.</li>
+</ol>
+
+<h2 id="6-current-densities">6. Current Densities</h2>
+
+<p>We are going to be working with “current densities” for the rest of the term. Let’s start with a couple simple examples for you to practice with.</p>
+
+<ol>
+  <li>A solid cylindrical straight wire (radius $a$) has a current $I$ flowing down it. If that current is uniformly distributed JUST over the outer surface of the wire (i.e. none is flowing through the “volume” of the wire, it’s all surface charge), what is the magnitude of the surface current density, $\mathbf{K}$?</li>
+  <li>Suppose that current does flow throughout the volume of the wire, but in such a way that the volume current density $J$ grows quadratically with distance from the central axis. What is the formula for $J$ everywhere in the wire? <em>Note that neither situation i nor ii is physically what happens in normal wires!</em></li>
+  <li>A DVD has been rubbed so that it has a fixed, constant, uniform surface electric charge density $\sigma$ everywhere on its top surface. It is spinning at angular velocity $\omega$ about its center (which is at the origin). What is the magnitude of surface current density $\mathbf{K}$ at a distance $r$ from the center?</li>
+</ol>
+
+<h2 id="7-current-density-practice">7. Current Density Practice</h2>
+
+<p>Let’s practice writing down some current densities:</p>
+
+<ol>
+  <li>A sphere (radius $R$, total charge $Q$ uniformly distributed throughout the volume) is spinning at angular velocity $\omega \hat{z}$ about its center, which is at the origin. What is the volume current density $\mathbf{J}(r, \theta, \phi)$ at any point $(r, \theta, \phi)$ in the sphere? (Don’t forget direction too!)</li>
+  <li>A very thin plastic ring (radius $R$) has a constant linear charge density, and total charge $Q$. The ring spins at angular velocity $\omega$ about its center, which is the origin. What is the current $I$, in terms of given quantities? What is the volume current density $\mathbf{J}$ in cylindrical coordinates? (This may be a little tricky, since the ring is “very thin”, there will be some $\delta$ functions. <em>Hint: write down a formula for $\rho(r,\theta,z)$ first. And, remember that $\mathbf{J}$ should be a vector!)</em></li>
+</ol>
+
+  </div>
+
+
+      </div>
+
+  </body>
+
+</html>

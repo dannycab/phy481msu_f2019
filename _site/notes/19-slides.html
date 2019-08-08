@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/19-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+I have seen Separation of Variables before.
+
+1. Yes, and I'm comfortable with it.
+2. Yes, but I don't quite remember.
+3. Nope
+4. I'm triggered.
+
+PS. Hi from San Antonio -DC
+
+</section>
+
+<section data-markdown="">
+
+Our example problem has the following boundary conditions:
+
+* $V(0,y&gt;0) = 0; V(a,y&gt;0) = 0$
+* $V(x_{0\rightarrow a},y=0) = V_0; V(x,y\rightarrow \infty) = 0$
+
+If $X''= c_1 X$ and $Y'' = c_2Y$ with $c_1 + c_2 = 0$, which is constant is positive?
+
+1. $c_1$
+2. $c_2$
+3. It doesn't matter either can be
+
+Note:
+* CORRECT ANSWER: B
+* Exponential solutions are expected in the y direction
+</section>
+
+<section data-markdown="">
+
+Given the two diff. eq's :
+
+$$\dfrac{1}{X}\dfrac{d^2X}{dx^2} = C_1 \qquad \dfrac{1}{Y}\dfrac{d^2Y}{dy^2} = C_2$$
+
+where $C_1+C_2 = 0$.  Given the boundary conditions in the figure, which coordinate should be assigned to the negative constant (and thus the sinusoidal solutions)?
+
+
+&lt;img src="./images/cq_cartesian_bc_1.png" align="right" style="width: 400px";/&gt;
+
+
+1. x
+2. y
+3. $C_1 = C_2 = 0$ here
+4. It doesn't matter.
+
+Note:
+* CORRECT ANSWER: B
+* Because it has to vanish on both ends
+</section>
+
+<section data-markdown="">
+
+Given the two diff. eq's :
+
+$$\dfrac{1}{X}\dfrac{d^2X}{dx^2} = C_1 \qquad \dfrac{1}{Y}\dfrac{d^2Y}{dy^2} = C_2$$
+
+where $C_1+C_2 = 0$.  Given the boundary conditions in the figure, which coordinate should be assigned to the negative constant (and thus the sinusoidal solutions)?
+
+
+&lt;img src="./images/cq_cartesian_bc_2.png" align="right" style="width: 400px";/&gt;
+
+
+1. x
+2. y
+3. $C_1 = C_2 = 0$ here
+4. It doesn't matter.
+
+Note:
+* CORRECT ANSWER: C
+* It's constant throughout!
+</section>
+
+<section data-markdown="">
+
+When does $\sin(ka)e^{-ky}$ vanish?
+
+1. $k = 0$
+2. $k = \pi/(2a)$
+3. $k = \pi/a$
+4. A and C
+5. A, B, C
+
+Note:
+* CORRECT ANSWER: D
+* It's actuall n*pi/a
+
+</section>
+
+<section data-markdown="">
+
+Suppose $V_1(r)$ and $V_2(r)$ are linearly independent functions which both solve Laplace's equation, $\nabla^2 V = 0$.
+
+Does $aV_1(r)+bV_2(r)$ also solve it (with $a$ and $b$ constants)?
+
+1. Yes. The Laplacian is a linear operator
+2. No. The uniqueness theorem says this scenario is impossible, there are never two independent solutions!
+3. It is a definite yes or no, but the reasons given above just aren't right!
+4. It depends...
+
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Homework 2 (Due September 14th)</title>
+  <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+
+  <link rel="stylesheet" href="/phy481msu_f2018/styles/site.css">
+  <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/assignments/homework2.html">
+  <link rel="alternate" type="application/rss+xml" title="Physics 481" href="http://localhost:4000/phy481msu_f2018/feed.xml">
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      }
+    });
+  </script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
+</head>
+
+
+  <body>
+
+      <nav class="navbar navbar-default container">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/phy481msu_f2018/">Physics 481</a>
+    </div>
+    <ul class="nav navbar-nav">
+
+    <li>  <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      <li><a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes and Slides</a></li>
+    <li>  <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+    <!--  
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/about/">About</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/calendar.html">Calendar</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/index.html">Syllabus</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/learning_goals.html">Learning Goals</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/assignments/index.html">Homework</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a></li>
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a></li>
+      
+      
+        
+          <li><a href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a></li>
+      
+      -->
+    </ul>
+  </div>
+</nav>
+
+<!--<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/phy481msu_f2018/">Physics 481</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/">Syllabus</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/calendar.html">Calendar</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/learning_goals.html">Learning Goals</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/notes/">Class Notes and Slides</a>
+        <a class="page-link" href="https://dannycab.github.io/phy482msu/assignments/">Homework</a>-->
+
+        <!-- Broken for some reason on Github; had to hard code-->
+        <!--
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/about/">About</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/calendar.html">Calendar</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework1.html">Homework 1 (Due September 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework10.html">Homework 10 (Due November 9th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework11.html">Homework 11 (Due November 16th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework12.html">Homework 12 (Due November 30th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework13.html">Homework 13 (Due December 7th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework2.html">Homework 2 (Due September 14th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework3.html">Homework 3 (Due September 21st)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework4.html">Homework 4 (Due September 28th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework5.html">Homework 5 (Due October 5th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework6.html">Homework 6 (Due October 12th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework7.html">Homework 7 (Due October 18th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework8.html">Homework 8 (Due October 25th)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/homework9.html">Homework 9 (Due November 2nd)</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/index.html">Syllabus</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/learning_goals.html">Learning Goals</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/assignments/index.html">Homework</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/notes/index.html">Class Notes & Slides</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/plugin/markdown/example.html">Markdown Demo</a>
+          
+        
+          
+          <a class="page-link" href="/phy481msu_f2018/reveal.js/css/theme/">Dependencies</a>
+          
+        -->
+<!--      </div>
+    </nav>
+
+  </div>
+
+</header>-->
+
+
+      <div class="container well">
+
+        <h1 class="post-title">Homework 2 (Due September 14th)</h1>
+          <div >
+    <p><a href="http://phy481msuf2018.slack.com">Link to Slack team</a></p>
+
+<p>Homework 2 emphasizes the electric field and the principle of superposition that will form the basis of much of your understanding of electrostatics. This homework makes use of what you learned from Secs. 1.1-1.4 in Griffiths and adds to it the concepts from Sec. 2.1, which make up the bulk of the assignment. In addition, we have begun to introduce the idea of finding approximate formulae using Taylor expansions, which is one of the most common practices of theoretical physics. In this assignment, you will use a Jupyter notebook to numerically integrate a charge distribution and to explore the concept of superposition and visualize the field of a charged rod at any point in space, not just where it is more analytically tractable.</p>
+
+<p><a href="https://www.dropbox.com/request/sx22K8GAzdADiV4qgOlZ"><strong>Dropbox file request link for Homework 2</strong></a></p>
+
+<h4 id="1-finding-the-angle-between-two-suspended-charges">1. Finding the angle between two suspended charges</h4>
+
+<p>When working through some physics, you will typically find yourself in a situation where a strict analytical solution to your problem evades you because the models that you have used have sophisticated algebraic forms that lead to transcendental equations, non-integrable forms, or other problematic situations. In these situations, it is often instructive to step back a moment and consider under what conditions you want to solve your problem. Those conditions might provide you with reasonable limitations and assumptions that lead to approximate forms that get you very close to what you need. In this problem, which has a familiar context from 184, we will give you the assumption to make. But in future problems, you might have to decide for yourself: <em>What assumptions and approximations can I make here and why?</em></p>
+
+<p>Two charges of identical mass $m$, one with charge $q$ and the other with charge $4q$, hang from strings of length $l$ from a common point. Assume that $q$ is sufficiently small that the electric force on each mass is quite small compared to the gravitational force on each.</p>
+
+<ol>
+  <li>Find an approximate expression for the angle $\theta$ that each charge makes with respect to the vertical.</li>
+  <li>Describe how this assumption of the relationship between the forces (i.e., that the electric force is small compared to the gravitational force) played out in your calculation, which quantities were approximated and why?</li>
+  <li>Check (show us!) that the units of your solution work out.</li>
+  <li>Show that the limiting behavior for large masses ($m$), large length ($l$), and small charge ($q$) are physically reasonable.</li>
+</ol>
+
+<h4 id="2-a-curious-distribution-of-charge">2. A curious distribution of charge</h4>
+
+<p>Up till now, most of your experience with integration has likely been integrating functions that have anti-derivatives. While this is kind of integration is problematic when you have data that must be integrated (e.g., using measures of position to determine potential energy), we will focus on functions for which there are no anti-derivatives.</p>
+
+<p>Consider a line of charge that lives on the x-axis. It exists from $x=0$ to $x=3$, and distribution of that charge is given by the Gaussian,</p>
+
+<script type="math/tex; mode=display">\lambda(x) = 2e^{-x^2}.</script>
+
+<p>In this problem, you will work through this Jupyter notebook to determine the total charge one this line by performing the integral,</p>
+
+<script type="math/tex; mode=display">Q = \int_{0}^3 2e^{-x^2} dx.</script>
+
+<p>You can <a href="/phy481msu_f2018/jupyter/HW2-AnOddChargeDistribution.ipynb">download the notebook</a> (or <a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW2-AnOddChargeDistribution.ipynb">view it here</a>). As you work through this problem, you will work through the following activities:</p>
+
+<ol>
+  <li>Plot the distribution of charge. Does it look familiar to you in some way? Maybe you’ve seen it in other classes?</li>
+  <li>Use <code class="highlighter-rouge">sympy</code> to compute the integral of the function. What does it return? Discuss the function. Is it analytic?</li>
+  <li>Apply the trapezoidal rule to compute the integral of this function. Use 10 equal width steps. To receive full credit, you must write the code to do this and not use built-in integration functions of <code class="highlighter-rouge">scipy</code>.</li>
+  <li>Apply Simpson’s rule to compute the integral of this function. Again, use 10 equal with steps. Compare the result to part 3. To receive full credit, you must write the code to do this and not use built-in integration functions of <code class="highlighter-rouge">scipy</code>.</li>
+  <li>Compute both integrals with increasingly more steps (i.e., from 10 to 100) and plot the results. That is compare the plots of what your integration schemes produce on a figure where the number of steps in on the horizontal axes and the value of the integral is on the vertical.</li>
+  <li>Look up <code class="highlighter-rouge">scipy.integrate</code> built-in quadrature function, <code class="highlighter-rouge">quad.</code> Use it to compute the same integral and compare its result to what your code produced. What are the two variables that <code class="highlighter-rouge">quad</code> gives you by default?</li>
+  <li>Explain how the trapezoidal rule and Simpson’s rule are different. How do the compute the integrals? Explain how the <a href="https://en.wikipedia.org/wiki/Gaussian_quadrature">Gaussian quadrature</a>, which is what <code class="highlighter-rouge">quad</code> and its cousins in the <code class="highlighter-rouge">scipy.integrate</code> library do, is different from both of them.</li>
+</ol>
+
+<p>In working through the first 3 questions, some scaffolded code has been provided for an analytically integrable function. It can be re-used.</p>
+
+<p><em>Hint: for the summations that require you to distinguish between even and odd terms, review the <code class="highlighter-rouge">range</code> function, which allows you to specify how many steps to take in between each term in a sum.</em></p>
+
+<h4 id="3-superposition-rules-the-day">3. Superposition rules the day</h4>
+
+<p>The concept of superposition is critically important to the study of electrodynamics and, for us, it will be a hugely useful in the arguments we make in electrostatics. Superposition has been called (by Danny, of course) <a href="https://www.youtube.com/playlist?list=PL8WvZFiJpAr3cZlCr0Gag8BV3-mGdcUBM">the crux of the biscuit</a>. For this problem, before working out the math in detail, think about how superposition helps you reason through the problem.</p>
+
+<ol>
+  <li>Let’s place 8 equal charges $q$ at the vertices of a octagon (edge length, $l$). What is the net force on a test charge $Q$ placed at the center of the octagon?</li>
+  <li>I remove one of the charges – leaving 7 equal charges at the vertices of the octagon. What is the net force on the test charge now? Explain your reasoning carefully.</li>
+  <li>Now, I place 9 equal charges $q$ at the vertices of a nonagon (edge length, $l$) and place the same test charge $Q$ at the center of the nonagon. What is the net force on that test charge?</li>
+  <li>I remove one of the charges – leaving 8 equal charges at the vertices of the nonagon. What is the net force on the test charge now? Explain your reasoning carefully.</li>
+  <li>How is the reasoning for questions 2 and 4 similar?</li>
+</ol>
+
+<h4 id="4-superposition-and-continuous-charge-distributions">4. Superposition and continuous charge distributions</h4>
+
+<p><em>For this problem you will need to install the VPython module. <a href="http://vpython.org/presentation2018/install.html">Instructions online</a></em></p>
+
+<p>Superposition is a very powerful tool that can help quantitatively describe the electric field produced by any arbitrary static distribution of charges. For some problems, it is either incredibly time-consuming to apply superposition analytically to the problem or the problem may not have an analytical solution (i.e., the integral can be constructed but not solved in closed form). In this problem, you will extend your knowledge of superposition to include how we might numerically determine the electric field due to a well-known charge distribution (a rod with a constant linear charge density). <em>By choosing something familiar like a rod of charge, we hope for you to build intuition about the numerical method we are using.</em></p>
+
+<p>The <em>magnitude</em> of the electric field at a distance $r$ from the midpoint of a uniformly charged rod of length $L$ along an axis perpendicular to the rod is given by:</p>
+
+<script type="math/tex; mode=display">E_{rod}=\frac{1}{4\pi\varepsilon_0}\frac{Q}{r\sqrt{r^2+(L/2)^2}}</script>
+
+<ol>
+  <li>
+    <p>Suppose you have a vertically oriented rod of total charge $Q=+1\ \mu$C, centered at the origin with a length of 1 m. Determine the electric field at the location $\langle 0.1 , 0 , 0 \rangle$ m? <em>Is your answer a vector? Because it should be.</em></p>
+  </li>
+  <li>
+    <p>To numerically compute the electric field at a point in space due to a uniformly charged rod, you must break the rod into small pieces and treat each piece as a point charge.  Then, calculate the electric field due to each piece and use superposition to get the net electric field at the given point in space.  Break each half of the rod described above into 2 pieces for a total of 4 pieces. Calculate the net electric field at the same location $\langle 0.1 , 0 , 0 \rangle$ m by treating each piece as a point charge. How does this compare with the analytic result in part 1? What is your percent error? What can you do to make the numeric result in this exercise more accurate?</p>
+  </li>
+  <li>
+    <p>Note what a pain it would be if you broke the rod into 100 pieces and had to calculate electric field by hand! That’s why you prefer to solve it analytically. However, not all charge distributions are easily solved analytically. Furthermore what if the point $P$ was not along an axis of symmetry? That’s why we write computer programs to do the numeric calculation. We created a Jupyter notebook that walks you through how to perform this numerical integral, you can <a href="/phy481msu_f2018/jupyter/HW2-ElectricFieldChargedRod.ipynb">download it here</a> (or <a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW2-ElectricFieldChargedRod.ipynb">view it here</a>). For this part, you are trying to reproduce the value obtained in the previous part, but doing so numerically.</p>
+  </li>
+  <li>
+    <p>Your answer in the previous part does not match the analytic result in from the very first part because the approximation of each piece of the rod being a <em>point charge</em> at the center of the piece is not accurate for large pieces. To use smaller piece sizes, we must break the rod into a larger number of pieces, $N$. Increase $N$ and run your simulation again. What value of $N$ is sufficient to give a result that agrees within 1% of the analytic result from the first exercise? What about 0.1%? What about 0.0001% - “five sigma” agreement? What does this tell you about making <em>very</em> accurate simulations?</p>
+  </li>
+  <li>
+    <p>BONUS – You should now have a simulation that will solve for the electric field at any specified location, all you need to do is change the observation location. For this bonus problem, worth up to one part of one problem, alter the code (or write another code) to find the electric field in a circle of a given radius around the line charge.</p>
+  </li>
+</ol>
+
+<h4 id="5-disk-of-charge---checking-new-results-against-your-intuition">5. Disk of charge - Checking new results against your intuition</h4>
+
+<p>In this class, you will often produce new formulae that describe some situation for which you might not have developed intuition yet. So, one question you should always be asking yourself is: <em>How do I believe the physics/math that I’ve just done?!</em> In this problem, you will develop some techniques for checking your results against the intuition that you already hold.</p>
+
+<p>Consider a thin disk of radius $R$ with a uniform charge density, $-\sigma$.</p>
+
+<p><img src="./images/hw2/disk_of_charge.png" alt="Disk of Charge" title="Disk of Charge" /></p>
+
+<ol>
+  <li>Find the electric field at point P, which is a distance $z$ above the center of the disk, by integrating across the surface of the disk. <em>Yes, we know that this field is well-known, but the practice of setting up and doing these kinds of integrals is important.</em> The functional form of your solution is a bit complicated and it might be tough to see how if its correct - <em>you can certainly look up the answer to check it, but you won’t always be able to do that in this class (and in life)!</em></li>
+  <li>If you were very far from this disk, what would you expect the field to look like? Use your intuition from PHY 184. Explicitly check the limiting form of your solution at very large $z$ (i.e., when $z » R$). <em>By “limiting form”, we mean “how it behaves as a function of distance”.</em> So, don’t just say “it goes to zero” (if that’s what you think happens). Tell us how, functionally it vanishes (like $1/z$? like $e^{-z}$? Something else?).</li>
+  <li>If you were very close to the disk, what would expect the field too look like? Again, use your intuition from PHY 184. Explicitly check the limiting form of your solution at very small $z$ (i.e., when $z « R$).</li>
+  <li>Sketch a qualitatively correct graph of the component of the electric field in the $z$-direction along the center line. Be sure to include both the positive and negative $z$-axis in your graph. Your answers to parts 2 and 3 might help you here.</li>
+</ol>
+
+<h4 id="6-checking-your-answers">6. Checking your answers</h4>
+
+<p><strong>A situation</strong>: You’ve just spent an hour calculating the magnitude of the electric field of a charged ring of radius $R$ that holds a uniform linear charge density $\lambda$ at a distance $z$ from the center of the ring. You ended up with the result:</p>
+
+<p>$E = \dfrac{1}{4\pi\varepsilon_0}\dfrac{\lambda 2\pi Rz}{(z^2+R^2)^{3/2}}$</p>
+
+<ol>
+  <li>Check the units of this expression to verify it is correct.</li>
+  <li>What are at least two other indepdent checks that you could do to see if you believe your result?</li>
+  <li>Perform those two independent checks. Comment on if you believe this result based on these checks. Why or why not?</li>
+</ol>
+
+  </div>
+
+
+      </div>
+
+  </body>
+
+</html>

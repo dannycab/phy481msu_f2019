@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/24-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+**True or False**: The electric potential of a pure dipole is given exactly by:
+
+$$V(r) = \dfrac{\mathbf{p}\cdot\mathbf{r}}{4 \pi\varepsilon_0 r^3}$$
+
+1. True
+2. False
+
+</section>
+
+<section data-markdown="">
+
+## Announcements
+
+* Exam 2 is coming up (2 weeks from today)
+  * BPS 1415 (this room), 7pm-9pm, Nov 7th
+  * Same format as Exam 1
+  * Details next week
+
+</section>
+
+<section data-markdown="">
+
+$$\mathbf{p} = \sum_i q_i \mathbf{r}_i$$
+
+What is the magnitude of the dipole moment of this charge distribution?
+
+&lt;img src="./images/2q_dipole.png" align="right" style="width: 200px";/&gt;
+
+
+1. qd
+2. 2qd
+3. 3qd
+4. 4qd
+5. It's not determined
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+$$\mathbf{p} = \sum_i q_i \mathbf{r}_i$$
+
+&lt;img src="./images/dipole_2q_and_q.png" align="right" style="width: 200px";/&gt;
+
+What is the dipole moment of this system?
+
+(BTW, it is NOT overall neutral!)
+
+1. $q\mathbf{d}$
+2. $2q\mathbf{d}$
+3. $\frac{3}{2}q\mathbf{d}$
+4. $3q\mathbf{d}$
+5. Someting else (or not defined)
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+$$\mathbf{p} = \sum_i q_i \mathbf{r}_i$$
+
+&lt;img src="./images/dipole_2q_and_q_shift.png" align="right" style="width: 200px";/&gt;
+
+What is the dipole moment of this system?
+
+(Same as last question, just shifted in $z$.)
+
+1. $q\mathbf{d}$
+2. $2q\mathbf{d}$
+3. $\frac{3}{2}q\mathbf{d}$
+4. $3q\mathbf{d}$
+5. Someting else (or not defined)
+
+Note:
+* CORRECT ANSWER: C
+
+</section>
+
+<section data-markdown="">
+
+You have a physical dipole, $+q$ and $-q$ a finite distance $d$ apart. When can you use the expression:
+
+$$V(\mathbf{r}) = \dfrac{1}{4 \pi \varepsilon_0}\dfrac{\mathbf{p}\cdot \hat{\mathbf{r}}}{r^2}$$
+
+1. This is an exact expression everywhere.
+2. It's valid for large $r$
+3. It's valid for small $r$
+4. No idea...
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+You have a physical dipole, $+q$ and $-q$ a finite distance $d$ apart. When can you use the expression:
+
+$$V(\mathbf{r}) = \dfrac{1}{4 \pi \varepsilon_0}\sum_i \dfrac{q_i}{\mathfrak{R}_i}$$
+
+1. This is an exact expression everywhere.
+2. It's valid for large $r$
+3. It's valid for small $r$
+4. No idea...
+
+Note:
+* CORRECT ANSWER: A
+
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/06-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+What do you expect to happen to the field as you get really far from the rod?
+
+$$E_x = \dfrac{\lambda}{4\pi\varepsilon_0\}\dfrac{L}{x\sqrt{x^2+L^2}}$$
+
+1. $E_x$ goes to 0.
+2. $E_x$ begins to look like a point charge.
+3. $E_x$ goes to $\infty$.
+4. More than one of these is true.
+5. I can't tell what should happen to $E_x$.
+
+Note:
+CORRECT ANSWER: D (A and B)
+
+</section>
+
+<section data-markdown="">
+
+## Announcements
+
+* If you need help with Python, let me know ASAP!
+* Honors Option
+  - Talk to me about your ideas
+  - Option 1: Design a computational activity for this class
+  - Option 2: Develop a computational model and paper for an interesting electrostatics phenomenon
+  - Option 3: Pitch me your idea
+
+</section>
+
+<section data-markdown="">
+
+Taylor Series?
+
+1. I remember those and am comfortable with them.
+2. I remember them, but it might take a little while to get comfortable.
+3. I've definitely worked with them before, but I don't recall them.
+4. I have never seen them.
+
+</section>
+
+<section data-markdown="">
+
+$$E_x = \dfrac{\lambda}{4\pi\varepsilon_0\}\dfrac{L}{x\sqrt{x^2+L^2}}$$
+
+
+If we are *far from the rod*, what is the small parameter in our Taylor expansion?
+
+1. $x$
+2. $L$
+3. $x/L$
+4. $L/x$
+5. More than one of these
+
+Note: Correct answer is D, but this is about a discussion about dimensionless parameters - small compared to what!
+</section>
+
+<section data-markdown="">
+
+$$E_x = \dfrac{\lambda}{4\pi\varepsilon_0\}\dfrac{L}{x\sqrt{x^2+L^2}}$$
+
+
+If we are *very close* to the rod, what is the small parameter in our Taylor expansion?
+
+1. $x$
+2. $L$
+3. $x/L$
+4. $L/x$
+5. More than one of these
+
+Note: Correct answer is C, but this is about a discussion about dimensionless parameters - small compared to what!
+</section>
+
+<section data-markdown="">
+
+The model we developed for the motion of the charged particle near the charged disk (on the center axis) is represented by this *nonlinear* differential equation:
+
+$$\ddot{x} = C \left[1- \dfrac{1}{(x^2+R^2)^{1/2}}\right]$$
+
+You decide to expand this expression for small parameter is $x/R$, under what conditions is any solution appropriate?
+
+1. When the disk is very large
+2. When the disk is very small
+3. When the particle is far from the disk
+4. When the particle is near the disk
+5. More than one of these
+
+Note: Correct answer is E; it's that you are both close compared to the size of the disk (A and D)
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/17-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+For the 1D Laplace problem ($\nabla^2 V = \partial^2 V/\partial x^2 = 0$), we can choose the following ansatz:
+
+1. $k_0\,x$
+2. $k_0\,x+k_1$
+3. $k_0\,x^2+k_1\,x+k_2$
+4. Can't tell
+
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/hogwarts.png" align="center" style="width: 800px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+## Announcements
+
+* Exam 1 graded
+  * Average: 79.5
+* HW 6 Problem 1 and 2
+  * On your exam, you will see the grade you will receive if you choose to do problem 1 and 2
+  * You need to collect your exam to do these problems!
+
+</section>
+
+<section data-markdown="">
+
+## Exam 1 Distribution
+
+&lt;img src="./images/exam1grades.png" align="center" style="width: 800px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+
+## Exam 1 (re)Distribution*
+
+
+&lt;img src="./images/exam1grades_corr.png" align="center" style="width: 800px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/wamps_gre.png" align="center" style="width: 1000px";/&gt;
+
+</section>
+
+<section data-markdown="">
+
+&lt;img src="./images/cubical_lattice.png" align="center" style="width: 300px";/&gt;
+
+
+If you put a positive test charge at the center of this cube of charges, could it be in stable equilibrium?
+
+1. Yes
+2. No
+3. ???
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+### Method of Relaxation
+
+&lt;img src="./images/convergence_relax.png" align="center" style="width: 700px";/&gt;
+
+
+</section>
+
+<section data-markdown="">
+
+Consider a function $f(x)$ that is both continuous and continuously differentiable over some domain. Given a step size of $a$, which could be an approximate derivative of this function somewhere in that domain? $df/dx \approx$
+
+1. $f(x_i+a) - f(x_i)$
+2. $f(x_i) - f(x_i-a)$
+3. $\frac{f(x_i+a) - f(x_i)}{a}$
+4. $\frac{f(x_i) - f(x_i-a)}{a}$
+5. More than one of these
+
+
+Note:
+* Correct Answer: E (C and D)
+</section>
+
+<section data-markdown="">
+If we choose to use:
+
+$$\dfrac{df}{dx} \approx \dfrac{f(x_i+a) - f(x_i)}{a}$$
+
+Where are we computing the approximate derivative?
+
+1. $a$
+2. $x_i$
+3. $x_i + a$
+4. Somewhere else
+
+Note:
+* Correct Answer: D (it's halfway between)
+
+</section>
+
+<section data-markdown="">
+
+Taking the second derivative of $f(x)$ discretely is as simple as applying the discrete definition of the derivative,
+
+$$f''(x_i) \approx \dfrac{f'(x_i + a/2) - f'(x_i - a/2)}{a}$$
+
+Derive the second derivative in terms of $f$.
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/40-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+&lt;img src="./images/M_in_phi_cylinder.png" align="right" style="width: 200px";/&gt;
+
+A solid cylinder has uniform magnetization $\mathbf{M}$ throughout the volume in the $\phi$ direction as shown. In which direction does the bound surface current flow on the (curved) sides?
+
+1. There is no bound surface current.
+2. The current flows in the $\pm \phi$ direction.
+3. The current flows in the $\pm s$ direction.
+4. The current flows in the $\pm z$ direction.
+5. The direction is more complicated.
+
+</section>
+
+<section data-markdown="">
+
+A very long aluminum (paramagnetic!) rod carries a uniformly distributed current $I$ along the $+z$ direction.
+What is the direction of the bound volume current?
+
+&lt;img src="./images/Al_rod_example_current_shown.png" align="right" style="width: 200px";/&gt;
+
+1. $\mathbf{J}_B$ points parallel to $I$
+2. $\mathbf{J}_B$ points anti-parallel to $I$
+3. It’s zero!
+4. Other/not sure
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown="">
+
+A very long aluminum (paramagnetic!) rod carries a uniformly distributed current $I$ along the $+z$ direction. We know $\mathbf{B}$ will be CCW as viewed from above. (Right?) What about $\mathbf{H}$ and $\mathbf{M}$ inside the cylinder?
+
+&lt;img src="./images/Al_rod_example_B_shown.png" align="right" style="width: 200px";/&gt;
+
+
+1. Both are CCW
+2. Both are CW
+3. $\mathbf{H}$ is CCW, but $\mathbf{M}$ is CW
+4. $\mathbf{H}$ is CW, $\mathbf{M}$ is CCW
+5. ???
+
+Note:
+* CORRECT ANSWER: A
+</section>
+
+<section data-markdown="">
+
+A very long aluminum (paramagnetic!) rod carries a uniformly distributed current $I$ along the $+z$ direction. What is the direction of the bound volume current?
+
+&lt;img src="./images/Al_rod_example_HBM_shown.png" align="right" style="width: 200px";/&gt;
+
+
+1. $\mathbf{J}_B$ points parallel to $I$
+2. $\mathbf{J}_B$ points anti-parallel to $I$
+3. It’s zero!
+4. Other/not sure
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown="">
+
+A very long aluminum (paramagnetic!) rod carries a uniformly distributed current $I$ along the $+z$ direction. What is the direction of the bound surface current?
+
+&lt;img src="./images/Al_rod_example_current_shown.png" align="right" style="width: 200px";/&gt;
+
+1. $\mathbf{K}_B$ points parallel to $I$
+2. $\mathbf{K}_B$ points anti-parallel to $I$
+3. Other/not sure
+
+Note:
+* CORRECT ANSWER: B
+</section>
+
+<section data-markdown="">
+
+For linearly magnetizable materials, the relationship between the magnetization and the H-field is,
+
+$\mathbf{M} = \chi_m \mathbf{H}$
+
+What do you expect the sign of $X_m$ to be for a paramagnetic/diamagnetic material?
+
+1. para: $\chi_m&lt;0 \;$ dia: $\chi_m&gt;0$
+2. para: $\chi_m&gt;0 \;$ dia: $\chi_m&lt;0$
+3. Both positive
+4. Both negative
+
+Note:
+Correct answer: B
+
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
