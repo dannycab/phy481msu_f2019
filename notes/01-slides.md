@@ -153,6 +153,13 @@ As a Spartan, I will strive to uphold values of the highest ethical standard. I 
 
 <section data-markdown>
 
+<img src ="./images/wamps.png" align="center" style="width: 800px";/>
+
+
+</section>
+
+<section data-markdown>
+
 ## What do you think PHY 481 is about?
 
 </section>
