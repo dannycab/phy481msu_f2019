@@ -15,17 +15,16 @@ Prof. Danny Caballero
 </section>
 
 <section data-markdown>
-### Contacting Danny
+### Contacting Danny (he/him/his)
 
 Office: 1310-A BPS
 
 Email: <caballero@pa.msu.edu>
 
-Cell phone: 517-420-5330 (texting is fine)
+#### Contacting TA
 
-#### Contacting Ruxin Zhang (TA)
+Email: TBD
 
-Email: <zhangrux@msu.edu>
 
 
 </section>
@@ -33,20 +32,20 @@ Email: <zhangrux@msu.edu>
 <section data-markdown>
 ### Important Sites
 
-* Course Webpage: [dannycab.github.io/phy481msu_f2018/](http://dannycab.github.io/phy481msu_f2018/)
-* Slack Team: [phy481msuf2018.slack.com](https://phy481msuf2018.slack.com) (*Check your email*)
+* Course Webpage: [dannycab.github.io/phy481msu_f2019/](http://dannycab.github.io/phy481msu_f2019/)
+* Slack Team: [msuphysics481fall2019.slack.com](http://msuphysics481fall2019.slack.com) (*Check your email*)
 
 </section>
 
 <section data-markdown>
 
 ### Course Activities
-* Evening Exams (2 of them; Oct 3 and Nov 7; 7-9pm) - 20% each
-* Final Exam (Time and Location: TBD) - 20%
+* Evening Exams (2 of them; Oct 2 and Nov 6; 7-9pm) - 20% each
+* Final Exam (Dec 10: Location TBD) - 20%
 * Homework (Lots of it; Due on Fridays) - 40%
 * Clickers - Extra Credit for Lowest Midterm
 
-[Much more detail on website](http://dannycab.github.io/phy481msu_f2018/)
+[Much more detail on website](http://dannycab.github.io/phy481msu_f2019/)
 
 </section>
 
@@ -55,9 +54,19 @@ Email: <zhangrux@msu.edu>
 
 Self-register your clicker
 
-[https://goo.gl/nrebCr](https://goo.gl/nrebCr)
+[https://goo.gl/nrebCr](https://tinyurl.com/yxzbrcf6)
 
 Type the 8 digit code on the back of the clicker next to your name. If you can't read the code, please come see me.
+</section>
+
+<section data-markdown>
+### Exam Re-writes
+
+Exams can be very stressful.
+
+* For both Exam 1 and 2, you will be allowed to rework the exams to earn up to 50% of the credit back.
+
+* You will need to rework the exam and turn in a page that addresses what you did incorrectly.
 </section>
 
 <section data-markdown>
@@ -66,7 +75,7 @@ Learning is a social and collaborative act!
 
 ### Homework Help Session
 
-**Evening session twice per week (Location TBD)**
+**Evening session once per week (Location TBD)**
 
 Question to you: When should we do this?
 
@@ -95,11 +104,11 @@ How likely are you to attend the help sessions?
 
 ## This Week!!!
 
-* Homework 1 is already up (Due Wed. Sept. 7)
+* Homework 1 is already up (Due Wed. Sept. 6)
 * Read (seriously do this!) Griffiths Ch 1.1-1.4 & 2.1-2.2 [1]
 * [Download Anaconda distribution of Python](https://www.continuum.io/downloads)
 
-**Stay up-to-date by checking website, calendar, and discussion forum regularly.**
+**Stay up-to-date by checking website, calendar, and Slack regularly.**
 
 [1]: *I am assuming that Ch. 1 of Griffiths is mostly review.*
 
@@ -132,26 +141,7 @@ As a Spartan, I will strive to uphold values of the highest ethical standard. I 
 * Start your homework early and spend your time on understanding all of it
 * Don't do it alone; form study groups
 * Attend the help session, but start the homework first
-
-</section>
-
-<section data-markdown>
-
-Thinking of what you want to get out of your college education and this course, which of the following is *most* important to you?
-
-1. Acquiring information (facts, principles, concepts, procedures)
-2. Learning how to use information and knowledge in new situations
-3. Developing lifelong learning skills
-
-</section>
-
-<section data-markdown>
-
-All three of these goals are clearly important. However,  which of these three goals do you think you can do on our own (say, before class)?
-
-1. Acquiring information (facts, principles, concepts, procedures)
-2. Learning how to use information and knowledge in new situations
-3. Developing lifelong learning skills
+* Danny is never trying to trick you.
 
 </section>
 

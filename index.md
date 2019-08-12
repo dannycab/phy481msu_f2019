@@ -12,7 +12,7 @@ use_math: true
 ### Contact Information
 
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io) (he/him/his)
-	- You may call me Prof. Caballero, Dr. C, Danny, whatever you are comfortable with. 
+	- You may call me Prof. Caballero, Dr. C, Danny, whatever you are comfortable with.
 	- Please let me know how you would prefer to be addressed and if you have a preference for a certain pronoun.
 -   Contact: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
@@ -23,9 +23,15 @@ use_math: true
 
 ### Course communication
 
-We will be using [Slack](http://slack.com/) for course communication this semester. Slack is a combination bullentin board, instant messaging, and file sharing system. It works with your computer as an app or in browser, and on your mobile device. You should have all received invitations to join our class Slack team: [PHY 481 MSU F2018](http://phy481msuf2018.slack.com). I will post course notes, solutions, and other announcements through our Slack team, so you will want to join it. Also, please enjoy the [giphy](https://giphy.com/) integration.
+We will be using [Slack](http://slack.com/) for course communication this semester.
+Slack is a combination bullentin board, instant messaging, and file sharing system.
+It works with your computer as an app or in browser, and on your mobile device.
+You should have all received invitations to join our class Slack team: [PHY 481 MSU F2019](http://msuphysics481fall2019.slack.com).
+I will post course notes, solutions, and other announcements through our Slack team, so you will want to join it.
+Also, please enjoy the [giphy](https://giphy.com/) integration.
 
-[Link to Slack team](http://msuphysics481fall2019.slack.com)
+-   [Link to Slack team](http://msuphysics481fall2019.slack.com)
+-   [Click invite link to join](https://join.slack.com/t/msuphysics481fall2019/shared_invite/enQtNzIzMDM3OTUxMTEwLThkN2NjYjkyNzNjZDdhZGFkZWI5OTFlOWRkMDg0Yjg5MWI3NjA5ZDc5MzRkOWI1ZDk0NjVkNDE0MDRjODdkOTA)
 
 ### Help Sessions
 
@@ -78,9 +84,11 @@ and effort to carefully read and follow the text. The
 
 #### Class Meetings
 
-Classroom Etiquette: Please turn off all cell phones and pagers when
-entering any classroom. Private chatter during lecture is very distracting, but it
-is perfectly OK to interrupt the lecture by raising your hand and yelling "Question!"
+Classroom Etiquette: Please ailence your cell phones when entering the classroom.
+I don't mind you using them, but they can ve distracting to your neighbors, so
+use your judgement. I appreciate that you might have questions or comments about things in
+class. If you and your neighbors are confused, just raise your hand and ask. If you are confused,
+you are likely not the only one and it's better to chat about it, then move on.
 Questions in lecture are always good, and are strongly encouraged!
 
 #### Homework
@@ -145,7 +153,7 @@ up to 5 to your lowest midterm grade. Say you answer 90% of the clicker question
 and your lowest midterm grade is an 80. Then, after the extra credit that midterm
 grade will be an 84.5% with the 4.5 point bonus from clickers (90% of 5 points).
 
-**[Self register your clicker!](https://goo.gl/nrebCr)**
+**[Self register your clicker!](https://tinyurl.com/yxzbrcf6)**
 
 #### Exams
 
@@ -165,12 +173,12 @@ Calculators with scientific notation are allowed and sometimes needed.
 ##### Exam Re-writes
 
 Exams can be a stressful situtation and, sometimes, what you know doesn't really come across with
-the first attempt at the exam. 
+the first attempt at the exam.
 
-For both Exam 1 and 2, you will be allowed to rework the exams to earn up to 50% of the credit that 
-you weren't awarded the first time you took it. To earn this credit, you will need to rework the exam 
-and turn in a page that addresses what you did incorrectly on the exam and 
-how you fixed up that understanding. 
+For both Exam 1 and 2, you will be allowed to rework the exams to earn up to 50% of the credit that
+you weren't awarded the first time you took it. To earn this credit, you will need to rework the exam
+and turn in a page that addresses what you did incorrectly on the exam and
+how you fixed up that understanding.
 
 You are welcome to work the exam with your classmates, but the work you turn in
 must be your own.

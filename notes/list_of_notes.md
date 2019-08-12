@@ -10,4 +10,4 @@ permalink: notes/index.html
 
 ### Slides
 
-Coming soon...
+- [01 - Introduction to 481](./01-slides.md)
