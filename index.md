@@ -18,7 +18,7 @@ use_math: true
     1310-A BPS
 -   Web page: [dannycab.github.io/phy481msu_f2019/](http://dannycab.github.io/phy481msu_f2019/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
--   Office hrs: Open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
+-   Office hrs: Homework help sessions will be scheduled soon, but I have an open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
 -   TA/Grader: TBD
 
 ### Course communication
@@ -84,8 +84,8 @@ and effort to carefully read and follow the text. The
 
 #### Class Meetings
 
-Classroom Etiquette: Please ailence your cell phones when entering the classroom.
-I don't mind you using them, but they can ve distracting to your neighbors, so
+Classroom Etiquette: Please silence your cell phones when entering the classroom.
+I don't mind you using them, but they can very distracting to your neighbors, so
 use your judgement. I appreciate that you might have questions or comments about things in
 class. If you and your neighbors are confused, just raise your hand and ask. If you are confused,
 you are likely not the only one and it's better to chat about it, then move on.
