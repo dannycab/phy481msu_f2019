@@ -13,7 +13,7 @@ use_math: true
 
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io) (he/him/his)
 	- You may call me Prof. Caballero, Dr. C, Danny, whatever you are comfortable with.
-	- Please let me know how you would prefer to be addressed and if you have a preference for a certain pronoun.
+	- Please let me know how you would prefer to be addressed and what pronouns you use.
 -   Contact: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
 -   Web page: [dannycab.github.io/phy481msu_f2019/](http://dannycab.github.io/phy481msu_f2019/)
