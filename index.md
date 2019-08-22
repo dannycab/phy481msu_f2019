@@ -14,11 +14,15 @@ use_math: true
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io) (he/him/his)
 	- You may call me Prof. Caballero, Dr. C, Danny, whatever you are comfortable with.
 	- Please let me know how you would prefer to be addressed and what pronouns you use.
--   Contact: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
-    1310-A BPS
+-   Contact Information:
+	- Email: <caballero@pa.msu.edu>
+	- Cell: (517) 420-5330 (yes, you may text me)
+	- Office: 1310-A BPS
 -   Web page: [dannycab.github.io/phy481msu_f2019/](http://dannycab.github.io/phy481msu_f2019/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
--   Office hrs: Homework help sessions will be scheduled soon, but I have an open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
+-   Office hrs:
+	- Homework help sessions will be scheduled soon.
+	- I also have an open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
 -   TA/Grader: TBD
 
 ### Course communication
@@ -251,6 +255,38 @@ often did poorly in the class.
 **The course topics that we will cover in Physics 481 are among the
 greatest intellectual achievements of humans. Don't be surprised if you
 have to think hard and work hard to master the material.**
+
+### Committment to an Inclusive Classroom
+
+I am committed to creating an inclusive classroom - one where you and your classmates
+feel able comfortable, intellectually challenged, and able to speak up about your ideas
+and experiences. This means that our classroom, virtual enviornments, and our interactions
+need to be as inclusive as possible. Mutual respect, civility, and the ability to listen
+and observe others are central to creating a classroom that is inclusive. I will strive to
+do this and I ask that you do the same. If I can do anything to make the classroom a better
+learning environment for you, please let me know.
+
+**If you observe or experience behaviors that violate our committment to inclusivity,
+please let me know as soon as possible.**
+
+If I violate this principle, please let me know
+or please tell the undergraduate department chair,
+Stuart Tessmer (<tessmer@pa.msu.edu>), who I have informed to tell me about any such incidents
+without conveying student information to me.
+
+### Confidentiality and Mandatory Reporting
+
+As your instructor, one of my responsibilities is to help create a safe learning environment.
+I also have a mandatory reporting resposbility related to my role as a University employee.
+It is my goal that you feel able to share information related to your life experiences in classroom
+discussions, in written work, and in one-on-one meetings.
+I will seek to keep information you share private to the greatest extent possible.
+However, under Title IX, I am required to share information regarding sexual misconduct, relationship violence, or information
+about criminal activity on MSU's campus with the University including the Office of Institutional Equity (OIE).
+
+**Students may speak to someone confidentially by contacting MSU Counseling and Psychiatric Service (CAPS) (517-355-8270), MSU's 24-hour Sexual Assault Crisis Line (517-372-6666), or Olin Health Center (517-884-6546).**
+
+
 
 ### Spartan Code of Honor Academic Pledge
 
