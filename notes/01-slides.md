@@ -21,11 +21,11 @@ Office: 1310-A BPS
 
 Email: <caballero@pa.msu.edu>
 
-#### Contacting TA
+### Contacting Bryan Stanley
 
-Email: TBD
+Office: 1310-C BPS
 
-
+Email: <stanl142@msu.edu>
 
 </section>
 
@@ -123,6 +123,42 @@ How likely are you to attend the help sessions?
 * Homework questions will take the form of [a Jupyter notebook](https://github.com/dannycab/phy481msu/blob/gh-pages/jupyter/HW1-GradientProblem.ipynb), which you can print to PDF and turn in.
 * If you get stuck somewhere, post on Slack, so your classmates benefit from your question.
 * Computational HW problems are turned in via Dropbox file requests. *Look for link at the top of each homework assignment and include your name in the filename!*
+
+</section>
+
+<section data-markdown>
+
+### Committment to an Inclusive Classroom
+
+I am committed to creating an inclusive classroom.  If I can do anything to make the classroom a better learning environment for you, please let me know.
+
+If you observe or experience behaviors that violate our committment to inclusivity, please let me know as soon as possible.
+
+If I violate this principle, please let me know or please tell the undergraduate department chair, Stuart Tessmer (<tessmer@pa.msu.edu>).
+
+</section>
+
+<section data-markdown>
+
+### Confidentiality and Mandatory Reporting
+
+One of my responsibilities is to help create a safe learning environment. It is my goal that you feel able to share information related to your life experiences. I will seek to keep information you share private.
+
+However, I am required to share information regarding sexual misconduct, relationship violence, or information about criminal activity with the University.
+
+</section>
+
+<section data-markdown>
+
+### Confidentiality and Mandatory Reporting
+
+Students may speak to someone confidentially by contacting:
+- MSU Counseling and Psychiatric Service (CAPS)
+  - caps.msu.edu or ph: 517-355-8270
+- MSU’s 24-hour Sexual Assault Crisis Line
+  - endrape.msu.edu or ph: 517-372-6666
+- Olin Health Center
+  - olin.msu.edu or ph: 517-884-6546
 
 </section>
 
