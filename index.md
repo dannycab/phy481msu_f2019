@@ -284,7 +284,8 @@ without conveying student information to me.
 
 ### Confidentiality and Mandatory Reporting
 
-As your instructor, one of my responsibilities is to help create a safe learning environment.
+College students often experience issues that may interfere with academic success such as academic stress, sleep problems, juggling responsibiities, life events, relationship concerns, or feelings of anxiety, hopelessness, or depression.
+As your instructor, one of my responsibilities is to help create a safe learning environment and to support you through these situations and experiences.
 I also have a mandatory reporting responsibility related to my role as a University employee.
 It is my goal that you feel able to share information related to your life experiences in classroom
 discussions, in written work, and in one-on-one meetings.

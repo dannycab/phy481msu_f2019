@@ -21,7 +21,7 @@ Office: 1310-A BPS
 
 Email: <caballero@pa.msu.edu>
 
-### Contacting Bryan Stanley
+### Contacting Bryan Stanley (he/him/his)
 
 Office: 1310-C BPS
 
