@@ -75,7 +75,7 @@ Learning is a social and collaborative act!
 
 ### Homework Help Session
 
-**Evening session once per week (Location TBD)**
+**Evening sessions twice per week (Location TBD)**
 
 Question to you: When should we do this?
 
@@ -104,7 +104,7 @@ How likely are you to attend the help sessions?
 
 ## This Week!!!
 
-* Homework 1 is already up (Due Wed. Sept. 6)
+* Homework 1 is already up (Due Fri. Sept. 6)
 * Read (seriously do this!) Griffiths Ch 1.1-1.4 & 2.1-2.2 [1]
 * [Download Anaconda distribution of Python](https://www.continuum.io/downloads)
 

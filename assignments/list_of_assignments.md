@@ -4,4 +4,4 @@ layout: page
 permalink: ./assignments/index.html
 ---
 
-Coming soon...
+- [Homework 1 (Due September 6th)](./homework1.html)

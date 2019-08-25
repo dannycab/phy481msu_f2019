@@ -26,7 +26,7 @@ use_math: true
 		- I also have an open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
 
 
--   TA/Grader: Bryan Stanley
+-   TA/Grader: Bryan Stanley (he/him/his)
 	-   Contact Information:
 		-   Email: <stanl142@msu.edu>
 		-   Office: 1310-C BPS
