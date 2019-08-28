@@ -179,8 +179,9 @@ average of your other exams. You may bring one side of a single sheet of
 8.5 in. x 11 in. paper for each exam, with your own handwritten notes.
 Calculators with scientific notation are allowed and sometimes needed.
 
-- Exam 1 Wed. Oct. 2 (7-9pm) in TBD
-- Exam 2 Wed. Nov. 6 (7-9pm) in TBD
+- Exam 1 Wed. Oct. 2 (7-9pm) in 1415 BPS
+- Exam 2 Wed. Nov. 6 (7-9pm) in 1415 BPS
+- Final Exam Tues. Dec. 10 (12:45pm-2:45pm) in 1415 BPS
 
 ##### Exam Re-writes
 
@@ -194,6 +195,8 @@ how you fixed up that understanding.
 
 You are welcome to work the exam with your classmates, but the work you turn in
 must be your own.
+
+**There are no exam rewrites for the final exam.**
 
 ### What we cover, and why:
 
@@ -264,7 +267,7 @@ often did poorly in the class.
 greatest intellectual achievements of humans. Don't be surprised if you
 have to think hard and work hard to master the material.**
 
-### Committment to an Inclusive Classroom
+### Commitment to an Inclusive Classroom
 
 I am committed to creating an inclusive classroom - one where you and your classmates
 feel comfortable, intellectually challenged, and able to speak up about your ideas
@@ -274,7 +277,7 @@ and observe others are central to creating a classroom that is inclusive. I will
 do this and I ask that you do the same. If I can do anything to make the classroom a better
 learning environment for you, please let me know.
 
-**If you observe or experience behaviors that violate our committment to inclusivity,
+**If you observe or experience behaviors that violate our commitment to inclusivity,
 please let me know as soon as possible.**
 
 If I violate this principle, please let me know

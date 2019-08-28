@@ -6,35 +6,6 @@ transition: slide
 
 <section data-markdown>
 
-On Wednesday, you took an assessment of electromagnetism concepts.
-
-**How did that assessment feel for you?**
-
-1. I think it went fine; I felt like I knew most of the answers.
-2. I was concerned about one or two questions; but most of the questions were familiar.
-3. I guessed (or left blank) most of the questions; none of the questions really felt familiar.
-
-Note:
-* Fall 2016: 3 32 65 0 0
-
-
-</section>
-
-<section data-markdown>
-
-## Announcements
-
-* Exams!!!
-  * Evening Exams
-  * Oct 3 (BCH 101) and Nov 7 (1415 BPS), 7pm-9pm
-* Homework Help Session
-    * Wednesday 5:00pm-6:30pm in 1300 BPS
-    * Thursday 4:30pm-6:00pm in A158 PSS
-
-</section>
-
-<section data-markdown>
-
 ## Mathematical Preliminaries
 
 $\nabla\cdot\mathbf{E} = \frac{\rho}{\epsilon_0} \qquad \int \mathbf{E}\cdot d\mathbf{A} = \int \frac{\rho}{\epsilon_0} d\tau$

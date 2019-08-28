@@ -41,12 +41,38 @@ Email: <stanl142@msu.edu>
 <section data-markdown>
 
 ### Course Activities
-* Evening Exams (2 of them; Oct 2 and Nov 6; 7-9pm) - 20% each
-* Final Exam (Dec 10: Location TBD) - 20%
+* Evening Exams (2 of them) - 20% each
+  * 1415 BPS; Oct 2 and Nov 6; 7-9pm
+* Final Exam (Dec 10: 1415 BPS) - 20%
 * Homework (Lots of it; Due on Fridays) - 40%
 * Clickers - Extra Credit for Lowest Midterm
 
 [Much more detail on website](http://dannycab.github.io/phy481msu_f2019/)
+
+</section>
+
+<section data-markdown>
+
+### Grading Scheme
+
+* 4.0 - 90-100
+* 3.5 - 80-90
+* 3.0 - 70-80
+* 2.5 - 65-70
+* 2.0 - 60-65
+* 1.5 - 55-60
+* 1.0 - 50-55
+* 0.0 - Below 50
+
+I do not curve grades.
+
+</section>
+
+<section data-markdown>
+
+## Historical Grades in 481
+
+<img src ="./images/481_grades.png" align="center" style="width: 800px";/>
 
 </section>
 
@@ -58,6 +84,9 @@ Self-register your clicker
 [https://goo.gl/nrebCr](https://tinyurl.com/yxzbrcf6)
 
 Type the 8 digit code on the back of the clicker next to your name. If you can't read the code, please come see me.
+
+**I give you credit for any click.**
+
 </section>
 
 <section data-markdown>
@@ -129,7 +158,7 @@ How likely are you to attend the help sessions?
 
 <section data-markdown>
 
-### Committment to an Inclusive Classroom
+### Commitment to an Inclusive Classroom
 
 I am committed to creating an inclusive classroom.  If I can do anything to make the classroom a better learning environment for you, please let me know.
 
@@ -190,13 +219,6 @@ As a Spartan, I will strive to uphold values of the highest ethical standard. I 
 
 <section data-markdown>
 
-<img src ="./images/wamps.png" align="center" style="width: 800px";/>
-
-
-</section>
-
-<section data-markdown>
-
 ## What do you think PHY 481 is about?
 
 </section>
@@ -208,5 +230,12 @@ As a Spartan, I will strive to uphold values of the highest ethical standard. I 
 Think about everything you already know about electromagnetism (it's a lot already!).
 
 Work with a partner to map out the electromagnetism concepts that you know and how they are related to each other.
+
+</section>
+
+<section data-markdown>
+
+<img src ="./images/wamps.png" align="center" style="width: 800px";/>
+
 
 </section>
