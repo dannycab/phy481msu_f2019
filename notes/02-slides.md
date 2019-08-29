@@ -6,43 +6,6 @@ transition: slide
 
 <section data-markdown>
 
-## Mathematical Preliminaries
-
-$\nabla\cdot\mathbf{E} = \frac{\rho}{\epsilon_0} \qquad \int \mathbf{E}\cdot d\mathbf{A} = \int \frac{\rho}{\epsilon_0} d\tau$
-
-$\nabla\cdot\mathbf{B} = 0 \qquad \int \mathbf{B} \cdot d\mathbf{A} = 0$
-
-$\nabla\times\mathbf{E} = - \frac{\partial\mathbf{B}}{\partial t} \qquad \int \mathbf{E} \cdot d\mathbf{l} = - \int \frac{\partial\mathbf{B}}{\partial t} \cdot d\mathbf{A}$
-
-
-$\nabla\times\mathbf{B} = \mu_0\mathbf{J} + \mu_0\epsilon_0\frac{\partial\mathbf{E}}{\partial t} \qquad \int \mathbf{B} \cdot d\mathbf{A} = \mu_0 \int \left(\mathbf{J} + \epsilon_0 \frac{\partial\mathbf{E}}{\partial t}\right) \cdot d\mathbf{A} $
-
-Note:
-There's a reason that we are starting with vectors and vector operations; it's inherent in the way electromagnetism is described!
-</section>
-
-<section data-markdown>
-
-<img src ="./images/charges_in_plane.png" align="right" style="width: 350px";/>
-
-Two charges +Q and -Q are fixed a distance r apart.  The direction of the force on a test charge -q at  A is...
-
-1. Up
-2. Down
-3. Left
-4. Right
-5. Some other direction, or $F = 0$
-
-
-Note:
-* CORRECT ANSWER:  A
-* Use superposition
-* Fall 2016: [71] 14 3 8 5; Second vote (after discussion): [98] [2] 0 0 0
-
-</section>
-
-<section data-markdown>
-
 In a typical Cartesian coordinate system, vector $\mathbf{A}$ lies along the $+\hat{x}$ direction and vector $\mathbf{B}$ lies along the $-\hat{y}$ direction. What is the direction of $\mathbf{A} \times \mathbf{B}$?
 
 1. $-\hat{x}$

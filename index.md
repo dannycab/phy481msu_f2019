@@ -22,7 +22,9 @@ use_math: true
 		- Cell: (517) 420-5330 (yes, you may text me)
 		- Office: 1310-A BPS
 	-   Office hrs:
-		- Homework help sessions will be scheduled soon.
+		- Homework help sessions are in 1300 BPS.
+			- Wednesdays 7:15pm-8:30pm
+			- Thursdays 6:30pm-8:30pm
 		- I also have an open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
 
 
@@ -31,7 +33,9 @@ use_math: true
 		-   Email: <stanl142@msu.edu>
 		-   Office: 1310-C BPS
 	-   Office hrs:
-		- Homework help sessions will be scheduled soon.
+		- Homework help sessions are in 1300 BPS.
+			- Wednesdays 7:15pm-8:30pm
+			- Thursdays 6:30pm-8:30pm
 
 ### Course communication
 
@@ -47,7 +51,9 @@ Also, please enjoy the [giphy](https://giphy.com/) integration.
 
 ### Help Sessions
 
-We will hold weekly help sessions at a time TBD
+Weekly homework help sessions are in 1300 BPS.
+- Wednesdays 7:15pm-8:30pm
+- Thursdays 6:30pm-8:30pm
 
 
 ### Overview
