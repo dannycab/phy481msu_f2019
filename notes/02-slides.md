@@ -4,6 +4,29 @@ theme: white
 transition: slide
 ---
 
+
+<section data-markdown>
+
+Have you taken CMSE 201?
+
+1. I have taken CMSE 201.
+2. I am currently taking CMSE 201.
+3. I have not taken CMSE 201, but I plan to.
+4. I have not taken CMSE 201, and don't plan to.
+
+</section>
+
+<section data-markdown>
+
+## Help Sessions (1300 BPS)
+
+- Wednesdays 7:15-8:30
+- Thursdays 6:30-8:30
+
+Either Danny or Bryan will be there for about one hour.
+
+</section>
+
 <section data-markdown>
 
 In a typical Cartesian coordinate system, vector $\mathbf{A}$ lies along the $+\hat{x}$ direction and vector $\mathbf{B}$ lies along the $-\hat{y}$ direction. What is the direction of $\mathbf{A} \times \mathbf{B}$?
@@ -21,16 +44,6 @@ Note:
 
 </section>
 
-<section data-markdown>
-
-## Help Sessions (1300 BPS)
-
-- Wednesdays 7:15-8:30
-- Thursdays 6:30-8:30
-
-Either Danny or Bryan will be there for about one hour.
-
-</section>
 
 <section data-markdown>
 

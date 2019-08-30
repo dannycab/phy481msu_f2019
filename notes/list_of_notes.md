@@ -11,4 +11,5 @@ permalink: notes/index.html
 ### Slides
 
 - 01 - Introduction to 481 [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
-- 02 - Vector Calculus [[HTML]](./02-slides.html) [[PDF]](./02-slides.pdf)
+- 02 - Vector Calculus I [[HTML]](./02-slides.html) [[PDF]](./02-slides.pdf)
+- 03 - Vector Calculus II [[HTML]](./03-slides.html) [[PDF]](./03-slides.pdf)
