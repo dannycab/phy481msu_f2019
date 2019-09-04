@@ -4,7 +4,7 @@ use_math: true
 title: Homework 2 (Due September 13th)
 ---
 
-[Link to Slack team](http://phy481msuf2018.slack.com)
+[**Link to Slack team**](http://msuphysics481fall2019.slack.com)
 
 Homework 2 emphasizes the electric field and the principle of superposition that will form the basis of much of your understanding of electrostatics. This homework makes use of what you learned from Secs. 1.1-1.4 in Griffiths and adds to it the concepts from Sec. 2.1, which make up the bulk of the assignment. In addition, we have begun to introduce the idea of finding approximate formulae using Taylor expansions, which is one of the most common practices of theoretical physics. In this assignment, you will use a Jupyter notebook to determine the electric field of a point charge and a dipole as we build up the architecture to solve elecrtic field problems numerically.
 
@@ -47,10 +47,18 @@ In working through the first 3 questions, some scaffolded code has been provided
 
 *Hint: for the summations that require you to distinguish between even and odd terms, review the ``range`` function, which allows you to specify how many steps to take in between each term in a sum.*
 
+#### 3. Numerically calculating the electric field
+
+In this problem, we will lay the ground work for determining the electric field of a distribution of charge numerically. This is a different kind of numerical integration, which uses superposition as the main element. But to get started, we need to learn how to represent vectors using Python. So this problem introduces that and asks you to compute the electric field of a point charge and a dipole.
+
+You will do this work in a jupyter notebook. You can [download the notebook](../jupyter/HW2_Calculate_Electric_Field.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2019/blob/master/jupyter/HW2_Calculate_Electric_Field.ipynb)). As you work through this problem, you will work through the following activities:
+
+1. Observe how vector calculations can be done using the ```numpy``` library.
+2. Use the ```numpy``` library to compute the electric field of a point charge and plot the electric field vectors.
+3. Use the ```numpy``` library to compute the electric field of a dipole and plot the electric field vectors.
 
 
-
-#### 5. Disk of charge - Checking new results against your intuition
+#### 4. Disk of charge - Checking new results against your intuition
 
 In this class, you will often produce new formulae that describe some situation for which you might not have developed intuition yet. So, one question you should always be asking yourself is: *How do I believe the physics/math that I've just done?!* In this problem, you will develop some techniques for checking your results against the intuition that you already hold.
 
@@ -64,7 +72,7 @@ Consider a thin disk of radius $R$ with a uniform charge density, $-\sigma$.
 4. Sketch a qualitatively correct graph of the component of the electric field in the $z$-direction along the center line. Be sure to include both the positive and negative $z$-axis in your graph. Your answers to parts 2 and 3 might help you here.
 
 
-#### 6. Checking your answers
+#### 5. Checking your answers
 
 **A situation**: You've just spent an hour calculating the magnitude of the electric field of a charged ring of radius $R$ that holds a uniform linear charge density $\lambda$ at a distance $z$ from the center of the ring. You ended up with the result:
 
@@ -72,4 +80,16 @@ $E = \dfrac{1}{4\pi\varepsilon_0}\dfrac{\lambda 2\pi Rz}{(z^2+R^2)^{3/2}}$
 
 1. Check the units of this expression to verify it is correct.
 2. What are at least two other indepdent checks that you could do to see if you believe your result?
-3. Perform those two independent checks. Comment on if you believe this result based on these checks. Why or why not?
+3. Perform those two independent checks. Comment on if you believe this result based on these checks. Why or why not
+
+#### 6. GRE Prep: Superposition
+
+Five positive charges of magntiude $q$ are arranged symmetrically around the circumference of a circle of radius $r$.
+
+1. (Actual question) What is the magnitude of the electric field at the center of the circle? ($k=1/4\pi\varepsilon_0$)
+  - 0
+  - $kq/r^2$
+  - $5kq/r^2$
+  - $(kq/r^2)\cos(2\pi/5)$
+  - $(5kq/r^2)\cos(2\pi/5)$
+2. (Addition) What is the magnitude of the electric field at the center of the circle if one charge is removed? How do you know?
