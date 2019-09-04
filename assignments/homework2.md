@@ -1,14 +1,14 @@
 ---
 layout: homework
 use_math: true
-title: Homework 2 (Due September 14th)
+title: Homework 2 (Due September 13th)
 ---
 
 [Link to Slack team](http://phy481msuf2018.slack.com)
 
-Homework 2 emphasizes the electric field and the principle of superposition that will form the basis of much of your understanding of electrostatics. This homework makes use of what you learned from Secs. 1.1-1.4 in Griffiths and adds to it the concepts from Sec. 2.1, which make up the bulk of the assignment. In addition, we have begun to introduce the idea of finding approximate formulae using Taylor expansions, which is one of the most common practices of theoretical physics. In this assignment, you will use a Jupyter notebook to numerically integrate a charge distribution and to explore the concept of superposition and visualize the field of a charged rod at any point in space, not just where it is more analytically tractable.
+Homework 2 emphasizes the electric field and the principle of superposition that will form the basis of much of your understanding of electrostatics. This homework makes use of what you learned from Secs. 1.1-1.4 in Griffiths and adds to it the concepts from Sec. 2.1, which make up the bulk of the assignment. In addition, we have begun to introduce the idea of finding approximate formulae using Taylor expansions, which is one of the most common practices of theoretical physics. In this assignment, you will use a Jupyter notebook to determine the electric field of a point charge and a dipole as we build up the architecture to solve elecrtic field problems numerically.
 
-[**Dropbox file request link for Homework 2**](https://www.dropbox.com/request/sx22K8GAzdADiV4qgOlZ)
+[**Dropbox file request link for Homework 2**](https://www.dropbox.com/request/zMp5pS6dGRzcwg4MCHMn)
 
 #### 1. Finding the angle between two suspended charges
 
@@ -33,7 +33,7 @@ In this problem, you will work through this Jupyter notebook to determine the to
 
 $$Q = \int_{0}^3 2e^{-x^2} dx.$$
 
-You can [download the notebook](../jupyter/HW2-AnOddChargeDistribution.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW2-AnOddChargeDistribution.ipynb)). As you work through this problem, you will work through the following activities:
+You can [download the notebook](../jupyter/HW2-AnOddChargeDistribution.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2019/blob/master/jupyter/HW2-AnOddChargeDistribution.ipynb)). As you work through this problem, you will work through the following activities:
 
 1. Plot the distribution of charge. Does it look familiar to you in some way? Maybe you've seen it in other classes?
 2. Use ``sympy`` to compute the integral of the function. What does it return? Discuss the function. Is it analytic?
@@ -47,36 +47,7 @@ In working through the first 3 questions, some scaffolded code has been provided
 
 *Hint: for the summations that require you to distinguish between even and odd terms, review the ``range`` function, which allows you to specify how many steps to take in between each term in a sum.*
 
-#### 3. Superposition rules the day
 
-The concept of superposition is critically important to the study of electrodynamics and, for us, it will be a hugely useful in the arguments we make in electrostatics. Superposition has been called (by Danny, of course) [the crux of the biscuit](https://www.youtube.com/playlist?list=PL8WvZFiJpAr3cZlCr0Gag8BV3-mGdcUBM). For this problem, before working out the math in detail, think about how superposition helps you reason through the problem.
-
-1. Let's place 8 equal charges $q$ at the vertices of a octagon (edge length, $l$). What is the net force on a test charge $Q$ placed at the center of the octagon?
-2. I remove one of the charges -- leaving 7 equal charges at the vertices of the octagon. What is the net force on the test charge now? Explain your reasoning carefully.
-3. Now, I place 9 equal charges $q$ at the vertices of a nonagon (edge length, $l$) and place the same test charge $Q$ at the center of the nonagon. What is the net force on that test charge?
-4. I remove one of the charges -- leaving 8 equal charges at the vertices of the nonagon. What is the net force on the test charge now? Explain your reasoning carefully.
-5. How is the reasoning for questions 2 and 4 similar?
-
-#### 4. Superposition and continuous charge distributions
-
-*For this problem you will need to install the VPython module. [Instructions online](http://vpython.org/presentation2018/install.html)*
-
-Superposition is a very powerful tool that can help quantitatively describe the electric field produced by any arbitrary static distribution of charges. For some problems, it is either incredibly time-consuming to apply superposition analytically to the problem or the problem may not have an analytical solution (i.e., the integral can be constructed but not solved in closed form). In this problem, you will extend your knowledge of superposition to include how we might numerically determine the electric field due to a well-known charge distribution (a rod with a constant linear charge density). *By choosing something familiar like a rod of charge, we hope for you to build intuition about the numerical method we are using.*
-
-The *magnitude* of the electric field at a distance $r$ from the midpoint of a uniformly charged rod of length $L$ along an axis perpendicular to the rod is given by:
-
-$$E_{rod}=\frac{1}{4\pi\varepsilon_0}\frac{Q}{r\sqrt{r^2+(L/2)^2}}$$
-
-1. Suppose you have a vertically oriented rod of total charge $Q=+1\ \mu$C, centered at the origin with a length of 1 m. Determine the electric field at the location $\langle 0.1 , 0 , 0 \rangle$ m? *Is your answer a vector? Because it should be.*
-
-2. To numerically compute the electric field at a point in space due to a uniformly charged rod, you must break the rod into small pieces and treat each piece as a point charge.  Then, calculate the electric field due to each piece and use superposition to get the net electric field at the given point in space.  Break each half of the rod described above into 2 pieces for a total of 4 pieces. Calculate the net electric field at the same location $\langle 0.1 , 0 , 0 \rangle$ m by treating each piece as a point charge. How does this compare with the analytic result in part 1? What is your percent error? What can you do to make the numeric result in this exercise more accurate?
-
-3. Note what a pain it would be if you broke the rod into 100 pieces and had to calculate electric field by hand! That's why you prefer to solve it analytically. However, not all charge distributions are easily solved analytically. Furthermore what if the point $P$ was not along an axis of symmetry? That's why we write computer programs to do the numeric calculation. We created a Jupyter notebook that walks you through how to perform this numerical integral, you can [download it here](../jupyter/HW2-ElectricFieldChargedRod.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW2-ElectricFieldChargedRod.ipynb)). For this part, you are trying to reproduce the value obtained in the previous part, but doing so numerically.
-
-
-4. Your answer in the previous part does not match the analytic result in from the very first part because the approximation of each piece of the rod being a *point charge* at the center of the piece is not accurate for large pieces. To use smaller piece sizes, we must break the rod into a larger number of pieces, $N$. Increase $N$ and run your simulation again. What value of $N$ is sufficient to give a result that agrees within 1% of the analytic result from the first exercise? What about 0.1%? What about 0.0001% - "five sigma" agreement? What does this tell you about making *very* accurate simulations?
-
-5. BONUS -- You should now have a simulation that will solve for the electric field at any specified location, all you need to do is change the observation location. For this bonus problem, worth up to one part of one problem, alter the code (or write another code) to find the electric field in a circle of a given radius around the line charge.
 
 
 #### 5. Disk of charge - Checking new results against your intuition
