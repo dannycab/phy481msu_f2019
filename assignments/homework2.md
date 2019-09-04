@@ -92,4 +92,4 @@ Five positive charges of magntiude $q$ are arranged symmetrically around the cir
   - $5kq/r^2$
   - $(kq/r^2)\cos(2\pi/5)$
   - $(5kq/r^2)\cos(2\pi/5)$
-2. (Addition) What is the magnitude of the electric field at the center of the circle if one charge is removed? How do you know?
+2. (Additional problem) What is the magnitude of the electric field at the center of the circle if one charge is removed? How do you know?
