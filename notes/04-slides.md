@@ -4,6 +4,22 @@ theme: white
 transition: slide
 ---
 
+<section data-markdown>
+
+This diagram shows the field of a positive point charge. What is the divergence in the boxed region?
+
+<img src ="./images/pt_charge_red_box.png" align="right" style="width: 300px";/>
+
+1. Zero
+2. Not zero
+3. ???
+
+Note:
+* CORRECT ANSWER: A
+* Lines in; lines out - harder to see dE/dx and dE/dy
+* One of those curious ones where the 2D picture might get in the way; think 3D
+
+</section>
 
 <section data-markdown>
 
@@ -24,6 +40,23 @@ I spent ... hours on the first homework.
 3. 5-6
 4. 7-8
 5. More than 9
+</section>
+
+<section data-markdown>
+Consider a vector field defined as the gradient of some well-behaved scalar function:
+$$\mathbf{v}(x,y,z) = \nabla T(x,y,z).$$
+
+What is the value of $\oint_C \mathbf{v} \cdot d\mathbf{l}$?
+
+1. Zero
+2. Non-zero, but finite
+3. Can't tell without a function for $T$
+
+Note:
+* CORRECT ANSWER: A
+* Closed loop integral of a gradient is zero.
+* Fall 2016: [92] 4 4 0 0
+
 </section>
 
 <section data-markdown>
