@@ -9,6 +9,7 @@ permalink: notes/index.html
 - 01 Mathematical Review [[PDF]](./handwritten/01_Mathematical_Review.pdf)
 - 02 Numerical Integration [[PDF]](./handwritten/02_Numerical_Integration.pdf)
 - 03 Electrostatics and Superposition [[PDF]](./handwritten/03_Electrostatics_and_Superposition.pdf)
+- 04 Gauss's Law [[PDF]](./handwritten/04_Gauss_Law.pdf)
 
 ### Slides
 
