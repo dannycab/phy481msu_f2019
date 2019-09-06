@@ -43,6 +43,22 @@ I spent ... hours on the first homework.
 </section>
 
 <section data-markdown>
+
+Consider the 1D integral:
+
+$\int_a^b f(x) dx = 0$
+
+If the above statement is true for any choice of $a$ and $b$, what can you say about $f(x)$?
+
+1. It is zero
+2. It is a non-zero constant
+3. It is a linear function
+4. It is sinusoidal
+5. We can't say anything about it
+
+</section>
+
+<section data-markdown>
 Consider a vector field defined as the gradient of some well-behaved scalar function:
 $$\mathbf{v}(x,y,z) = \nabla T(x,y,z).$$
 
