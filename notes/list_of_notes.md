@@ -17,3 +17,4 @@ permalink: notes/index.html
 - Aug 30 - Vector Calculus I [[HTML]](./02-slides.html) [[PDF]](./02-slides.pdf)
 - Sep 4 - Vector Calculus II [[HTML]](./03-slides.html) [[PDF]](./03-slides.pdf)
 - Sep 6 - Numerical Integration [[HTML]](./04-slides.html) [[PDF]](./04-slides.pdf)
+- Sep 9 - Introduction to Electrostatics [[HTML]](./05-slides.html) [[PDF]](./05-slides.pdf)

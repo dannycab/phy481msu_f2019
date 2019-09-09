@@ -23,36 +23,17 @@ Draw the FBD, Newton 3 is important here.
 
 </section>
 
-
-<section data-markdown>
-# MORE SHAMING
-</section>
-
 <section data-markdown>
 
-## Register your clicker
+## Announcements
 
-* Allen, Grant
-* Bertus, Thomas
-* Byrd, Benjamin
-* Dara, Jacob
-* Ding, Fang
-* Evasic, Jacob
-* Fowler, David
+- CAPS Connect
+  - CAPS Connect is a brief consultation program that is confidential, completely free, and available to all enrolled MSU students.
+  - Common concerns include: Stress; Difficulty adjusting to school; Academic concerns; Family, roommate, or other relationship issues; Financial concerns; Sadness
 
-</section>
+[Available drop in times](https://caps.msu.edu/services/CAPSConnect.html#where)
 
-<section data-markdown>
-
-## Register your clicker
-
-* Lewis, Jim
-* Li, Zihan
-* Myers, Cody
-* Wallace, Ian
-* Ward, Jenny
-* Wicklund, Courtney
-* Xu, Fu
+- BPS 1312 - Mondays 9-10:30am
 
 </section>
 
