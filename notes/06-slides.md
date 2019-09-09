@@ -23,19 +23,6 @@ CORRECT ANSWER: D (A and B)
 
 <section data-markdown>
 
-## Announcements
-
-* If you need help with Python, let me know ASAP!
-* Honors Option
-  - Talk to me about your ideas
-  - Option 1: Design a computational activity for this class
-  - Option 2: Develop a computational model and paper for an interesting electrostatics phenomenon
-  - Option 3: Pitch me your idea
-
-</section>
-
-<section data-markdown>
-
 Taylor Series?
 
 1. I remember those and am comfortable with them.
