@@ -1,14 +1,12 @@
 ---
 layout: homework
 use_math: true
-title: Homework 3 (Due September 21st)
+title: Homework 3 (Due September 20th)
 ---
-
-[Link to Slack team](http://phy481msuf2018.slack.com)
 
 Homework 3 emphasizes alternative methods to direct integration (Coulomb's Law) for solving the electric field problem including the use of Gauss' Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important).
 
-[**Dropbox file request link for Homework 3**](https://www.dropbox.com/request/H4yWIqFU0lmnFpsZJwSq)
+[**Dropbox file request link for Homework 3**](https://www.dropbox.com/request/f6WTWkF9ToV46Gnu6D6K)
 
 #### 1. Ring of charge - Motion of a test charge
 
@@ -27,7 +25,7 @@ $$E_x = \dfrac{1}{4\pi\varepsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}$$
 3. Consider the situation where the particle is very close to a large ring (i.e., where $x/a\;<<\;1$). Determine the approximate form of the differential equation for this case -- keep only terms that depend linearly on $x$. This is called "linearizing" the differential equation and makes the solution analytically tractable.
 4. Solve the differential equation for the case where the particle starts from rest at a distance of $x_0$ from the ring. Sketch the resulting motion of the test charge as a function of time. Does your graph agree with your intuition about the motion?
 5. What would happen to the test charge if it was not placed precisely on the central axis? Why?
-6. We have created a Jupyter notebook that begins to model the motion of the test charge using both the exact and the approximate differential equation. You can [download it here](../jupyter/HW3-MotionOfTestCharge.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW3-MotionOfTestCharge.ipynb)). By working through this notebook, we expect you to complete the model and be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know.
+6. We have created a Jupyter notebook that begins to model the motion of the test charge using both the exact and the approximate differential equation. You can [download it here](../jupyter/HW3-MotionOfTestCharge.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2019/blob/master/jupyter/HW3-MotionOfTestCharge.ipynb)). By working through this notebook, we expect you to complete the model and be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know.
 7. **BONUS:** Break up the ring into small chunks, so that you can determine the electric field at any point. Model the motion of the charged particle **in general** in the presence of this charged ring. Can you get any interesting or cool trajectories? How would you plot this in 3D? *This BONUS is worth 15 points (about one full problem).*
 
 
