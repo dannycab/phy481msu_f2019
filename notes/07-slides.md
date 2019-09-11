@@ -23,24 +23,6 @@ Note:
 
 <section data-markdown>
 
-Given the location of the little bit of charge ($dq$), what is $|\vec{\mathfrak{R}}|$?
-
-<img src ="./images/sphereintegrate.png" align="left" style="width: 300px";/>
-
-
-1. $\sqrt{z^2+r'^2}$
-2. $\sqrt{z^2+r'^2-2zr'\cos\theta}$
-3. $\sqrt{z^2+r'^2+2zr'\cos\theta}$
-4. Something else
-
-Note:
-CORRECT ANSWER: B
-
-
-</section>
-
-<section data-markdown>
-
 ## Gauss' Law
 
 <img src="./images/gauss_pt_charge.png" align="center" style="width: 350px";/>
