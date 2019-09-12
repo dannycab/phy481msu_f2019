@@ -19,3 +19,4 @@ permalink: notes/index.html
 - Sep 6 - Numerical Integration [[HTML]](./04-slides.html) [[PDF]](./04-slides.pdf)
 - Sep 9 - Introduction to Electrostatics [[HTML]](./05-slides.html) [[PDF]](./05-slides.pdf)
 - Sep 11 - Taylor Expansions [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
+- Sep 13 - Gauss's Law [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
