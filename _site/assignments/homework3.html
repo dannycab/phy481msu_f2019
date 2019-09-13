@@ -451,26 +451,16 @@
   <li>Using what you have built to find the electric field at this location, find the electric field at a variety of points around the the line charge and represent them with arrows. You can choose the locations, but be systematic.</li>
 </ol>
 
-<h4 id="2-ring-of-charge---motion-of-a-test-charge">2. Ring of charge - Motion of a test charge</h4>
+<h4 id="2-comparing-coulombs-law-to-gauss-law">2. Comparing Coulomb’s Law to Gauss’ Law</h4>
 
-<p>While we spend a large amount of time working with source charges and the electric fields that they produce, we are ultimately concerned about their effect on the motion of other charges (so-called “test charges”). In this problem, you will work with the electric field due to a ring of charge to develop an approximate solution for the motion of a test charge by “linearizing” the differential equation that describes the motion. In working this problem, you will have to dust off some of your classical mechanics knowledge regarding differential equations.</p>
+<p>Now that we have, in principle, fully described how to solve any electrostatics problem (i.e., by adding up the contribution of each chunk of charge), we turn to building our theoretical toolbox by learning alternative methods that make the solving of certain kinds of problems more tractable. The first of these alternatives is Gauss’ Law. It is important to know when and how to apply Gauss’ Law - in the problem below, you are asked to compare Gauss’ Law with Coulomb’s Law.</p>
 
-<p>Consider a thin ring (positive charge, $Q$; radius, $a$) that has its central axis directed along the $x$-direction as shown.</p>
-
-<p><img src="./images/hw2/ring_w_charge.png" alt="Ring of charge" title="Ring of Charge" /></p>
-
-<p>A charged ring with these parameters will produce an electric field along its central axis given by,</p>
-
-<script type="math/tex; mode=display">E_x = \dfrac{1}{4\pi\varepsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}</script>
+<p>Consider the following questions in finding the electric field everywhere for a conducting sphere, a uniformly charged sphere, and a sphere with charge distribution varying as $r^n$, all with radius $r_0$ and total charge $Q$:</p>
 
 <ol>
-  <li>Write down the differential equation that describes the motion of a particle with negative charge $-q$ and mass $m$ that is carefully positioned on the $x$-axis. <em>Note: this particle has a charge that is opposite the sign of the ring, so $q$ is the magnitude of the charge of this particle.</em></li>
-  <li>What kind of motion do you expect to see for this charge? Why? Does the differential equation describe that kind of motion? <em>Hint: Consider if this differential equation is analytically tractable (i.e., can it be solved in closed form).</em></li>
-  <li>Consider the situation where the particle is very close to a large ring (i.e., where $x/a\;«\;1$). Determine the approximate form of the differential equation for this case – keep only terms that depend linearly on $x$. This is called “linearizing” the differential equation and makes the solution analytically tractable.</li>
-  <li>Solve the differential equation for the case where the particle starts from rest at a distance of $x_0$ from the ring. Sketch the resulting motion of the test charge as a function of time. Does your graph agree with your intuition about the motion?</li>
-  <li>What would happen to the test charge if it was not placed precisely on the central axis? Why?</li>
-  <li>(Turn in using DropBox) We have created a Jupyter notebook that begins to model the motion of the test charge using both the exact and the approximate differential equation. You can <a href="/phy481msu_f2019/jupyter/HW3-MotionOfTestCharge.ipynb">download it here</a> (or <a href="https://github.com/dannycab/phy481msu_f2019/blob/master/jupyter/HW3-MotionOfTestCharge.ipynb">view it here</a>). By working through this notebook, we expect you to complete the model and be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know.</li>
-  <li>(Turn in using DropBox) <strong>BONUS:</strong> Break up the ring into small chunks, so that you can determine the electric field at any point. Model the motion of the charged particle <strong>in general</strong> in the presence of this charged ring. Can you get any interesting or cool trajectories? How would you plot this in 3D? <em>This BONUS is worth 15 points (about one full problem).</em></li>
+  <li>What are the advantages and disadvantages of using Gauss’ Law to find the electric field instead of using Coulomb’s Law (Griffiths Eq 2.8)?  What role does symmetry play?</li>
+  <li>Answer the same questions for three cubes with the same properties (i.e., charge distributions that vary radially as $r^n$).</li>
+  <li>What do your answers to parts 1 and 2 tell you about using Gauss’ Law versus using Coulomb’s Law (direct integration) to solve for the electric field?</li>
 </ol>
 
 <h4 id="3-spherical-charge-distributions-are-special--gre-prep">3. Spherical charge distributions are special &amp; GRE Prep</h4>
