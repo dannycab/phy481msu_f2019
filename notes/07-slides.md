@@ -23,6 +23,31 @@ Note:
 
 <section data-markdown>
 
+I spent ... hours on the second homework.
+
+1. 1-2
+2. 3-4
+3. 5-6
+4. 7-8
+5. More than 9
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+
+* New Class: Survey of Physics Education Research
+  * Learn about teaching and learning in physics
+  * Spring 2020 - PHY 905 Section 005
+  * Co-taught by K. Hinko and D. Caballero
+  * TTh 12:40pm-2:20pm
+  * Will count as UG capstone credit (ask S. Tessmer)
+
+</section>
+
+<section data-markdown>
+
 ## Gauss' Law
 
 <img src="./images/gauss_pt_charge.png" align="center" style="width: 350px";/>
