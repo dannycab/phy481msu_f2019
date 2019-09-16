@@ -10,6 +10,7 @@ permalink: notes/index.html
 - 02 Numerical Integration [[PDF]](./handwritten/02_Numerical_Integration.pdf)
 - 03 Electrostatics and Superposition [[PDF]](./handwritten/03_Electrostatics_and_Superposition.pdf)
 - 04 Gauss's Law [[PDF]](./handwritten/04_Gauss_Law.pdf)
+- 05 Electric Potential [[PDF]](./handwritten/05_Electric_Potential.pdf)
 
 ### Slides
 
@@ -20,3 +21,4 @@ permalink: notes/index.html
 - Sep 9 - Introduction to Electrostatics [[HTML]](./05-slides.html) [[PDF]](./05-slides.pdf)
 - Sep 11 - Taylor Expansions [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
 - Sep 13 - Gauss's Law [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
+- Sep 15 - Dirac Delta Functions [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
