@@ -22,3 +22,4 @@ permalink: notes/index.html
 - Sep 11 - Taylor Expansions [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
 - Sep 13 - Gauss's Law [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
 - Sep 15 - Dirac Delta Functions [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
+- Sep 17 - Gauss's Law Examples [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
