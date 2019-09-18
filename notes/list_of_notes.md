@@ -23,3 +23,4 @@ permalink: notes/index.html
 - Sep 13 - Gauss's Law [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
 - Sep 15 - Dirac Delta Functions [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
 - Sep 17 - Gauss's Law Examples [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
+- Sep 19 - Introdcution to Electric Potential [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)

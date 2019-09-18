@@ -17,33 +17,6 @@ Consider a cube of constant charge density centered at the origin.
 
 </section>
 
-
-<section data-markdown>
-Consider a spherical Gaussian surface. What is the $d\mathbf{A}$ in $\int\int\mathbf{E}\cdot d\mathbf{A}$?
-
-1. $r d\theta d\phi \hat{r}$
-2. $r^2 d\theta d\phi \hat{r}$
-3. $r \sin \theta d\theta d\phi \hat{r}$
-4. $r^2 \sin \theta d\theta d\phi \hat{r}$
-5. Something else
-
-Note:
-* Correct Answer: D
-</section>
-
-
-<section data-markdown>
-
-Consider an infinite sheet of charge with uniform surface charge density $+\sigma$ lying in the $x-y$ plane. From symmetry arguments, we can argue that $\mathbf{E}(x,y,z)$ can be simplified to:
-
-1. $\mathbf{E}(x,y)$; direction undetermined
-2. $E_z(x,y)$
-3. $\mathbf{E}(z)$; direction undetermined
-4. $E_z(z)$
-5. Something else
-
-</section>
-
 <section data-markdown>
 
 We derived that the electric field due to an infinite sheet with charge density $\sigma$ was as follows:
