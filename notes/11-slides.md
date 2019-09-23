@@ -12,9 +12,9 @@ I. $\int \nabla \times \mathbf{F} \cdot d\mathbf{A} = 0$<br>
 
 II. $\oint \mathbf{F} \cdot d\mathbf{l} = 0$<br>
 
-III. $\int \mathbf{F} \cdot d\mathbf{l}$ is path independent<br>
+III. $\int_A^B \mathbf{F} \cdot d\mathbf{l}_1$ = $\int_A^B \mathbf{F} \cdot d\mathbf{l}_2$<br>
 
-IV. $\mathbf{F}$ is a "conservative" vector field<br>
+IV. $\vec{F}$ is the gradient of some scalar function $f$, $\vec{F} = \nabla f$.
 
 1. Only I
 2. I and II
