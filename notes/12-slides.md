@@ -23,14 +23,13 @@ Note:
 <section data-markdown>
 ### Exam 1 Information
 
-* Exam 1 on Wednesday, October 3rd (BCH 101)
-  - Next to BPS (Wilson side)
+* Exam 1 on Wednesday, October 3rd (BPS 1415)
 * 7pm-9pm
   - Arrive on time!
   - Put one seat between you and the next person
 * I will provide a formula sheet (posted on Slack already)
 * You can bring one-side of a sheet of paper with your own notes.
-* 5 questions - True/False, Essay, Code, Graphing, Short Calculations
+* 4 questions - Essay, Code, Graphing, Short Calculations
 
 </section>
 
@@ -38,9 +37,8 @@ Note:
 
 ### What's on Exam 1?
 
-* Identify whether conceptual statements about $\mathbf{E}$, $V$, $\rho$, and/or numerical integration are true or false.
 * Sketch and discuss delta functions in relation to charge density, $\rho$
-* Explain the process for using a computational alogrithm for predicting $\mathbf{E}$ and write the necessary code to illustrate how it works for a given example
+* Demonstrate the process for predicting the electric field using a computational algorithm
 * Calculate the electric field, $\mathbf{E}$, inside and outside a continuous distribution of charge and sketch the results
 * Calculate the electric potential, $V$, for a specific charge distribution and discuss what happens in limiting cases
 
