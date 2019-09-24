@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 5 (Due October 5th)
+title: Homework 5 (Due October 4th)
 ---
 
 Homework 5 continues with exploring relationships between electric charge, electric field, electric potential. In addition, it asks you to explore a major conceptual issue with regard to energy. This homework is much shorter than the usual homework because of Exam 1.
