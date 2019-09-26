@@ -11,6 +11,9 @@ permalink: notes/index.html
 - 03 Electrostatics and Superposition [[PDF]](./handwritten/03_Electrostatics_and_Superposition.pdf)
 - 04 Gauss's Law [[PDF]](./handwritten/04_Gauss_Law.pdf)
 - 05 Electric Potential [[PDF]](./handwritten/05_Electric_Potential.pdf)
+- 06 Boundary Conditions [[PDF]](./handwritten/06_Boundary_Conditions.pdf)
+- 07 Energy [[PDF]](./handwritten/07_Energy.pdf)
+- 08 Conductors [[PDF]](./handwritten/08_Conductors.pdf)
 
 ### Slides
 
@@ -26,3 +29,4 @@ permalink: notes/index.html
 - Sep 19 - Introduction to Electric Potential [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
 - Sep 23 - Curl of E and Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 - Sep 25 - Electric Potential Examples [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
+- Sep 25 - Electric Potential Energy [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)

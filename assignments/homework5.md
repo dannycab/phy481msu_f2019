@@ -8,7 +8,7 @@ Homework 5 continues with exploring relationships between electric charge, elect
 
 #### 1. Screened Coulomb Potential
 
-In a [previous problem](./homework3.html#connecting-potential-electric-field-and-charge), you worked out the electric field and charge distribution for a point charge using the electric potential.  In this problem, you will gain some additional practice doing this for the [screened Coulomb potential](https://en.wikipedia.org/wiki/Electric-field_screening).
+In a [previous problem](./homework4.html#connecting-potential-electric-field-and-charge), you worked out the electric field and charge distribution for a point charge using the electric potential.  In this problem, you will gain some additional practice doing this for the [screened Coulomb potential](https://en.wikipedia.org/wiki/Electric-field_screening).
 
 Consider the "screened Coulomb potential" of a point charge $q$ that arises, for example, in plasma physics:
 
