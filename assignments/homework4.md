@@ -79,7 +79,7 @@ $$\nabla \cdot \dfrac{\hat{r}}{r} = \dfrac{1}{r^2}$$
 
 We have found a number of ways of relating $\rho$, $\mathbf{E}$, and $V$. In this problem, you will use $\rho$ to find $V$ through the method of direct integration (i.e., using the integral expression for $V$).
 
-1. Find a formula for the electrostatic potential $V(z)$ everywhere along the symmetry-axis of a charged disk (radius $a$, centered on the $z$-axis, with uniform surface charge density $+\sigma$ around the ring).  Please use the method of direct integration to do this, and set your reference point to be $V(\infty)=0$.
+1. Find a formula for the electrostatic potential $V(z)$ everywhere along the symmetry-axis of a charged disk (radius $a$, centered on the $z$-axis, with uniform surface charge density $+\sigma$ around the disk).  Please use the method of direct integration to do this, and set your reference point to be $V(\infty)=0$.
 2. Sketch $V(z)$, how does $V(z)$ behave as $z \rightarrow \infty$? (Don't just say it goes to zero. How does it go to zero?) Does your answer make physical sense to you? Explain briefly.
 3. Use your result from part 1 for $V(0,0,z)$ to find $z$-component of the electric field anywhere along the $z$-axis?
 4. What is the voltage at the origin? What is the electric field at the origin? Do these results from $V$ and $\mathbf{E}$ at the origin make physical sense to you, and are they consistent with each other? Briefly explain.
