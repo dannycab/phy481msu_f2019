@@ -6,7 +6,9 @@ transition: slide
 
 <section data-markdown>
 
-A typical metal has one free election per atom. These electrons are free to move in response to external electric fields. There are $\sim 10^{22}$ free electrons in a cubic centimeter of copper. Roughly what size of electric field could a single 1cm sub of copper "respond" to by polarizing?
+A typical metal has one free election per atom. These electrons are free to move in response to external electric fields. There are $\sim 10^{22}$ free electrons in a cubic centimeter of copper.
+
+Roughly what size of electric field could a single 1cm cube of copper "respond" to by polarizing?
 
 1. 1 N/C
 2. 10 N/C
@@ -23,16 +25,10 @@ Note: Correct answer is E. It's closer to 10e17 N/C
 
 ### Announcements
 
-* Test on Wednesday (7-9pm) BCH 101
+* Test on Wednesday (7-9pm)
   * All Homework solutions posted on Slack
+  * Practice Exam and Solutions on Slack, too
   * You may bring in one side of a piece of paper with your own notes
-
-</section>
-
-<section data-markdown>
-
-<img src="./images/cuwip.png" align="center" style="width: 600px";/>
-
 
 </section>
 

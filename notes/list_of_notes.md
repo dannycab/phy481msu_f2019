@@ -30,3 +30,4 @@ permalink: notes/index.html
 - Sep 23 - Curl of E and Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 - Sep 25 - Electric Potential Examples [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
 - Sep 25 - Electric Potential Energy [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
+- Sep 30 - Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
