@@ -122,21 +122,3 @@ Note:
 * CORRECT ANSWER: A
 * Same E; constant; larger volume where it is non-zero
 </section>
-
-<section data-markdown>
-
-### Conductors
-
-<img src="./images/electron_sea.gif" align="center" style="width: 700px";/>
-
-
-</section>
-
-<section data-markdown>
-
-### The conductor problem
-
-<img src="./images/metal.png" align="center" style="width: 500px";/>
-
-
-</section>

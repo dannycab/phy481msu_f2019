@@ -6,19 +6,36 @@ transition: slide
 
 <section data-markdown>
 
-A typical metal has one free election per atom. These electrons are free to move in response to external electric fields. There are $\sim 10^{22}$ free electrons in a cubic centimeter of copper.
-
-Roughly what size of electric field could a single 1cm cube of copper "respond" to by polarizing?
-
-1. 1 N/C
-2. 10 N/C
-3. 100 N/C
-4. 1000 N/C
-5. Something more than these
+<img src="./images/capacitor_pull_apart.png" align="center" style="width: 500px";/>
 
 
-Note: Correct answer is E. It's closer to 10e17 N/C
+A parallel-plate capacitor has $+Q$ on one plate, $-Q$ on the other.  The plates are isolated so the charge $Q$ cannot change.  As the plates are pulled apart, the total electrostatic energy stored in the capacitor:
 
+1. increases
+2. decreases
+3. remains constant.
+
+Note:
+* CORRECT ANSWER: A
+* Same E; constant; larger volume where it is non-zero
+</section>
+
+<section data-markdown>
+
+<img src="./images/pt_charges_energy.png" align="center" style="width: 300px";/>
+
+
+Two charges, $+q$ and $-q$, are a distance $r$ apart.  As the charges are slowly moved together, the total field energy
+
+$$\dfrac{\varepsilon_0}{2}\int E^2 d\tau$$
+
+1. increases
+2. decreases
+3. remains constant
+
+Note:
+* CORRECT ANSWER: B
+* Consider when they overlap, field goes to zero, must be E gets smaller as they get closer. same volume
 </section>
 
 <section data-markdown>
@@ -31,6 +48,9 @@ Note: Correct answer is E. It's closer to 10e17 N/C
   * You may bring in one side of a piece of paper with your own notes
 
 </section>
+
+
+
 
 <section data-markdown>
 
@@ -47,6 +67,23 @@ Note: Correct answer is E. It's closer to 10e17 N/C
 
 <img src="./images/metal.png" align="center" style="width: 500px";/>
 
+
+</section>
+
+<section data-markdown>
+
+A typical metal has one free election per atom. These electrons are free to move in response to external electric fields. There are $\sim 10^{22}$ free electrons in a cubic centimeter of copper.
+
+Roughly what size of electric field could a single 1cm cube of copper "respond" to by polarizing?
+
+1. 1 N/C
+2. 10 N/C
+3. 100 N/C
+4. 1000 N/C
+5. Something more than these
+
+
+Note: Correct answer is E. It's closer to 10e17 N/C
 
 </section>
 
