@@ -1,12 +1,12 @@
 ---
 layout: homework
 use_math: true
-title: Homework 6 (Due October 12th)
+title: Homework 6 (Due October 11th)
 ---
 
 Homework 6 emphasizes the conductor problem, which requires new methods to approach finding $V$ or $\mathbf{E}$ as we are often unable to find $\rho$ a priori. In the presense of an external electric field, charges will shift in a conductor, thus complicating matters of finding $\rho$.
 
-## 1 and 2. Assessment is on-going
+## 1. Assessment is on-going
 
 **TURN THIS WORK IN SEPARATE FROM YOUR REGULAR HOMEWORK TO DANNY**
 
@@ -19,7 +19,7 @@ You are welcome to work on the problems together, but your reflection should be 
 **Completing this exercise will not count towards your homework, but will instead reward you with earning 1/2 of the (non-bonus) credit back on your exam.**
 
 
-## 3. Capacitors, metals, and continuity
+## 2. Capacitors, metals, and continuity
 
 We have discovered that there is a curious result when looking at the electric field across a boundary. It is discontinuous! by an amount that is consistently the same expression ($\sigma/\varepsilon_0$). However, we have also found that the electric potential across the boundary is continuous.
 
@@ -32,7 +32,7 @@ Consider a very large set of metal capacitor plates separated by a small distanc
 5. What do you notice about the graphs you sketched in Parts 2 and 4?
 6. BONUS: Consider that the plates have some depth to them (as with any real physical plate). Let them have a width $w$. Using what you remember or know about metals, what happens to your graphs in Parts 2 and 4? (For example, we will learn soon that metals in electrostatics are equipotential surfaces.)
 
-## 4. Gauss' Law and Cavities
+## 3. Gauss' Law and Cavities
 
 A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thick concentric **metal** shell (inner radius $a$, outer radius $b$). The shell carries no net charge. Where requested, please explain your reasoning.
 
@@ -44,7 +44,7 @@ A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thi
 4. Find the potential everywhere, use $r \rightarrow \infty$ as your reference point for $V=0$.
 5. Now the outer surface is touched by a grounding wire, which lowers its potential to zero. How do your answers change to parts 2 and 4? Explain your reasoning.
 
-## 5. Coax capacitors
+## 4. Coax capacitors
 
 Consider a coaxial cable with an inner conducting cylinder has radius $a$ and the outer conducting cylindrical shell has inner radius $b$. It is physically easy to set up any fixed potential difference $\Delta V$ between the inner and outer conductors. In practice, the cable is always electrically neutral.
 
@@ -57,7 +57,7 @@ Consider a coaxial cable with an inner conducting cylinder has radius $a$ and th
 5. This model is also excellent for "axons", which are long cylindrical cells (basically coax cables) carrying nerve impulses in your body and brain.  Estimate the capacitance (in SI metric units, Farads) of your sciatic nerve. *Assumptions - the sciatic nerve is the longest in your body, it has a diameter of roughly 1 micron, and a length of perhaps 1 m. Note that axons generally have a value of b which is very close to a (i.e. the gap is extremely tiny, b-a is about 1 nanometer. ) so you can simplify your expression using $ln(1+\epsilon)\approx\epsilon$.*
 
 
-## 6. Superposition in conductors ("shielding")
+## 5. Superposition in conductors ("shielding")
 
 We carve out two spherical cavities from a metal sphere of radius $R$ (as shown below). The first cavity (radius, $a$) has a charge $+q_a$ placed at the center of the cavity. Similarly, the second cavity (radius, $b$) has a charge $+q_b$ placed at the center of that cavity.
 
