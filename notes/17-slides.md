@@ -6,6 +6,68 @@ transition: slide
 
 <section data-markdown>
 
+<img src="./images/capacitor_gap_connected.png" align="center" style="width: 500px";/>
+
+
+A parallel plate capacitor is attached to a battery which maintains a constant voltage difference V between the capacitor plates.  While the battery is attached, the plates are pulled apart. The electrostatic energy stored in the capacitor
+
+1. increases.
+2. decreases.
+3. stays constant.
+
+Note:
+* CORRECT ANSWER: B
+* Potential same; field is reduced; but shows up squared while d is increased, overall goes down
+</section>
+
+<section data-markdown>
+
+### Laplace's Equation
+
+<img src="./images/laplace.png" align="center" style="width: 900px";/>
+
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/region_w_no_charge.png" align="right" style="width: 200px";/>
+
+
+A region of space contains no charges. What can I say about $V$ in the interior?
+
+1. Not much, there are lots of possibilities for $V(r)$ in there
+2. $V(r)=0$ everywhere in the interior.
+3. $V(r)=$constant everywhere in the interior
+
+Note:
+* CORRECT ANSWER: A
+* Without the boundary information, we can't solve the problem.
+* But once we have BCs, we have a unique answer.
+
+</section>
+
+
+<section data-markdown>
+
+<img src="./images/region_with_no_charge_Vset.png" align="right" style="width: 200px";/>
+
+
+A region of space contains no charges. The boundary has V=0 everywhere.
+What can I say about $V$ in the interior?
+
+1. Not much, there are lots of possibilities for $V(r)$ in there
+2. $V(r)=0$ everywhere in the interior.
+3. $V(r)=$constant everywhere in the interior
+
+Note:
+* CORRECT ANSWER: B
+* Uniqueness argues it must be B; satisfies all the results and the BCs
+
+</section>
+
+<section data-markdown>
+
 For the 1D Laplace problem ($\nabla^2 V = \partial^2 V/\partial x^2 = 0$), we can choose the following ansatz:
 
 1. $k_0\,x$
@@ -13,50 +75,9 @@ For the 1D Laplace problem ($\nabla^2 V = \partial^2 V/\partial x^2 = 0$), we ca
 3. $k_0\,x^2+k_1\,x+k_2$
 4. Can't tell
 
-</section>
-
-<section data-markdown>
-
-<img src="./images/hogwarts.png" align="center" style="width: 800px";/>
-
-
-</section>
-
-<section data-markdown>
-## Announcements
-
-* Exam 1 graded
-  * Average: 79.5
-* HW 6 Problem 1 and 2
-  * On your exam, you will see the grade you will receive if you choose to do problem 1 and 2
-  * You need to collect your exam to do these problems!
-
-</section>
-
-
-<section data-markdown>
-
-## Exam 1 Distribution
-
-<img src="./images/exam1grades.png" align="center" style="width: 800px";/>
-
-
-</section>
-
-<section data-markdown>
-
-## Exam 1 (re)Distribution*
-
-
-<img src="./images/exam1grades_corr.png" align="center" style="width: 800px";/>
-
-
-</section>
-
-<section data-markdown>
-
-<img src="./images/wamps_gre.png" align="center" style="width: 1000px";/>
-
+Note:
+* CORRECT ANSWER: B
+* It has to be a linear equation
 </section>
 
 
@@ -73,6 +94,8 @@ If you put a positive test charge at the center of this cube of charges, could i
 
 Note:
 * CORRECT ANSWER: B
+* Earnshaw's theorem: no electrostatic system can be held in stationary stable equilibirum
+* Just nudge the charge and it runs away
 
 </section>
 

@@ -36,3 +36,4 @@ permalink: notes/index.html
 - Sep 30 - Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
 - Oct 2 - Conductors II [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
 - Oct 4 - Capacitance [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
+- Oct 7 - Introduction to Laplace's Equation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
