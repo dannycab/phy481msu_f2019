@@ -119,39 +119,3 @@ Note:
 * CORRECT ANSWER: C; there's no field inside at all
 
 </section>
-
-<section data-markdown>
-
-<img src="./images/conducting_cap_plates_simple.png" align="right" style="width: 300px";/>
-
-
-Given a pair of very large, flat, conducting capacitor plates with total charges $+Q$ and $-Q$. Ignoring edges, what is the equilibrium distribution of the charge?
-
-1. Throughout each plate
-2. Uniformly on both side of each plate
-3. Uniformly on top of $+Q$ plate and bottom of $–Q$ plate
-4. Uniformly on bottom of $+Q$ plate and top of $–Q$ plate
-5. Something else
-
-Note:
-* CORRECT ANSWER: D
-
-</section>
-
-<section data-markdown>
-
-<img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/>
-
-
-Given a pair of very large, flat, conducting capacitor plates with surface charge densities $+/-\sigma$, what is the E field in the region between the plates?
-
-1. $\sigma/2\varepsilon_0$
-2. $\sigma/\varepsilon_0$
-3. $2\sigma/\varepsilon_0$
-4. $4\sigma/\varepsilon_0$
-5. Something else
-
-Note:
-* CORRECT ANSWER: B
-
-</section>

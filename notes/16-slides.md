@@ -53,6 +53,60 @@ I feel that Exam 1 was aligned with what we have been doing (in class and on hom
 
 <section data-markdown>
 
+<img src="./images/conducting_cap_plates_simple.png" align="right" style="width: 300px";/>
+
+
+Given a pair of very large, flat, conducting capacitor plates with total charges $+Q$ and $-Q$. Ignoring edges, what is the equilibrium distribution of the charge?
+
+1. Throughout each plate
+2. Uniformly on both side of each plate
+3. Uniformly on top of $+Q$ plate and bottom of $–Q$ plate
+4. Uniformly on bottom of $+Q$ plate and top of $–Q$ plate
+5. Something else
+
+Note:
+* CORRECT ANSWER: D
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/>
+
+
+Given a pair of very large, flat, conducting capacitor plates with surface charge densities $+/-\sigma$, what is the E field in the region between the plates?
+
+1. $\sigma/2\varepsilon_0$
+2. $\sigma/\varepsilon_0$
+3. $2\sigma/\varepsilon_0$
+4. $4\sigma/\varepsilon_0$
+5. Something else
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/conducting_cap_plates.png" align="right" style="width: 400px";/>
+
+
+Assume the plates are separated by a distance $L$ and each have an area $A$. What is the capacitance of the plactes $C=Q/\Delta V$?
+
+1. $A/L$
+2. $L/A$
+3. $\varepsilon_0 A/L$
+3. $\varepsilon_0 L/A$
+5. Something else
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown>
+
 The eletric field between the shells is just that of a point charge. What is the electric potential difference between the outer shell ($r=b$) and the inner shell ($r=a$)?
 
 1. $\dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac{1}{b}-\dfrac{1}{a}\right)$
