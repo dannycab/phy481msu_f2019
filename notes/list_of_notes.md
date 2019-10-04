@@ -14,6 +14,9 @@ permalink: notes/index.html
 - 06 Boundary Conditions [[PDF]](./handwritten/06_Boundary_Conditions.pdf)
 - 07 Energy [[PDF]](./handwritten/07_Energy.pdf)
 - 08 Conductors [[PDF]](./handwritten/08_Conductors.pdf)
+- 09 Laplace's Equation [[PDF]](./handwritten/09_Laplaces_Equation.pdf)
+- 10 1D Method of Relaxation [[PDF]](./handwritten/10_Method_of_Relaxation.pdf)
+- 11 Separation of Variables [[PDF]](./handwritten/11_Separation_of_Variables_Cartesian.pdf)
 
 ### Slides
 
@@ -32,3 +35,4 @@ permalink: notes/index.html
 - Sep 25 - Electric Potential Energy [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
 - Sep 30 - Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
 - Oct 2 - Conductors II [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
+- Oct 4 - Capacitance [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)

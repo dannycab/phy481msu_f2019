@@ -45,10 +45,9 @@ I feel that Exam 1 was aligned with what we have been doing (in class and on hom
 ## Announcements
 
 * Goal: return graded Exam 1 by Monday
-* Homework 6 Special problem 1 and 2
+* Homework 6 Special problem 1
   * Solve Exam 1 and turn into Danny on Friday
   * Write a paragraph for each problem on what you needed to do to solve the problem correctly
-* Ruxin will cover help sessions next week
 
 </section>
 
