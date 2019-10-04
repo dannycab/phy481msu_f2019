@@ -21,6 +21,8 @@ You are welcome to work on the problems together, but your reflection should be 
 
 ## 2. GRE Prep: Concentric condcuting shells
 
+![Conducting Shells](./images/hw6/conducting_shells.png "Condcuting Shells")
+
 Two thin, concentric, spherical conducting shells are arranged as shown in the figure above. The inner shell has radius $a$, charge $+Q$, and is at zero electric potential. The outer shell has radius $b$ and charge $-Q$.
 
 1. If $r$ is the radial distance from the center of the spheres, what is the electric potential in region I ($a<r<b$) and Region II ($r > b$)?
