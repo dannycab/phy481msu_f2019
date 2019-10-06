@@ -29,9 +29,9 @@ Two thin, concentric, spherical conducting shells are arranged as shown in the f
   - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\frac{1}{r}$; Region II: 0
   - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r}-\frac{1}{a}\right)$; Region II: 0
   - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r}-\frac{1}{b}\right)$; Region II: $-\dfrac{Q}{4\pi\varepsilon_0}\frac{1}{r}$
-  - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r}-\frac{1}{a}\right)$; Region II: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r}-\frac{1}{a}\right)$
-  - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{b}-\frac{1}{a}\right)$; Region II: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{1}-\frac{1}{b}\right)$
-2. Explain how you determined your answer. Consider the charge, the potential, and the relevant electric field. You may demonstrate this with sketches if it helps.
+  - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r}-\frac{1}{a}\right)$; Region II: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{b}-\frac{1}{a}\right)$
+  - Region I: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{r}-\frac{1}{b}\right)$; Region II: $\dfrac{Q}{4\pi\varepsilon_0}\left(\frac{1}{a}-\frac{1}{b}\right)$
+2. Explain how you determined your answer. Consider the charge, the potential, and the relevant electric field. You may demonstrate this with sketches if it helps. Explain any "shortcut" you used to eliminate possible answers.
 
 ## 3. Capacitors, metals, and continuity
 
