@@ -22,6 +22,17 @@ Note:
 
 <section data-markdown>
 
+## Exam Rewrites
+
+* Circled grade is the grade you will earn if you do the rewrite
+* To earn the circled grade:
+  * Complete the parts that you didn't earn full credit
+  * Write one paragraph per problem (max 4 paragraphs) about what you didn't understand at the time of the exam, what you did to correct that understanding, and how that relates to the solution you've written up.
+
+</section>
+
+<section data-markdown>
+
 ### Laplace's Equation
 
 <img src="./images/laplace.png" align="center" style="width: 900px";/>
