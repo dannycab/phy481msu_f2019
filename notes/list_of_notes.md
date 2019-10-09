@@ -37,3 +37,4 @@ permalink: notes/index.html
 - Oct 2 - Conductors II [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
 - Oct 4 - Capacitance [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
 - Oct 7 - Introduction to Laplace's Equation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
+- Oct 9 - Method of Relaxation 1D [[HTML]](./18-slides.html)[[PDF]](./18-slides.pdf)
