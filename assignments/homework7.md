@@ -6,7 +6,7 @@ title: Homework 7 (Due October 18th)
 
 Homework 7 focuses on Laplace's equations and solving it using infinite series solutions. You should become comfortable with setting boundary conditions for PDE problems like this and develop a sense of the process for solving these problems analytically. Additionaly, you will plot these solutions in 2D and develop the method of relaxation in 1D to investigate issues with the method.
 
-[Dropbox file request link for Homework 7](https://www.dropbox.com/request/VFZZjYX5f2Rkizq8uov6)
+[Dropbox file request link for Homework 7](https://www.dropbox.com/request/6t565TY4NMCjiHFcxSrW)
 
 ## 1. Proving Uniqueness
 
@@ -64,15 +64,8 @@ A square rectangular pipe (sides of length $a$) runs parallel to the z-axis (fro
 2. Sketch the E-field lines and equipotential contours inside the pipe. (Also, state in words what the boundary condition on the left wall means - what does it tell you? Is the left wall a conductor?)
 3. Find the charge density $\sigma(x,y=0,z)$ everywhere on the bottom conducting wall $(y=0)$.
 
-## 5. Reminders about Gauss' Law
 
-Consider a hypothetical sphere of charge with radius $a$. The charge density for this $\rho(r) = \frac{c}{\sqrt{r}}$.
-
-1. Using Gauss' Law find the electric field inside and outside there sphere. What are the units of $c$?
-2. Why would would use Gauss' Law for this problem and not directly integrate the charge density or find $\mathbf{E}$ or $V$?
-3. What if the charge density were $\rho(r,\phi) = \frac{c}{\sqrt{r}}\sin(\phi)$? What approach might you use here? *You do not have to solve this problem, we will find a way to solve problems like it approximately in the ''far field'' limit later.*
-
-## 6. Method of relaxation in 1D
+## 5. Method of relaxation in 1D
 
 In this problem, you will write a 1D method of relaxation solver for Laplace's equation. Your solver should start with boundary conditions (e.g., $V(0) = 0$ and $V(1) = 1$) and then use the method of relaxation to develop a linear solution (as we know the analytical solution). This might seem silly, but it will be clearly important to know this method well in 2D. Secondly, you will investigate what happens when you make bad initial guesses. At this point, you have written a several different codes for this class. So, for this problem, I will not provide a notebook, but ask that you write your own. I will, however, remind you of the pseudocode that we developed in class.
 
