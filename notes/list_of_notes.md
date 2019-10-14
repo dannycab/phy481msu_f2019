@@ -41,4 +41,5 @@ permalink: notes/index.html
 - Oct 4 - Capacitance [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
 - Oct 7 - Introduction to Laplace's Equation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
 - Oct 9 - Method of Relaxation 1D [[HTML]](./18-slides.html)[[PDF]](./18-slides.pdf)
-- Oct 9 - Separation of Variables - Cartesian [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
+- Oct 11 - Separation of Variables - Cartesian [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
+- Oct 14 - Sepearation of Variables - Cartesian II and Spherical [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
