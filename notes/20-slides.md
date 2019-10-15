@@ -87,15 +87,3 @@ Note:
 <img src="./images/metal_in_ext_field.jpg" align="center" style="width: 500px";/>
 
 </section>
-
-<section data-markdown>
-
-The ODE that describes the $R(r)$ part of our solution is:
-
-$$\dfrac{d}{dr}\left(r^2\dfrac{dR}{dr}\right) = l(l+1)R$$
-
-I claim this ODE gives rise to polynomial solutions.
-
-Find a general solution for $R(r)$ in terms of $l$.
-
-</section>

@@ -43,3 +43,4 @@ permalink: notes/index.html
 - Oct 9 - Method of Relaxation 1D [[HTML]](./18-slides.html)[[PDF]](./18-slides.pdf)
 - Oct 11 - Separation of Variables - Cartesian [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
 - Oct 14 - Sepearation of Variables - Cartesian II and Spherical [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
+- Oct 16 - Sepearation of Variables - Spherical II [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
