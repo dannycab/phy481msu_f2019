@@ -44,3 +44,4 @@ permalink: notes/index.html
 - Oct 11 - Separation of Variables - Cartesian [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
 - Oct 14 - Sepearation of Variables - Cartesian II and Spherical [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
 - Oct 16 - Sepearation of Variables - Spherical II [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
+- Oct 18 - Sepearation of Variables - Spherical III [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
