@@ -6,7 +6,7 @@ title: Homework 8 (Due October 25th)
 
 Homework 8 finishes up our discussion of the relaxation methods with a 2D problem. The bonus part of it illustrates the simplicity of problems that cannot be solved analytically. The rest of the homework focuses on another technique for solving for the electriuc potential -- using separation of variables in spherical coordinates -- and introduces the concept of the multipole expansions, which is still another way to find the potential in the "far field".
 
-[Dropbox file request for Homework 8](https://www.dropbox.com/request/NHhQGljURktMrB5WJGt4)
+[Dropbox file request for Homework 8](https://www.dropbox.com/request/C8FKzIlh8G1mZkrG7Ljt)
 
 ## 1. Method of Relaxation for Cartesian Problems
 
@@ -27,7 +27,7 @@ The procedure for solving Laplace's equation numerically involves the following 
 * **Step 5:** Repeat steps 3 and 4 until the computed error is below the accepted error. *Note that you should build in a maximum number of steps to take in case the code doesn't coverge on an answer quickly.*
 * **Step 6:** Plot the results as either a 3D plot or a contour map (or both). In this problem, you are asked to produce both plots.
 
-1. Using the code you wrote for [Problem 6 on the last homework](./homework7.html), expand it to solve the 2D problem where one boundary is set at 10V and the others are set to zero. You will have to pick a reasonable step size for the mesh (make sure it can be adjusted!). If you did not complete this problem, you can download this notebook from Slack.
+1. Using the code you wrote for [Problem 5 on the last homework](./homework7.html), expand it to solve the 2D problem where one boundary is set at 10V and the others are set to zero. You will have to pick a reasonable step size for the mesh (make sure it can be adjusted!). If you did not complete this problem, you can download this notebook from Slack.
 2. Produce a 3D Plot of the potential.
 3. [Review how to make a contour plot using matplotlib](http://matplotlib.org/examples/pylab_examples/contour_demo.html) and produce a contour plot of your results.
 4. Determine how many iterations on the mesh (*look for the print statements at the end of the code*) are needed to obtain an error tolerances of: 1e-2, 1e-3, 1e-4, 1e-5, 1e-6, and 1e-7. *You might have to adjust the maximum number of iterations as the error tolerance is decreased.*

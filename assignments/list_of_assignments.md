@@ -11,3 +11,4 @@ permalink: ./assignments/index.html
 - [Homework 5 (Due October 4th)](./homework5.html) [[PDF]](./homework5.pdf)
 - [Homework 6 (Due October 11th)](./homework6.html) [[PDF]](./homework6.pdf)
 - [Homework 7 (Due October 18th)](./homework7.html) [[PDF]](./homework7.pdf)
+- [Homework 8 (Due October 25th)](./homework8.html) [[PDF]](./homework8.pdf)
