@@ -20,7 +20,7 @@ How many boundary conditions (on the potential $V$) do you use to find $V$ insid
 Note:
 * CORRECT ANSWER: B
 * Good for discussion; obviously you need the surface BC, but what about at r=0? Is that technically a BC?
-</section>u
+</section>
 
 <section data-markdown>
 
