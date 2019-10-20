@@ -20,6 +20,7 @@ permalink: notes/index.html
 - 12 2D Method of Relaxation [[PDF]](./handwritten/12_Method_of_Relaxation.pdf)
 - 13 Separation of Variables (Spherical) [[PDF]](./handwritten/13_Separation_of_Variables_Spherical.pdf)
 - 14 Multipole Expansion [[PDF]](./handwritten/14_Multipole_Expansion.pdf)
+- 15 Polarization [[PDF]](./handwritten/15_Polarization.pdf
 
 ### Slides
 
@@ -42,6 +43,7 @@ permalink: notes/index.html
 - Oct 7 - Introduction to Laplace's Equation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
 - Oct 9 - Method of Relaxation 1D [[HTML]](./18-slides.html)[[PDF]](./18-slides.pdf)
 - Oct 11 - Separation of Variables - Cartesian [[HTML]](./19-slides.html)[[PDF]](./19-slides.pdf)
-- Oct 14 - Sepearation of Variables - Cartesian II and Spherical [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
-- Oct 16 - Sepearation of Variables - Spherical II [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
-- Oct 18 - Sepearation of Variables - Spherical III [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
+- Oct 14 - Separation of Variables - Cartesian II and Spherical [[HTML]](./20-slides.html)[[PDF]](./20-slides.pdf)
+- Oct 16 - Separation of Variables - Spherical II [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
+- Oct 18 - Separation of Variables - Spherical III [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
+- Oct 18 - Multipole Expansion [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
