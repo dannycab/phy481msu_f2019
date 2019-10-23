@@ -6,12 +6,24 @@ transition: slide
 
 <section data-markdown>
 
-**True or False**: The electric potential of a pure dipole is given exactly by:
+$$\mathbf{E}_{dip}(\mathbf{r}) = \dfrac{p}{4 \pi \varepsilon_0 r^3}\left(2 \cos \theta\;\hat{\mathbf{r}} + \sin \theta\;\hat{\mathbf{\theta}}\right)$$
 
-$$V(r) = \dfrac{\mathbf{p}\cdot\mathbf{r}}{4 \pi\varepsilon_0 r^3}$$
+<img src="./images/small_dipole.png" align="right" style="width: 200px";/>
 
-1. True
-2. False
+
+For the dipole $\mathbf{p} = q\mathbf{d}$ shown, what does the formula predict for the direction of $\mathbf{E}(\mathbf{r})$ for $\theta =0$ and $\theta=\pi/2$?
+
+Consider $r$ to be large compared to $d$.
+
+1. $+z$; $+x$
+2. $-z$; $+x$
+3. $-z$; $+z$
+4. $+z$; $-z$
+5. Some other pair of directions
+
+Note:
+* CORRECT ANSWER: D
+
 
 </section>
 
@@ -20,9 +32,18 @@ $$V(r) = \dfrac{\mathbf{p}\cdot\mathbf{r}}{4 \pi\varepsilon_0 r^3}$$
 ## Announcements
 
 * Exam 2 is coming up (2 weeks from today)
-  * BPS 1415 (this room), 7pm-9pm, Nov 7th
+  * BPS 1415 (this room), 7pm-9pm, Nov 6th
   * Same format as Exam 1
   * Details next week
+
+</section>
+
+
+<section data-markdown>
+
+### Ideal vs. Real dipole
+
+<img src="./images/dipole_animation.gif" align="center" style="width: 450px";/>
 
 </section>
 
