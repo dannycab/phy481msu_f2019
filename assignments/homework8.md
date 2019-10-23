@@ -81,15 +81,3 @@ For each distribution below, discuss which contribution to the multipole expansi
 1. Distribution 1: ![Distribution 1](./images/hw6/distribution1.png)<br/><br/>
 2. Distribution 2: ![Distribution 2](./images/hw6/distribution2.png)<br/><br/>
 3. Distribution 3: ![Distribution 3](./images/hw6/distribution3.png)
-
-## 5. The Beauty of the Multipole expansion
-
-The [multipole expansion](https://en.wikipedia.org/wiki/Multipole_expansion) is a very powerful approximation that arises in a number of different kinds of field theories. The beauty of it is that it can provide a simple approximate form for the field in question far from the sources that produce the field. Often, this is helpful when solving problems where you only care about the dominant contributions because the others only provide small corrections to the behavior.
-
-In this problem, you will explore the the multipole expansion for the charge configuration shown below.
-
-![3 Charges](./images/hw6/multipole.png)
-
-1. For the three charges shown above, determine the approximate potential at a distance far from the origin of coordinates. Keep only the two lowest non-vanishing orders of the expansion. *Notice that each is a distance $r_0$ from the origin.*
-2. Explain how you know the two terms you find are the lowest non-vanishing terms for the potential.
-3. Using your answer to part 1, find the approximate electric field produced by this system of charges far from the origin. Express your answer in spherical coordinates.
