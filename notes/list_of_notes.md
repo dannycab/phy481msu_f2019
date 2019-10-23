@@ -47,4 +47,5 @@ permalink: notes/index.html
 - Oct 16 - Separation of Variables - Spherical II [[HTML]](./21-slides.html)[[PDF]](./21-slides.pdf)
 - Oct 18 - Separation of Variables - Spherical III [[HTML]](./22-slides.html)[[PDF]](./22-slides.pdf)
 - Oct 21 - Electric Dipoles [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
-- Oct 23 - Multipole Expansion [[HTML]](./24-slides.html)[[PDF]](./24-slides.pdf)
+- Oct 23 - Electric Dipole Moment [[HTML]](./24-slides.html)[[PDF]](./24-slides.pdf)
+- Oct 25 - Multipole Expansion [[HTML]](./25-slides.html)[[PDF]](./25-slides.pdf)
