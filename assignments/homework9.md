@@ -1,14 +1,14 @@
 ---
 layout: homework
 use_math: true
-title: Homework 9 (Due November 2nd)
+title: Homework 9 (Due November 1st)
 ---
 
-Homework 9 helps you further investigates the multipole expansion and develop models for polarization that we will use to understand electric fields in matter.
+Homework 9 helps you further investigates the multipole expansion and develop models for polarization that we will use to understand electric fields in matter. Notice that for polarization problems, we can often find the bound charges and solve the problems much like we have done before with free charges.
 
-[Dropbox file request for Homework 9](https://www.dropbox.com/request/HCbujqc3YJlRBzz7UDvR)
+[Dropbox file request for Homework 9](https://www.dropbox.com/request/tSFdFD8jw6RrIMyXa72a)
 
-## 5. The Beauty of the Multipole expansion
+## 1. The Beauty of the Multipole expansion
 
 The [multipole expansion](https://en.wikipedia.org/wiki/Multipole_expansion) is a very powerful approximation that arises in a number of different kinds of field theories. The beauty of it is that it can provide a simple approximate form for the field in question far from the sources that produce the field. Often, this is helpful when solving problems where you only care about the dominant contributions because the others only provide small corrections to the behavior.
 
@@ -21,7 +21,7 @@ In this problem, you will explore the the multipole expansion for the charge con
 3. Using your answer to part 1, find the approximate electric field produced by this system of charges far from the origin. Express your answer in spherical coordinates.
 
 
-## 1. Multipole Expansion of a Single Point Charge
+## 2. Multipole Expansion of a Single Point Charge
 
 For this problem, consider a single point charge $+q$.
 
@@ -30,7 +30,7 @@ For this problem, consider a single point charge $+q$.
 3. Assume the location of interest in Part 2 is far from the charge ($r>>d$). Expand your result in Part 2 keeping only the two leading order terms. Interpret these terms in light of the multipole expansion. *Hint: It might help to rewrite your result in spherical coordinates.*
 4. How do you resolve that your answer to Part 1 only contains a monopole term where your answer to Part 3 contains additional terms? Explain your reasoning.
 
-## 2. A Curious Sphere of Charge
+## 3. A Curious Sphere of Charge
 
 In this problem, we ask you to plot a few functions. You have plotted quite a bit using Jupyter, so we expect that you will use a Jupyter notebook of your own design to do your plotting now.
 
@@ -47,7 +47,7 @@ where $\mu$ is known constant and $\theta$ is the usual polar angle in spherical
 5. The function $\sin\left(\frac{3\theta}{2}\right) \approx \frac{1}{\sqrt{2}} + \frac{3}{2\sqrt{2}}\cos\theta$, which would suggest that the volume charge density can be written as $\rho(r,\theta) \approx \frac{\mu r}{\sqrt{2}} + \frac{3\mu r}{2\sqrt{2}} \cos \theta$. So this will look like a superposition of a spherically symmetric density and a density proportional to $\cos \theta$. Plot $\rho(r,\theta)/r$ in units of $\mu$ as a function of $\theta$ in this approximation.
 6. How does your plot in Part 1 compare to your plot in Part 5? Is this a good approximation to the original charge density? What does this imply about our approximation of $V$ compared to the exact $V$?
 
-## 3. Atomic hydrogen and the polarization model
+## 4. Atomic hydrogen and the polarization model
 
 Griffiths Table 4.1 gives an experimental value for $\alpha/4\pi\varepsilon_0$ for atomic hydrogen. (Read his caption carefully for units!)
 
@@ -58,22 +58,13 @@ Griffiths Table 4.1 gives an experimental value for $\alpha/4\pi\varepsilon_0$ f
 5. Use your calculations to roughly estimate what voltage (and thus, what E-field) would ionize this single hydrogen atom. (We’d say if you can pull the electron cloud one full atomic radius away, it’s breaking down! )
 
 
-## 4. Polarized sphere of charge
+## 5. Polarized sphere of charge
 
 Consider a dielectric sphere of radius $a$ that has a polarization that is directed radially outward from the center of the sphere, $\mathbf{P} = P_0\mathbf{r}$.
 
 1. Determine the bound charges at the surface, $\sigma_B$, and in the volume of the sphere, $\rho_B$.
 2. Find the electric field everywhere.
 4. Sketch the electric field lines inside and outside the sphere. What does your sketch say about the electric field at the boundary of the sphere? Does this make sense to you? Why or why not?
-
-## 5. The bar electret
-
-A curious little device that is the electrical analog of the bar magnet is the bar electret. It is a short cylinder with a radius of $b$ and a length $l$ that carries a uniform polarization $\mathbf{P}$ along its axis. In this problem, you will sketch the electric field produced by the bar electret for several scenarios.
-
-1. Find the bound charge everywhere in or on the bar electret.
-2. Sketch and describe the electric field produced by the bar electret if its length is much greater than its radius (long and skinny, $L>>b$).
-3. Sketch and describe the electric field produced by the bar electret if its length is much smaller than its radius (short and fat, $L<<b$).
-4. Sketch and describe the electric field produced by the bar electret if its length is roughly equal to its radius ($L\approx b$).
 
 ## 6. Charge conservation
 
