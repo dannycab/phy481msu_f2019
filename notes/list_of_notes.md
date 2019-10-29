@@ -51,3 +51,4 @@ permalink: notes/index.html
 - Oct 23 - Electric Dipole Moment [[HTML]](./24-slides.html)[[PDF]](./24-slides.pdf)
 - Oct 25 - Multipole Expansion [[HTML]](./25-slides.html)[[PDF]](./25-slides.pdf)
 - Oct 28 - Introduction to Polarization [[HTML]](./26-slides.html)[[PDF]](./26-slides.pdf)
+- Oct 30 - Polarization [[HTML]](./27-slides.html)[[PDF]](./27-slides.pdf)

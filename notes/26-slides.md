@@ -167,7 +167,6 @@ Note:
 
 </section>
 
-
 <section data-markdown>
 
 A dielectric sphere is uniformly polarized,
@@ -187,26 +186,5 @@ What is the surface charge density?
 
 Note:
 * CORRECT ANSWER: D
-
-</section>
-
-<section data-markdown>
-A dielectric sphere is uniformly polarized,
-
-$$\mathbf{P} = +P_0\hat{z}$$
-
-What is the volume charge density?
-
-<img src="./images/sphere_p0_dielectric.png" align="right" style="width: 300px";/>
-
-
-1. 0
-2. Non-zero Constant
-3. Depends on $r$, but not $\theta$
-4. Depends on $\theta$, but not $r$
-5. ?
-
-Note:
-* CORRECT ANSWER: A
 
 </section>
