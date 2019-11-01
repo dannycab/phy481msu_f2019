@@ -29,7 +29,7 @@ Note:
 
 ## Announcements
 
-* Exam 2 (Wednesday, November 7th 7-9pm)
+* Exam 2 (Wednesday, November 6th 7-9pm)
 * Covers through Homework 9 (solutions posted after class)
 * "Comprehensive" exam (need to remember old stuff)
 * 1 sheet of your own notes; old exam and formula sheet will be posted
@@ -75,23 +75,4 @@ If you put a polarizable material (a dielectric) in an external field $\mathbf{E
 
 Note:
 * CORRECT ANSWER: C
-</section>
-
-<section data-markdown>
-
-<img src="./images/doped_cylinder.png" align="right" style="width: 100px";/>
-
-
-A solid non-conducting dielectric rod has been injected ("doped") with a fixed, known charge distribution $\rho(s)$. (The material responds, polarizing internally.)
-
-When computing $D$ in the rod, do you treat this $\rho(s)$ as the "free charges" or "bound charges"?
-
-1. "free charge"
-2. "bound charge"
-3. Neither of these - $\rho(s)$ is some combination of free and bound
-4. Something else.
-
-Note:
-* CORRECT ANSWER: A
-
 </section>

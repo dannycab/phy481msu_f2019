@@ -52,3 +52,4 @@ permalink: notes/index.html
 - Oct 25 - Multipole Expansion [[HTML]](./25-slides.html)[[PDF]](./25-slides.pdf)
 - Oct 28 - Introduction to Polarization [[HTML]](./26-slides.html)[[PDF]](./26-slides.pdf)
 - Oct 30 - Polarization [[HTML]](./27-slides.html)[[PDF]](./27-slides.pdf)
+- Nov 1 - The D-Field [[HTML]](./28-slides.html)[[PDF]](./28-slides.pdf)
