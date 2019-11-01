@@ -9,12 +9,3 @@ An electric field strength of 300 kV/m can cause the molecules in the air to bre
 
 1. Estimate the minimum amount of static charge on a balloon that could cause this sparking. In your estimation, make clear any assumptions you are making and/or quantities that you are estimating or looking up. Explain how you are making this estimate in words.
 2. Using your estimate in part 1, further estimate the fraction of excess electrons on the surface of the balloon compared to the number electrons that make up the balloon. Does this estimate seem reasonable to you? Why or why not?
-
-## 5. The bar electret
-
-A curious little device that is the electrical analog of the bar magnet is the bar electret. It is a short cylinder with a radius of $b$ and a length $l$ that carries a uniform polarization $\mathbf{P}$ along its axis. In this problem, you will sketch the electric field produced by the bar electret for several scenarios.
-
-1. Find the bound charge everywhere in or on the bar electret.
-2. Sketch and describe the electric field produced by the bar electret if its length is much greater than its radius (long and skinny, $L>>b$).
-3. Sketch and describe the electric field produced by the bar electret if its length is much smaller than its radius (short and fat, $L<<b$).
-4. Sketch and describe the electric field produced by the bar electret if its length is roughly equal to its radius ($L\approx b$).

@@ -1,12 +1,21 @@
 ---
 layout: homework
 use_math: true
-title: Homework 10 (Due November 9th)
+title: Homework 10 (Due November 8th)
 ---
 
-Homework 10 focuses on developing ideas about the D-field including how to apply Gauss' Law for $\mathbf{D}$ and the relationships between $\mathbf{D}$, $\mathbf{E}$, and $\mathbf{P}$.
+Homework 10 focuses on developing ideas about the D-field including how to apply Gauss' Law for $\mathbf{D}$ and the relationships between $\mathbf{D}$, $\mathbf{E}$, and $\mathbf{P}$. You migh want to spend some time remidning yourself about Gauss's Law for many of these problems as the symmetries you employ here will be reminiscent of prior work.
 
-### 1. Bound charges and the D-field
+### 1. The bar electret
+
+A curious little device that is the electrical analog of the bar magnet is the bar electret. It is a short cylinder with a radius of $b$ and a length $l$ that carries a uniform polarization $\mathbf{P}$ along its axis. In this problem, you will sketch the electric field produced by the bar electret for several scenarios.
+
+1. Find the bound charge everywhere in or on the bar electret.
+2. Sketch and describe the electric field produced by the bar electret if its length is much greater than its radius (long and skinny, $L>>b$).
+3. Sketch and describe the electric field produced by the bar electret if its length is much smaller than its radius (short and fat, $L<<b$).
+4. Sketch and describe the electric field produced by the bar electret if its length is roughly equal to its radius ($L\approx b$).
+
+### 2. Bound charges and the D-field
 
 Consider a long teflon rod, (a dielectric cylinder), radius $a$. Imagine that we could somehow set up a permanent polarization $\mathbf{P}(s,\phi,z) = k\mathbf{s} ( = ks\hat{s})$, where $s$ is the usual cylindrical radial vector from the $z$-axis, and $k$ is a constant). Neglect end effects, the cylinder is long.
 
@@ -14,7 +23,7 @@ Consider a long teflon rod, (a dielectric cylinder), radius $a$. Imagine that we
 2. Next, use these bound charges (along with Gauss' law, this problem has very high symmetry!) to find the electric field, $\mathbf{E}$ inside and outside the cylinder. (Your answer should include both the direction and magnitude.)
 3. Finally, determine the electric displacement field ($\mathbf{D}$) inside and outside the cylinder using the fundamental definition ($\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$) and verify that "Gauss’ law for D-fields" works out. Explain briefly in words why your answers are what they are.
 
-### 2. Bound charges and the D-field II
+### 3. Bound charges and the D-field II
 
 Now let's hollow out that teflon rod, so it has inner radius $b$, and outer radius is (still) $a$. Just to make things a little different here, suppose we now set up a different polarization within the teflon material, namely $\mathbf{P}(s,\phi,z) = k\hat{s}$ for $b<s<a$ and where $k$ is a given constant.
 
@@ -23,7 +32,7 @@ Now let's hollow out that teflon rod, so it has inner radius $b$, and outer radi
 2. Use these bound charges, along with Gauss' law, to find the electric field, $\mathbf{E}$, everywhere in space. (Your answer should include the direction and magnitude.)
 3. Use Gauss' Law for D-fields to find $\mathbf{D}$ everywhere in space. *This should be quick – use symmetry! Are there any free charges in this problem?* Use this (simple) result for $\mathbf{D}$ along with $\mathbf{D}=\varepsilon_0 \mathbf{E}+\mathbf{P}$ to find $\mathbf{E}$ everywhere in space. (This should serve as a check for part 1, and shows why sometimes thinking about D-fields is easier and faster!)
 
-### 3. Point charge in a spherical plastic shell
+### 4. Point charge in a spherical plastic shell
 
 ![Dielectric Shell](./images/hw8/dielectric_shell.png)
 
@@ -35,7 +44,7 @@ A point charge $+Q$ is at the center of a spherical plastic shell (inner radius 
 3. Sketch $\mathbf{E}(r)$, briefly commenting on any interesting features.
 4. Similarly, sketch $\mathbf{D}(r)$.
 
-### 4. Injecting free charges
+### 5. Injecting free charges
 
 A solid sphere (radius $R$) of linear dielectric material (dielectric constant $\varepsilon_r$) has been "injected" with a uniform free charge density $\rho_f$ throughout its volume.
 
