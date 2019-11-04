@@ -22,6 +22,8 @@ permalink: notes/index.html
 - 14 Multipole Expansion [[PDF]](./handwritten/14_Multipole_Expansion.pdf)
 - 15 Polarization [[PDF]](./handwritten/15_Polarization.pdf)
 - 16 The D field [[PDF]](./handwritten/16_D_Field.pdf)
+- 17 Boundary Conditions Electric Field [[PDF]](./handwritten/17_Boundary_Conditions_Electric_Field.pdf)
+- 18 Lorentz Force [[PDF]](./handwritten/18_Lorentz_Force.pdf)
 
 ### Slides
 
@@ -53,3 +55,4 @@ permalink: notes/index.html
 - Oct 28 - Introduction to Polarization [[HTML]](./26-slides.html)[[PDF]](./26-slides.pdf)
 - Oct 30 - Polarization [[HTML]](./27-slides.html)[[PDF]](./27-slides.pdf)
 - Nov 1 - The D-Field [[HTML]](./28-slides.html)[[PDF]](./28-slides.pdf)
+- Nov 4 - Boundary Conditions and Charge [[HTML]](./29-slides.html)[[PDF]](./29-slides.pdf)

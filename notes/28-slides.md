@@ -216,23 +216,3 @@ Note:
 * CORRECT ANSWER: A
 
 </section>
-
-<section data-markdown>
-
-<img src="./images/capacitor_Q_dielectric.png" align="right" style="width: 300px";/>
-
-
-An ideal (large) capacitor has charge $Q$. A neutral linear dielectric is inserted into the gap. Now that we have $\mathbf{D}$ in the dielectric, what is $\mathbf{E}$ inside the dielectric?
-
-
-1. $\mathbf{E} = \mathbf{D} \varepsilon_0 \varepsilon_r$
-2. $\mathbf{E} = \mathbf{D}/\varepsilon_0 \varepsilon_r$
-3. $\mathbf{E} = \mathbf{D} \varepsilon_0$
-4. $\mathbf{E} = \mathbf{D}/\varepsilon_0$
-5. Not so simple! Need another method
-
-
-Note:
-* CORRECT ANSWER: B
-
-</section>
