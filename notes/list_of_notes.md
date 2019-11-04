@@ -56,3 +56,4 @@ permalink: notes/index.html
 - Oct 30 - Polarization [[HTML]](./27-slides.html)[[PDF]](./27-slides.pdf)
 - Nov 1 - The D-Field [[HTML]](./28-slides.html)[[PDF]](./28-slides.pdf)
 - Nov 4 - Boundary Conditions and Charge [[HTML]](./29-slides.html)[[PDF]](./29-slides.pdf)
+- Nov 6 - Boudary Conditions; Intro to Magnetostatics [[HTML]](./30-slides.html)[[PDF]](./30-slides.pdf)
