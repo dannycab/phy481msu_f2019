@@ -24,6 +24,9 @@ permalink: notes/index.html
 - 16 The D field [[PDF]](./handwritten/16_D_Field.pdf)
 - 17 Boundary Conditions Electric Field [[PDF]](./handwritten/17_Boundary_Conditions_Electric_Field.pdf)
 - 18 Lorentz Force [[PDF]](./handwritten/18_Lorentz_Force.pdf)
+- 19 Current [[PDF]](./handwritten/19_Current.pdf)
+- 20 Magnetostatics [[PDF]](./handwritten/20_Magnetostatics.pdf)
+- 21 Ampere's Law [[PDF]](./handwritten/21_Amperes_Law.pdf)
 
 ### Slides
 
@@ -58,3 +61,4 @@ permalink: notes/index.html
 - Nov 4 - Boundary Conditions and Charge [[HTML]](./29-slides.html)[[PDF]](./29-slides.pdf)
 - Nov 6 - Boundary Conditions; Intro to Magnetostatics [[HTML]](./30-slides.html)[[PDF]](./30-slides.pdf)
 - Nov 8 - Velocity Selection [[HTML]](./31-slides.html)[[PDF]](./31-slides.pdf)
+- Nov 11 - Current and Magnetostatics [[HTML]](./32-slides.html)[[PDF]](./32-slides.pdf)
