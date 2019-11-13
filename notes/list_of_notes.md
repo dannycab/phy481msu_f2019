@@ -62,3 +62,4 @@ permalink: notes/index.html
 - Nov 6 - Boundary Conditions; Intro to Magnetostatics [[HTML]](./30-slides.html)[[PDF]](./30-slides.pdf)
 - Nov 8 - Velocity Selection [[HTML]](./31-slides.html)[[PDF]](./31-slides.pdf)
 - Nov 11 - Current and Magnetostatics [[HTML]](./32-slides.html)[[PDF]](./32-slides.pdf)
+- Nov 13 - Biot-Savart Law [[HTML]](./33-slides.html)[[PDF]](./33-slides.pdf)
