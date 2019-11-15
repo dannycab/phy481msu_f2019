@@ -4,22 +4,6 @@ theme: white
 transition: slide
 ---
 
-<section data-markdown>
-
-What do you expect for direction of $\mathbf{B}(P)$? How about direction of $d\mathbf{B}(P)$ generated JUST by the segment of current $d\mathbf{l}$ in red?
-
-<img src="./images/curvy_wire_current.png" align="center" style="width: 400px";/>
-
-1. $\mathbf{B}(P)$ in plane of page,  ditto for $d\mathbf{B}(P$, by red$)$
-2. $\mathbf{B}(P)$ into page,  $d\mathbf{B}(P$, by red$)$ into page
-3. $\mathbf{B}(P)$ into page,  $d\mathbf{B}(P$, by red$)$ out of page
-4. $\mathbf{B}(P)$ complicated, ditto for $d\mathbf{B}(P$, by red$)$
-5. Something else!!
-
-
-Note:
-* CORRECT ANSWER: C
-</section>
 
 <section data-markdown>
 
