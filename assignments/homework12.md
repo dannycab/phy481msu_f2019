@@ -1,10 +1,12 @@
 ---
 layout: homework
 use_math: true
-title: Homework 12 (Due November 30th)
+title: Homework 12 (Due November 22nd)
 ---
 
-Homework 12 focuses on computing the magnetic field using Biot-Savart and Ampere's Law, which are the two direct methods for computing the magnetic field. It begins to introduce the vector potential, which is an alternative method for determining the magnetic field. It is quite a bit longer than the usual homework because it covers two weeks of class (i.e., it is not due until after Thanksgiving). However, there's no computational problem on this homework set.
+Homework 12 focuses on computing the magnetic field using Biot-Savart and Ampere's Law, which are the two direct methods for computing the magnetic field.
+
+[Dropbox link for HW 12](https://www.dropbox.com/request/51tYkRoClPyve2PsyQMe)
 
 ## 1. Magnetic field of distributed currents
 
@@ -26,15 +28,7 @@ An infinitely long wire has been bent into a right angle turn, as shown.  The "c
 ![Bent Wire](./images/hw9/bent_wire.png)
 
 
-## 3. Estimating the magnetic field of a square loop
-
-1. Find $\mathbf{B}$ at the exact center of a square current loop (current $I$ running around a wire bent in the shape of a square of side $a$) (*No need to derive any formulas “from scratch” if you can get them from Griffiths’ examples!*)
-2. If we had such a loop in the lab and wanted $\mathbf{B}$ at the center, we might do the above calculation, but if we were planning an experiment and just wanted a rough estimate of the magnetic field, we might "assume a spherical cow": assume the square was really a circle. We've done that problem ($\mathbf{B}$ at the center of a circular loop). It's much simpler than the square! You don't have to rederive it, but think back to how we got that result, and why it turned out to be a relatively easy application of Biot-Savart. But what radius circle would you use, to estimate $\mathbf{B}$?  You might consider finding $\mathbf{B}$ for the "inscribed" and "circumscribed" circles and then average. How good an approximation does that turn out to be? (Can you think of a better way?)
-
-![Square Loop](./images/hw9/square_wire.png)
-
-
-## 4. Ampere's Law - themes and variations
+## 3. Ampere's Law - themes and variations
 Consider a thin sheet with uniform surface current density.
 
 ![Sheet of current](./images/hw9/sheet_current.png)
@@ -46,7 +40,7 @@ Note: The integral is slightly nasty. Before you turn to WolframAlpha - simplify
 3. Now let's add a second parallel sheet at $z=+a$ with a current running the other way. (Formally, this means $\mathbf{J}=-K_0\delta(z-a)\hat{x}$. Do you understand this notation?) Use the superposition principle (do NOT start from scratch or use Ampere's law again, this part should be relatively quick) to find B between the two sheets, and also *outside* (above or below) both sheets. *Does this remind you of a familiar electrostatics problem at all? How?*
 4. Griffiths derives a formula for the B field from a solenoid (Example 5.9) Rewrite his answer (which is in terms of I) so it is expressed in terms of K (See his Fig 5.34 and 5.35 for help with this). Briefly compare with part 3, do you see any rough connections?
 
-## 5. Ampere's Law
+## 4. Ampere's Law
 
 Consider a thick SLAB of current.
 
@@ -56,14 +50,14 @@ The slab is infinite in (both) $x$ and $y$, but finite in $z$. So we must think 
 
 1. Find the B field (magnitude and direction) everywhere in space (above, below, and also, most interestingly, inside the slab!)
 
-## 6. Quick Ampere's Law
+## 5. Quick Ampere's Law
 
 Suppose $\mathbf{B}$ in a region of space centered on the origin has cylindrical symmetry and is given by $\mathbf{B} = B_0\hat{\phi}$ where $B_0$ is a constant, and $\hat{\phi}$ is the azimuthal direction in cylindrical coordinates.
 
 1. What is the current density in this region of space?
 2. Suppose the current density that you found extends out to a radius $R$ and is zero for $r > R$.  What is the magnetic field for $r > R$?
 
-## 7. Ampere and superposition
+## 6. Ampere and superposition
 A clever use of superposition should can make seemingly complicated situations easier to solve.
 
 ![Wire with Hole](./images/hw10/wire_w_hole.png)
@@ -72,16 +66,11 @@ A clever use of superposition should can make seemingly complicated situations e
 1. A long (infinite) wire (cylindrical conductor of radius $R$, whose axis coincides with the $z$ axis) carries a uniformly distributed current $I_0$ in the $+z$ direction. A cylindrical hole is drilled out of the conductor, parallel to the $z$ axis, (see figure above for geometry). The center of the hole is at $x = b$, and the radius is $a$.  Determine the magnetic field *in the hole region.*
 2. If this is an ordinary wire carrying ordinary household currents, and the drilled hole has dimensions roughly shown to scale in the figure above, make an order of magnitude estimate for the strength of the $B$ field in that region. How does it compare to the earth's field?   *You should find that the B field in the hole is uniform - that was just a little surprising to me!*
 
+## 7. The magnetic bottle (EXTRA CREDIT)
 
-## 8. Formal manipulations and vector calculus
+On Homework 11, you developed a visualization for the magnetic dipole. Here's a jupyter notebook that produces that visualization in two-dimesions ([download it](../jupyter/HW13-MotionInAMagneticBottle.ipynb) or [view it here](https://github.com/dannycab/phy481msu_f2019/blob/master/jupyter/HW13-MotionInAMagneticBottle.ipynb)). In this problem, you will add a second dipole of the same strength that points in the same direction as the previous one and investigate the motion of a charged particle in that magnetic field.
 
-Griffiths (section 5.3.2) shows that, given Biot-Savart, we can arrive at Ampere's law.
-
-1. Go through that derivation and try to recreate it/make sense of it. **Don't just copy it down - do all the steps yourself.** There are a few "gaps" in his derivation that you should be explicit about - e.g., Eq 5.50 (.52 in the 4th ed) is missing terms, what happened to them? Are you convinced of the minus sign shenanigans leading to 5.52 (.54 in 4th ed)? Convince us you understand them! Do you understand the ending: why did the contribution in Eq. 5.53 (.55 in 4th ed) "go away"?
-
-2. Use similar mathematical gymnastics to start from the Biot-Savart law and end with $\mathbf{B} = \nabla \times \mathbf{A}$, where
-$\mathbf{A}(\mathbf{r}) = \dfrac{\mu_0}{4 \pi} \int \dfrac{\mathbf{J}(\mathbf{r}')}{\mathfrak{R}}d\tau'$. (this is Griffiths Eq 5.63, or .65 in 4th edition). You’ll do this in a different way than Griffiths does (though I suggest you convince yourself you can see it his way too, which is section 5.4.1!). (Note: Part 2 is easier than part 1, really!!)
-- Start with the Biot-Savart law (Eq 5.45 , or 5.47 in the 4th ed).
-- Make use  of the handy identity we've seen several times this term: $\nabla \dfrac{1}{\mathfrak{R}} = -\dfrac{1}{\mathfrak{R}^2}\hat{\mathfrak{R}}$  (Do you know where this relation comes from, can you show it?)
-- Then use Griffiths' product rule #7 (front flyleaf) to manipulate your expression until you get to $\mathbf{B} = \nabla \times$ something. That “something” should be precisely the formula we’re after!
-*At some point you will need to pull the curl past an integral sign - be sure to justify why this is a perfectly legitimate thing to do.*
+1. Place one magnetic dipole at $z = 10.0$, and the other at $z=−10.0$. Let both dipole moments point in the positive $z$-direction, with equal magnitude $10^4$. Make a vector plot of the resulting magnetic field, and describe your plot.
+2. Make a hypothesis about what the charged particle's trajectory will be shaped like. Based on your vector plot and your physics knowledge, do you predict that the particle will be successfully confined? Why or why not?
+3. Add to program to simulate the motion of an $\alpha$-particle in this magnetic field. Start the $\alpha$-particle at position $\langle −5.0,0.0,0.0 \rangle$, with initial velocity $100.0m/s$ in the $z$-direction. Plot the $\alpha$-particle's trajectory, and compare with your hypothesis. Also, compare and contrast this result with the $\alpha$-particle's trajectory in the uniform magnetic field in [Homework 11 - Problem 4](./homework11.html). **If you need help modeling this motion, the solution to Homework 11 Problem 4 is posted on SLACK. You may use what you need from this code.**
+4. For further insight into the charged particle's trajectory, make a plot of the particle's $z$-coordinate vs. time. What does this plot tell you about the particle's motion? Is the particle successfully confined, or do you think it will eventually escape?

@@ -63,3 +63,4 @@ permalink: notes/index.html
 - Nov 8 - Velocity Selection [[HTML]](./31-slides.html)[[PDF]](./31-slides.pdf)
 - Nov 11 - Current and Magnetostatics [[HTML]](./32-slides.html)[[PDF]](./32-slides.pdf)
 - Nov 13 - Biot-Savart Law [[HTML]](./33-slides.html)[[PDF]](./33-slides.pdf)
+- Nov 15 - Ampere's Law [[HTML]](./34-slides.html)[[PDF]](./34-slides.pdf)
