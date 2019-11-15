@@ -27,6 +27,9 @@ permalink: notes/index.html
 - 19 Current [[PDF]](./handwritten/19_Current.pdf)
 - 20 Magnetostatics [[PDF]](./handwritten/20_Magnetostatics.pdf)
 - 21 Ampere's Law [[PDF]](./handwritten/21_Amperes_Law.pdf)
+- 22 Vector Potential [[PDF]](./handwritten/22_Vector_Potential.pdf)
+- 23 Magnetic Dipoles [[PDF]](./handwritten/23_Magnetic_Dipoles.pdf)
+- 24 Magnetization [[PDF]](./handwritten/24_Magnetization.pdf)
 
 ### Slides
 
