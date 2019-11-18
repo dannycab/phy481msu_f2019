@@ -6,6 +6,98 @@ transition: slide
 
 <section data-markdown>
 
+Rank order $\int \mathbf{J} \cdot d\mathbf{A}$ (over blue surfaces) where $\mathbf{J}$ is uniform, going left to right:
+
+<img src="./images/current_surfaces.png" align="center" style="width: 600px";/>
+
+
+1. iii > iv > ii > i
+2. iii > i > ii > iv
+3. i > ii > iii > iv
+4. Something else!!
+5. Not enough info given!!
+
+Note:
+* CORRECT ANSWER: D
+* They are all the same!
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/loop_infinite_wire.jpg" align="right" style="width: 250px";/>
+
+
+Much like Gauss's Law, Ampere's Law is always true (for magnetostatics), but only useful when there's sufficient symmetry to "pull B out" of the integral.
+
+So we need to build an argument for what $\mathbf{B}$ looks like and what it can depend on.
+
+For the case of an infinitely long wire, can $\mathbf{B}$ point radially (i.e., in the $\hat{s}$ direction)?
+
+1. Yes
+2. No
+3. ???
+
+Note:
+* CORRECT ANSWER: B
+* It violates Gauss's Law for B
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/loop_infinite_wire.jpg" align="right" style="width: 250px";/>
+
+Continuing to build an argument for what $\mathbf{B}$ looks like and what it can depend on.
+
+For the case of an infinitely long wire, can $\mathbf{B}$ depend on $z$ or $\phi$?
+
+1. Yes
+2. No
+3. ???
+
+Note:
+* CORRECT ANSWER: B
+* By symmetry it cannot
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/loop_infinite_wire.jpg" align="right" style="width: 250px";/>
+
+
+Finalizing the argument for what $\mathbf{B}$ looks like and what it can depend on.
+
+For the case of an infinitely long wire, can $\mathbf{B}$ have a $\hat{z}$ component?
+
+1. Yes
+2. No
+3. ???
+
+Note:
+* CORRECT ANSWER: B
+* Biot-Savart suggests it cannot
+
+</section>
+
+<section data-markdown>
+
+For the infinite wire, we argued that $\mathbf{B}(\mathbf{r}) = B(s)\hat{\phi}$. For the case of an infinitely long **thick** wire of radius $a$, is this functional form still correct? Inside and outside the wire?
+
+1. Yes
+2. Only inside the wire ($s<a$)
+3. Only outside the wire ($s>a$)
+4. No
+
+Note:
+* CORRECT ANSWER: A
+
+
+</section>
+
+<section data-markdown>
+
 Consider the B-field a distance z from a current sheet (flowing in the +x-direction) in the z = 0 plane. The B-field has:
 
 <img src="./images/currentsheet_axes.png" align="left" style="width: 400px";/>
@@ -18,14 +110,6 @@ Consider the B-field a distance z from a current sheet (flowing in the +x-direct
 
 Note:
 * CORRECT ANSWER: A
-
-</section>
-
-<section data-markdown>
-I will be in class on Wednesday.
-
-1. Yup
-2. Nope, hoss, I'll be out.
 
 </section>
 
