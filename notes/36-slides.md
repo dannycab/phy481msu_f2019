@@ -4,6 +4,38 @@ theme: white
 transition: slide
 ---
 
+<section data-markdown>
+
+What do we expect $\mathbf{B}(\mathbf{r})$ to look like for the infinite sheet of current shown below?
+
+<img src="./images/current_sheet_coords.png" align="right" style="width: 300px";/>
+
+
+1. $B(x)\hat{x}$
+2. $B(z)\hat{x}$
+3. $B(x)\hat{z}$
+4. $B(z)\hat{z}$
+5. Something else
+
+Note:
+* CORRECT ANSWER: C
+
+</section>
+
+<section data-markdown>
+
+Which Amperian loop are useful to learn about $B(x,y,z)$ somewhere?
+
+<img src="./images/B_sheet_loops.png" align="center" style="width: 400px";/>
+
+E. More than 1
+
+Note:
+* CORRECT ANSWER: E
+* Both B and A are useful!
+
+</section>
+
 
 <section data-markdown>
 

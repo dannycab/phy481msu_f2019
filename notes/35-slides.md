@@ -176,17 +176,3 @@ Note:
 * CORRECT ANSWER: C
 
 </section>
-
-<section data-markdown>
-
-Which Amperian loop are useful to learn about $B(x,y,z)$ somewhere?
-
-<img src="./images/B_sheet_loops.png" align="center" style="width: 400px";/>
-
-E. More than 1
-
-Note:
-* CORRECT ANSWER: E
-* Both B and A are useful!
-
-</section>
