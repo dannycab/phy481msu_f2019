@@ -1,25 +1,11 @@
 ---
 layout: homework
 use_math: true
-title: Homework 13 (Due December 7th)
+title: Homework 13 (Due December 6th)
 ---
 
-Homework 13 finishes our discussion of magnetism by focusing on the vector potential, which is a useful tool for calcualting the magnetic field in some problems, and magnetic dipoles.
+Homework 13 finishes our discussion of magnetism by focusing on the vector potential, which is a useful tool for calcualting the magnetic field in some problems, and magnetic dipoles. It also introduces the idea of magnetic fields in matter using the H-field.
 
-[Dropbox file request for Homework 13](https://www.dropbox.com/request/mf0THidGcoxyWqWXHZhH)
-
-## 8. Formal manipulations and vector calculus
-
-Griffiths (section 5.3.2) shows that, given Biot-Savart, we can arrive at Ampere's law.
-
-1. Go through that derivation and try to recreate it/make sense of it. **Don't just copy it down - do all the steps yourself.** There are a few "gaps" in his derivation that you should be explicit about - e.g., Eq 5.50 (.52 in the 4th ed) is missing terms, what happened to them? Are you convinced of the minus sign shenanigans leading to 5.52 (.54 in 4th ed)? Convince us you understand them! Do you understand the ending: why did the contribution in Eq. 5.53 (.55 in 4th ed) "go away"?
-
-2. Use similar mathematical gymnastics to start from the Biot-Savart law and end with $\mathbf{B} = \nabla \times \mathbf{A}$, where
-$\mathbf{A}(\mathbf{r}) = \dfrac{\mu_0}{4 \pi} \int \dfrac{\mathbf{J}(\mathbf{r}')}{\mathfrak{R}}d\tau'$. (this is Griffiths Eq 5.63, or .65 in 4th edition). You’ll do this in a different way than Griffiths does (though I suggest you convince yourself you can see it his way too, which is section 5.4.1!). (Note: Part 2 is easier than part 1, really!!)
-- Start with the Biot-Savart law (Eq 5.45 , or 5.47 in the 4th ed).
-- Make use  of the handy identity we've seen several times this term: $\nabla \dfrac{1}{\mathfrak{R}} = -\dfrac{1}{\mathfrak{R}^2}\hat{\mathfrak{R}}$  (Do you know where this relation comes from, can you show it?)
-- Then use Griffiths' product rule #7 (front flyleaf) to manipulate your expression until you get to $\mathbf{B} = \nabla \times$ something. That “something” should be precisely the formula we’re after!
-*At some point you will need to pull the curl past an integral sign - be sure to justify why this is a perfectly legitimate thing to do.*
 
 ## 1. Vector Potential I
 1. A long (infinite) wire (cylindrical conductor, radius $R$, whose axis coincides with the $z$ axis) carries a uniformly distributed current $I_0$ in the $+z$ direction. Assuming $\nabla \cdot \mathbf{A} = 0$ (the "Coulomb gauge"), and choosing $\mathbf{A}=0$ at the edge of the wire, show that the vector potential inside the wire could be given by $A= c I_0(1-s^2/R^2)$.  Find the constant $c$ (including units.) Things to explicitly find/discuss: What is the vector direction of $\mathbf{A}$? (Does it "make sense" in any way to you?)  Is your answer unique, or is there any remaining "ambiguity" in $\mathbf{A}$? (Note that we're not asking you to derive $\mathbf{A}$ from scratch, just to see that this choice of A "works")
@@ -54,16 +40,7 @@ $$\mathbf{B} = \dfrac{\mu_0}{4 \pi r^3}(3 (\mathbf{m}\cdot\hat{r})\hat{r} - \mat
 
 *Coordinate free formulas are nice, because now you can find B for more general situations!*
 
-## 4. The magnetic bottle (EXTRA CREDIT)
-
-On homework 11, you developed a visualization for the magnetic dipole. Here's a jupyter notebook that produces that visualization in two-dimesions ([download it](../jupyter/HW13-MotionInAMagneticBottle.ipynb) or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW13-MotionInAMagneticBottle.ipynb)). In this problem, you will add a second dipole of the same strength that points in the same direction as the previous one and investigate the motion of a charged particle in that magnetic field.
-
-1. Place one magnetic dipole at $z = 10.0$, and the other at $z=−10.0$. Let both dipole moments point in the positive $z$-direction, with equal magnitude $10^4$. Make a vector plot of the resulting magnetic field, and describe your plot.
-2. Make a hypothesis about what the charged particle's trajectory will be shaped like. Based on your vector plot and your physics knowledge, do you predict that the particle will be successfully confined? Why or why not?
-3. Add to program to simulate the motion of an $\alpha$-particle in this magnetic field. Start the $\alpha$-particle at position $\langle −5.0,0.0,0.0 \rangle$, with initial velocity $100.0m/s$ in the $z$-direction. Plot the $\alpha$-particle's trajectory, and compare with your hypothesis. Also, compare and contrast this result with the $\alpha$-particle's trajectory in the uniform magnetic field in [Homework 11 - Problem 3](./homework11.html). **If you need help modeling this motion, the solution to homework 11 problem 3 is posted on SLACK. You may use what you need from this code.**
-4. For further insight into the charged particle's trajectory, make a plot of the particle's $z$-coordinate vs. time. What does this plot tell you about the particle's motion? Is the particle successfully confined, or do you think it will eventually escape?
-
-## 5. Semi-classical electron dipole moment
+## 4. Semi-classical electron dipole moment
 
 
 A thin uniform solid torus (a "donut") has total charge $Q$, mass $M$, radius $R$. It rotates around its own central axis at angular frequency $\omega$, as shown.
@@ -78,15 +55,26 @@ A thin uniform solid torus (a "donut") has total charge $Q$, mass $M$, radius $R
 
 *Note: This "semi-classical" calculation is low by a factor of almost exactly 2. Dirac developed a relativistic form of quantum mechanics which got the factor of 2 right in the 1930's. In the '40's,  Feynman, Schwinger, and Tomonaga calculated tiny extra corrections arising from QED (Quantum electrodynamics) For fun, find the current best-value for the electron magnetic dipole moment. If you compare theory and measurement, you will be extremely impressed at the agreement (~12 digits!)  It may make you "believe" in quantum physics in a way you might not have before! That's not how it works in practice though- people use this measurement to extract a fundamental constant of nature, and then use that value to predict OTHER experiments.*
 
-## 6. Force between magnets
+## 5. Bound Currents I
 
-Toy magnets seem to have a force law which "turns on" quite suddenly as they approach, it doesn't really feel like a $1/r^2$ force. That's because it is not!
+Consider a long magnetic rod, radius $a$. Imagine that we have set up a permanent magnetization $\mathbf{M}(s,\phi,z) = c \hat{z}$, with $c$ = constant.  *Neglect end effects, assume the cylinder is infinitely long.*
 
-![Two magnetic dipoles](./images/hw11/two_mag_dipoles.png)
+1. Calculate the bound currents $\mathbf{K}_b$ and $\mathbf{J}_b$ (on the surface, and interior of the rod respectively).
+2. What are the units of $c$?
+3. Use these bound currents to find the magnetic field inside and outside the cylinder. (Direction and magnitude)
+4. Find the $\mathbf{H}$ field inside and outside the cylinder, and verify that $\oint \mathbf{H} \cdot d\mathbf{l} = I_{free}$ works. Explain briefly in words why your answer might be what it is.
+6. Now relax the assumption that it is infinite - if this cylinder was finite in length ($L$), what changes? Sketch the magnetic field (inside and out). Briefly but clearly explain your reasoning.
+Please draw *two* such sketches, one for the case that the length $L$ is a few times bigger than a (long-ish rod, like a magnet you might play with from a toy set),  and another for the case $L \ll a$, which is more like a magnetic disk than a rod.
 
-1. Consider two small magnets (treat them as point-like perfect dipoles with magnetic moments $m_1$ and $m_2$, to keep life as simple as possible). In the configuration shown above ("opposite poles facing"), find the force between them as a function of distance r.  (Does the sign work out for you sensibly?)
-2. Let's do a crude estimate of the strength of the magnetic moment of a simple cheap magnet.  Assume the atomic dipole moment of an iron atom is due to an (unpaired) electron spin. Question 2 above taught us what the magnetic dipole moment of a single electron is (or, just look it up to get the factor of 2 right!) The mass density and atomic mass of iron are also easy to look up. Consider a small, ordinary, kitchen fridge "button sized" magnet, and make a very rough estimate of its total magnetic moment.
-3. Use your formula from part 1 to estimate how high ($h$) one such magnet would "float" above another (if oriented as shown below).
-4. Does your answer seem at all realistic, based on your experiences with small magnets? (note that such a configuration is not stable - why not? I've seen toys like this, but they have a thin wooden peg to keep the magnets vertically aligned, that's how I drew it in the figure).
+## 6. Bound Currents II
+Like the last question, consider a long magnetic rod, radius $a$.  This time imagine that we can set up a permanent azimuthal magnetization $\mathbf{M}(s,\phi,z) = c s \hat{\phi}$, with $c$ = constant, and $s$ is the usual cylindrical radial coordinate.  Neglect end effects, assume the cylinder is infinitely long.
 
-![Two toy magnets](./images/hw11/two_magnets.png)
+1. Calculate the bound currents $\mathbf{K}_b$ and $\mathbf{J}_b$ (on the surface, and interior of the rod respectively).
+2. What are the units of $c$?
+3. Use these bound currents to find the magnetic field $\mathbf{B}$, and also the $\mathbf{H}$ field, inside and outside. (Direction and magnitude)
+
+## 7. Bound Currents III
+Once more, consider a very long cylinder (radius $R$) with a permanent magnetization, this time  again parallel to the axis: $\mathbf{M} = c s \hat{z}$, (where $c$ is a constant, and $s$ is the usual distance from the cylinder's axis).  There is no free current anywhere.
+
+1. Find the magnetic field inside and outside the cylinder by figuring out the bound current everywhere and then figure out $\mathbf{B}$ created by those.
+2. Let’s find the $\mathbf{B}$ field inside and outside another way! This time, use Ampere’s law in the form: $\oint \mathbf{H} \cdot d\mathbf{l} = I_{free}$, and then use the standard relation, $\mathbf{H} = \frac{1}{\mu_0}\mathbf{B} - \mathbf{M}$, to get $\mathbf{B}$. (It should agree with part 1)

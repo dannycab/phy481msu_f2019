@@ -30,6 +30,12 @@ permalink: notes/index.html
 - 22 Vector Potential [[PDF]](./handwritten/22_Vector_Potential.pdf)
 - 23 Magnetic Dipoles [[PDF]](./handwritten/23_Magnetic_Dipoles.pdf)
 - 24 Magnetization [[PDF]](./handwritten/24_Magnetization.pdf)
+- 25 Bound Currents [[PDF]](./handwritten/25_Bound_Currents.pdf)
+- 26 The H Field [[PDF]](./handwritten/26_H_Field.pdf)
+- 27 Linear Magnetizable Materials [[PDF]](./handwritten/27_Linear_Magnetizable_Materials.pdf)
+
+- **Thanksgiving Lecture** - The Harmonic Oscillator Gets a Bad Rap [[PDF]](./handwritten/NLD_intro.pdf)
+
 
 ### Slides
 
@@ -68,3 +74,4 @@ permalink: notes/index.html
 - Nov 13 - Biot-Savart Law [[HTML]](./33-slides.html)[[PDF]](./33-slides.pdf)
 - Nov 15 - Intro to Ampere's Law [[HTML]](./34-slides.html)[[PDF]](./34-slides.pdf)
 - Nov 18 - Ampere's Law Examples [[HTML]](./35-slides.html)[[PDF]](./35-slides.pdf)
+- Nov 20 - Introduction to the Vector Potential [[HTML]](./36-slides.html)[[PDF]](./36-slides.pdf)
