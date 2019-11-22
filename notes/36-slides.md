@@ -120,18 +120,3 @@ Note:
 * It's subtle. Griffiths discusses this in a footnote, you can't solve for, say, the phi component of A by integrating the "phi component" of J (because the unit vectors in spherical coordinates themselves depend on position, and get differentiated by del squared too)
 
 </section>
-
-<section data-markdown>
-
-For a infinite solenoid of radius $R$, with current $I$, and $n$ turns per unit length, which is the current density $\mathbf{J}$?
-
-1. $\mathbf{J} = nI\hat{\phi}$
-2. $\mathbf{J} = nI\delta(r-R)\hat{\phi}$
-3. $\mathbf{J} = \frac{I}{n}\delta(r-R)\hat{\phi}$
-4. $\mathbf{J} = \mu_0 nI\delta(r-R)\hat{\phi}$
-5. Something else?!
-
-Note:
-* CORRECT ANSWER: B
-
-</section>

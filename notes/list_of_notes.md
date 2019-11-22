@@ -75,3 +75,4 @@ permalink: notes/index.html
 - Nov 15 - Intro to Ampere's Law [[HTML]](./34-slides.html)[[PDF]](./34-slides.pdf)
 - Nov 18 - Ampere's Law Examples [[HTML]](./35-slides.html)[[PDF]](./35-slides.pdf)
 - Nov 20 - Introduction to the Vector Potential [[HTML]](./36-slides.html)[[PDF]](./36-slides.pdf)
+- Nov 22 - Vector Potential Examples [[HTML]](./37-slides.html)[[PDF]](./37-slides.pdf)

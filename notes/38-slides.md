@@ -4,20 +4,6 @@ theme: white
 transition: slide
 ---
 
-<section data-markdown>
-
-What is the physical interpretation of $\oint \mathbf{A} \cdot d\mathbf{l}$?
-
-1. The current density $\mathbf{J}$
-2. The magnetic field $\mathbf{B}$
-3. The magnetic flux $\Phi_B$
-4. It's none of the above, but is something simple and concrete
-5. It has no particular physical interpretation at all
-
-Note:
-* CORRECT ANSWER: C
-
-</section>
 
 <section data-markdown>
 ## Announcements
