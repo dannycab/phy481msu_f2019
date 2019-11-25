@@ -95,23 +95,6 @@ Note:
 * CORRECT ANSWER: D
 </section>
 
-
-<section data-markdown>
-
-Consider line of charge with uniform charge density, $\lambda = \rho \pi a^2$. What is the magnitude of the electric field outside of the line charge (at a distance $s>a$)?
-
-1. $E = \lambda/(4 \pi \varepsilon_0 s^2)$
-2. $E = \lambda/(2 \pi \varepsilon_0 s^2)$
-3. $E = \lambda/(4 \pi \varepsilon_0 s)$
-4. $E = \lambda/(2 \pi \varepsilon_0 s)$
-5. Something else?!
-
-*Use Gauss' Law*
-
-Note:
-* CORRECT ANSWER: D
-</section>
-
 <section data-markdown>
 
 Consider a shell of charge with surface charge $\sigma$ that is rotating at angular frequency of $\mathbf{\omega}$. Which of the expressions below describe the surface current, $\mathbf{K}$, that is observed in the fixed frame.
