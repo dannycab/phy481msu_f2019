@@ -77,3 +77,4 @@ permalink: notes/index.html
 - Nov 20 - Introduction to the Vector Potential [[HTML]](./36-slides.html)[[PDF]](./36-slides.pdf)
 - Nov 22 - Vector Potential Examples [[HTML]](./37-slides.html)[[PDF]](./37-slides.pdf)
 - Nov 25 - Magnetic Dipoles [[HTML]](./38-slides.html)[[PDF]](./38-slides.pdf)
+- Nov 27 - The Harmonic Oscillator Gets a Bad Rap [[HTML]](./NLD-slides.html)[[PDF]](./NLD-slides.pdf)
