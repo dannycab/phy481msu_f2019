@@ -24,20 +24,9 @@ Note:
 ## Announcements
 
 * Final Exam!
-  * 12:45-2:45pm, Tues Dec. 11
+  * 12:45-2:45pm, Tues Dec. 10
   * In this room (1415 BPS)
-
-</section>
-
-<section data-markdown>
-## What's on the final exam?
-
-* A few true/false questions conceptual questions.
-* Determine bound charge, $\mathbf{E}$, $\mathbf{D}$, $\mathbf{P}$ for some material with $\chi_e$, and explain where the bound charge is.
-* Setup magnetic vector potential and field calculations. Compare the appraoches.
-* Determine the $\mathbf{B}$ for some $\mathbf{J}$ using Ampere's Law.
-* (BONUS) Determine bound currents, $\mathbf{B}$, and $\mathbf{H}$ for some material with a "simple" free current, and explain properties of the bound currents
-
+  * Details on Wednesday
 
 </section>
 
@@ -67,51 +56,6 @@ it was before the material was placed.
 
 Note:
 * Correct Answer: B
-
-</section>
-
-<section data-markdown>
-
-In our model of diamagnetism, the electron (charge, $-e$) travels around the "loop" in a time,
-
-$$T = \dfrac{2 \pi R}{v}.$$
-
-What is the magnitude of magnetic dipole moment of this arrangement?
-
-1. $evR$
-2. $\dfrac{evR}{2}$
-3. ${evR^2}$
-4. $\dfrac{evR^2}{2}$
-5. Something else?
-
-Note:
-* Correct Answer: B
-</section>
-
-<section data-markdown>
-
-In our model of diamagnetism, let the angular momentum associated with the orbiting electron point in the $+z$ direction.
-
-What is the direction of the magnetic moment?
-
-1. Also $+z$
-2. $-z$
-3. It depends
-
-Note:
-* Correct Answer: B
-</section>
-
-<section data-markdown>
-
-The torque on a magnetic dipole in a B field is:
-
-$\mathbf{\tau} = \mathbf{m} \times \mathbf{B}$
-
-How will a small current loop line up if the B field points uniformly up the page?
-
-<img src="./images/mag_loops.png" align="center" style="width: 800px";/>
-
 
 </section>
 

@@ -78,3 +78,6 @@ permalink: notes/index.html
 - Nov 22 - Vector Potential Examples [[HTML]](./37-slides.html)[[PDF]](./37-slides.pdf)
 - Nov 25 - Magnetic Dipoles [[HTML]](./38-slides.html)[[PDF]](./38-slides.pdf)
 - Nov 27 - The Harmonic Oscillator Gets a Bad Rap [[HTML]](./NLD-slides.html)[[PDF]](./NLD-slides.pdf)
+- Dec 2 - Magnetization and Bound Currents [[HTML]](./39-slides.html)[[PDF]](./39-slides.pdf)
+- Dec 4 - The H-Field [[HTML]](./40-slides.html)[[PDF]](./40-slides.pdf)
+- Dec 6 - Linearly Magnetizable Materials [[HTML]](./41-slides.html)[[PDF]](./41-slides.pdf)
