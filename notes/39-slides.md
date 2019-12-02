@@ -59,26 +59,6 @@ Note:
 
 </section>
 
-<section data-markdown>
-
-A small chunk of material (the “tan cube”) is placed above a solenoid. It magnetizes, weakly, as shown by small arrows inside.
-What kind of material must the cube be?
-
-
-<img src="./images/tan_cube_magnetization.png" align="right" style="width: 300px";/>
-
-
-1. Dielectric
-2. Conductor
-3. Diamagnetic
-4. Paramagnetic
-5. Ferromagnetic
-
-Note:
-* CORRECT ANSWER: C
-
-</section>
-
 
 <section data-markdown>
 
