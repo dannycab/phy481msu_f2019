@@ -29,7 +29,7 @@ Note:
 ## Final Exam
 
 * A few true/false questions conceptual questions
-* Determine bound charge, $\mathbf{E}$, $\mathbf{D}$, $\mathbf{P}$ for some material with $\Chi_e$, and explain where the bound charge is.
+* Determine bound charge, $\mathbf{E}$, $\mathbf{D}$, $\mathbf{P}$ for some material with $\chi_e$, and explain where the bound charge is.
 * Setup magnetic vector potential and field calculations. Compare the appraoches.
 * Determine the $\mathbf{B}$ for some $\mathbf{J}$ using Ampere's Law.
 * Determine bound currents, $\mathbf{B}$, and $\mathbf{H}$ for some material with a "simple" free current, and explain properties of the bound currents
