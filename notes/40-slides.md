@@ -26,6 +26,17 @@ Note:
 
 <section data-markdown>
 
+## Final Exam
+
+* A few true/false questions conceptual questions
+* Determine bound charge, $\mathbf{E}$, $\mathbf{D}$, $\mathbf{P}$ for some material with $\Chi_e$, and explain where the bound charge is.
+* Setup magnetic vector potential and field calculations. Compare the appraoches.
+* Determine the $\mathbf{B}$ for some $\mathbf{J}$ using Ampere's Law.
+* Determine bound currents, $\mathbf{B}$, and $\mathbf{H}$ for some material with a "simple" free current, and explain properties of the bound currents
+</section>
+
+<section data-markdown>
+
 <img src="./images/M_in_phi_cylinder.png" align="right" style="width: 200px";/>
 
 A solid cylinder has uniform magnetization $\mathbf{M}$ throughout the volume in the $\phi$ direction as shown. In which direction does the bound surface current flow on the (curved) sides?
