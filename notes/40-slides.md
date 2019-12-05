@@ -113,21 +113,3 @@ A very long aluminum (paramagnetic!) rod carries a uniformly distributed current
 Note:
 * CORRECT ANSWER: B
 </section>
-
-<section data-markdown>
-
-For linearly magnetizable materials, the relationship between the magnetization and the H-field is,
-
-$\mathbf{M} = \chi_m \mathbf{H}$
-
-What do you expect the sign of $X_m$ to be for a paramagnetic/diamagnetic material?
-
-1. para: $\chi_m<0 \;$ dia: $\chi_m>0$
-2. para: $\chi_m>0 \;$ dia: $\chi_m<0$
-3. Both positive
-4. Both negative
-
-Note:
-Correct answer: B
-
-</section>
